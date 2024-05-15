@@ -1,8 +1,8 @@
 {
     "dependencies": [
         {
-            "folder": "./Business Solutions/cec.selfcare",
-            "elo": "/Business Solutions/cec.selfcare"
+            "folder": "./Business Solutions/cec.selfCare",
+            "elo": "/Business Solutions/cec.selfCare"
         }
     ]
 }

@@ -607,3 +607,856 @@
 14:48:51.081 [main] INFO  ELO CLI - [ENTER] EloConvertEloInstToGit.unzip(C:/Git/Dev/testIntegration/.build/default/_work___Business Solutions_cec_selfcare//,C:\Git\Dev\testIntegration\.\Business Solutions\cec.selfcare)
 14:48:51.088 [main] ERROR ELO CLI - [EXCEPTION] EloConvertEloInstToGit.execute(C:/Git/Dev/testIntegration/.build/default/_work___Business Solutions_cec_selfcare//) err.message: C:\Git\Dev\testIntegration\.build\default\_work___Business Solutions_cec_selfcare (The system cannot find the file specified)
 14:48:51.088 [main] INFO  ELO CLI - Script finished
+15:02:18.845 [main] INFO  ELO CLI - scriptArg0=sol.dev.sh.BuildPackages.js
+15:02:18.849 [main] INFO  ELO CLI - scriptArg1=C:/Git/Dev/testIntegration/.config/session.json
+15:02:18.849 [main] INFO  ELO CLI - scriptArg2=./Business Solutions/cec.selfcare
+15:02:18.851 [main] INFO  ELO CLI - scriptArg3=C:/Git/Dev/testIntegration/.build
+15:02:18.853 [main] INFO  ELO CLI - Execute ELO shell script: sol.dev.sh.BuildPackages.js
+15:02:19.047 [main] INFO  ELO CLI - [sol.define] sol.Logger
+15:02:19.070 [main] INFO  ELO CLI - [sol.define] sol.Base
+15:02:19.579 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectUtils
+15:02:19.598 [main] INFO  ELO CLI - [sol.define] sol.common.mixins.ObjectFilter
+15:02:19.652 [main] INFO  ELO CLI - [sol.define] sol.common.Cache
+15:02:19.715 [main] INFO  ELO CLI - [sol.define] sol.common.RepoUtils
+15:02:19.745 [main] INFO  ELO CLI - [sol.define] sol.common.UserUtils
+15:02:19.847 [main] INFO  ELO CLI - [sol.define] sol.common.IxUtils
+15:02:19.850 [main] INFO  ELO CLI - [sol.define] sol.common.IxUtils.Proxy
+15:02:19.862 [main] INFO  ELO CLI - [sol.define] sol.common.Config
+15:02:19.864 [main] INFO  ELO CLI - [sol.define] sol.common.ConfigCache
+15:02:19.867 [main] INFO  ELO CLI - [sol.define] sol.common.ConfigMixin
+15:02:20.201 [main] INFO  ELO CLI - [sol.define] sol.common.StringUtils
+15:02:20.260 [main] INFO  ELO CLI - [sol.define] sol.common.AclUtils
+15:02:20.272 [main] INFO  ELO CLI - [sol.define] sol.common.JsonUtils
+15:02:20.297 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectFormatter
+15:02:20.308 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectFormatter.BaseSord
+15:02:20.310 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectFormatter.StatisticSord
+15:02:20.312 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectFormatter.TemplateSord
+15:02:20.313 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectFormatter.WfMap
+15:02:20.314 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectFormatter.BaseTask
+15:02:20.316 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectFormatter.StatisticTask
+15:02:20.319 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectFormatter.TemplateTask
+15:02:20.319 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectFormatter.BaseWfDiagramNode
+15:02:20.321 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectFormatter.TemplateWfDiagramNode
+15:02:20.349 [main] INFO  ELO CLI - [sol.define] sol.common.SordUtils
+15:02:20.369 [main] INFO  ELO CLI - [sol.define] sol.common.CounterUtils
+15:02:20.404 [main] INFO  ELO CLI - [sol.define] sol.common.DateUtils
+15:02:20.430 [main] INFO  ELO CLI - [sol.define] sol.common.TranslateTerms
+15:02:20.454 [main] INFO  ELO CLI - [sol.define] sol.common.WfUtils
+15:02:20.487 [main] INFO  ELO CLI - [sol.define] sol.common.XmlUtils
+15:02:20.489 [main] INFO  ELO CLI - [sol.define] sol.common.XmlBuilder
+15:02:20.536 [main] INFO  ELO CLI - [sol.define] sol.common.Template
+15:02:20.542 [main] INFO  ELO CLI - [sol.define] sol.common.TemplateXslUtils
+15:02:20.545 [main] INFO  ELO CLI - [sol.define] sol.common.TemplateRegexUtils
+15:02:20.547 [main] INFO  ELO CLI - [sol.define] sol.common.TemplateUtils
+15:02:20.550 [main] INFO  ELO CLI - [sol.define] sol.common.TemplateSordUtils
+15:02:20.618 [main] INFO  ELO CLI - [sol.define] sol.common.FileUtils
+15:02:20.620 [main] INFO  ELO CLI - [sol.define] sol.common.IniFile
+15:02:20.632 [main] INFO  ELO CLI - [sol.define] sol.common.ExecUtils
+15:02:20.645 [main] INFO  ELO CLI - [sol.define] sol.common.AsyncUtils
+15:02:20.664 [main] INFO  ELO CLI - [sol.define] sol.common.SordTypeUtils
+15:02:20.679 [main] INFO  ELO CLI - [sol.define] sol.common.ZipUtils
+15:02:20.692 [main] INFO  ELO CLI - [sol.define] sol.dev.BuildPackages
+15:02:20.694 [main] INFO  ELO CLI - [sol.define] sol.dev.BuildPackage
+15:02:20.712 [main] INFO  ELO CLI - Build packages: undefined ...
+15:02:20.713 [main] INFO  ELO CLI - Connect to IX: https://ndelodev01:9093/ix-Repository1/ix
+15:02:20.713 [main] INFO  ELO CLI - User name: Andreea.Hriscu
+15:02:20.713 [main] INFO  ELO CLI - Computer name: MM31
+[ELOIX:2]Socket error, url=https://ndelodev01:9093/ix-Repository1/byps?a=a&negotiate=%5B%22N%22%2C%22SJ%22%2C%2223.0.0.0%22%2C%22_%22%2C%22%22%2C3%2C%2200000000000000000000000000000000%22%5D[DETAILS:Connection timed out: no further information]
+	at byps.BSyncResult.getResult(BSyncResult.java:53)
+	at byps.BSyncResult.getResult(BSyncResult.java:35)
+	at de.elo.ix.client.IXConnFactory.internalCreateWithPassword(IXConnFactory.java:366)
+	at de.elo.ix.client.IXConnFactory.create(IXConnFactory.java:304)
+	at de.elo.ix.client.IXConnFactory.create(IXConnFactory.java:282)
+	at <js> connectIx(script\sol.dev.sh.ShellWorker.js:131:4331-4396)
+	at <js> execute(script\sol.dev.sh.BuildPackages.js:10:274-468)
+	at <js> :program(script\sol.dev.sh.BuildPackages.js:17:695-735)
+	at <js> loadScript(script\sol.dev.sh.ShellWorker.js:114:3875-3891)
+	at <js> execute(script\sol.dev.sh.ShellWorker.js:71:2507-2569)
+	at <js> :program(script\sol.dev.sh.ShellWorker.js:296:10419-10455)
+15:03:23.654 [main] INFO  ELO CLI - scriptArg0=sol.dev.sh.BuildPackages.js
+15:03:23.658 [main] INFO  ELO CLI - scriptArg1=C:/Git/Dev/testIntegration/.config/session.json
+15:03:23.658 [main] INFO  ELO CLI - scriptArg2=/Business Solutions/cec.selfcare
+15:03:23.659 [main] INFO  ELO CLI - scriptArg3=C:/Git/Dev/testIntegration/.build/default/_work___Business Solutions_cec_selfcare/
+15:03:23.661 [main] INFO  ELO CLI - Execute ELO shell script: sol.dev.sh.BuildPackages.js
+15:03:23.846 [main] INFO  ELO CLI - [sol.define] sol.Logger
+15:03:23.860 [main] INFO  ELO CLI - [sol.define] sol.Base
+15:03:24.457 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectUtils
+15:03:24.476 [main] INFO  ELO CLI - [sol.define] sol.common.mixins.ObjectFilter
+15:03:24.527 [main] INFO  ELO CLI - [sol.define] sol.common.Cache
+15:03:24.592 [main] INFO  ELO CLI - [sol.define] sol.common.RepoUtils
+15:03:24.614 [main] INFO  ELO CLI - [sol.define] sol.common.UserUtils
+15:03:24.707 [main] INFO  ELO CLI - [sol.define] sol.common.IxUtils
+15:03:24.710 [main] INFO  ELO CLI - [sol.define] sol.common.IxUtils.Proxy
+15:03:24.723 [main] INFO  ELO CLI - [sol.define] sol.common.Config
+15:03:24.727 [main] INFO  ELO CLI - [sol.define] sol.common.ConfigCache
+15:03:24.729 [main] INFO  ELO CLI - [sol.define] sol.common.ConfigMixin
+15:03:25.020 [main] INFO  ELO CLI - [sol.define] sol.common.StringUtils
+15:03:25.072 [main] INFO  ELO CLI - [sol.define] sol.common.AclUtils
+15:03:25.084 [main] INFO  ELO CLI - [sol.define] sol.common.JsonUtils
+15:03:25.102 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectFormatter
+15:03:25.112 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectFormatter.BaseSord
+15:03:25.114 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectFormatter.StatisticSord
+15:03:25.115 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectFormatter.TemplateSord
+15:03:25.115 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectFormatter.WfMap
+15:03:25.117 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectFormatter.BaseTask
+15:03:25.118 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectFormatter.StatisticTask
+15:03:25.119 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectFormatter.TemplateTask
+15:03:25.120 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectFormatter.BaseWfDiagramNode
+15:03:25.121 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectFormatter.TemplateWfDiagramNode
+15:03:25.136 [main] INFO  ELO CLI - [sol.define] sol.common.SordUtils
+15:03:25.150 [main] INFO  ELO CLI - [sol.define] sol.common.CounterUtils
+15:03:25.172 [main] INFO  ELO CLI - [sol.define] sol.common.DateUtils
+15:03:25.193 [main] INFO  ELO CLI - [sol.define] sol.common.TranslateTerms
+15:03:25.214 [main] INFO  ELO CLI - [sol.define] sol.common.WfUtils
+15:03:25.242 [main] INFO  ELO CLI - [sol.define] sol.common.XmlUtils
+15:03:25.244 [main] INFO  ELO CLI - [sol.define] sol.common.XmlBuilder
+15:03:25.276 [main] INFO  ELO CLI - [sol.define] sol.common.Template
+15:03:25.285 [main] INFO  ELO CLI - [sol.define] sol.common.TemplateXslUtils
+15:03:25.286 [main] INFO  ELO CLI - [sol.define] sol.common.TemplateRegexUtils
+15:03:25.290 [main] INFO  ELO CLI - [sol.define] sol.common.TemplateUtils
+15:03:25.293 [main] INFO  ELO CLI - [sol.define] sol.common.TemplateSordUtils
+15:03:25.380 [main] INFO  ELO CLI - [sol.define] sol.common.FileUtils
+15:03:25.382 [main] INFO  ELO CLI - [sol.define] sol.common.IniFile
+15:03:25.391 [main] INFO  ELO CLI - [sol.define] sol.common.ExecUtils
+15:03:25.401 [main] INFO  ELO CLI - [sol.define] sol.common.AsyncUtils
+15:03:25.419 [main] INFO  ELO CLI - [sol.define] sol.common.SordTypeUtils
+15:03:25.434 [main] INFO  ELO CLI - [sol.define] sol.common.ZipUtils
+15:03:25.446 [main] INFO  ELO CLI - [sol.define] sol.dev.BuildPackages
+15:03:25.448 [main] INFO  ELO CLI - [sol.define] sol.dev.BuildPackage
+15:03:25.461 [main] INFO  ELO CLI - Build packages: undefined ...
+15:03:25.462 [main] INFO  ELO CLI - Connect to IX: https://ndelodev01:9093/ix-Repository1/ix
+15:03:25.462 [main] INFO  ELO CLI - User name: Andreea.Hriscu
+15:03:25.462 [main] INFO  ELO CLI - Computer name: MM31
+[ELOIX:2]Socket error, url=https://ndelodev01:9093/ix-Repository1/byps?a=a&negotiate=%5B%22N%22%2C%22SJ%22%2C%2223.0.0.0%22%2C%22_%22%2C%22%22%2C3%2C%2200000000000000000000000000000000%22%5D[DETAILS:Connection timed out: no further information]
+	at byps.BSyncResult.getResult(BSyncResult.java:53)
+	at byps.BSyncResult.getResult(BSyncResult.java:35)
+	at de.elo.ix.client.IXConnFactory.internalCreateWithPassword(IXConnFactory.java:366)
+	at de.elo.ix.client.IXConnFactory.create(IXConnFactory.java:304)
+	at de.elo.ix.client.IXConnFactory.create(IXConnFactory.java:282)
+	at <js> connectIx(script\sol.dev.sh.ShellWorker.js:131:4331-4396)
+	at <js> execute(script\sol.dev.sh.BuildPackages.js:10:274-468)
+	at <js> :program(script\sol.dev.sh.BuildPackages.js:17:695-735)
+	at <js> loadScript(script\sol.dev.sh.ShellWorker.js:114:3875-3891)
+	at <js> execute(script\sol.dev.sh.ShellWorker.js:71:2507-2569)
+	at <js> :program(script\sol.dev.sh.ShellWorker.js:296:10419-10455)
+15:03:48.451 [main] INFO  ELO CLI - scriptArg0=sol.dev.sh.EloinstToGit.js
+15:03:48.454 [main] INFO  ELO CLI - scriptArg1=C:/Git/Dev/testIntegration/.config/session.json
+15:03:48.455 [main] INFO  ELO CLI - scriptArg2=C:/Git/Dev/testIntegration/.build/default/_work___Business Solutions_cec_selfcare//
+15:03:48.455 [main] INFO  ELO CLI - scriptArg3=C:/Git/Dev/testIntegration/./Business Solutions/cec.selfcare
+15:03:48.457 [main] INFO  ELO CLI - Execute ELO shell script: sol.dev.sh.EloinstToGit.js
+15:03:48.594 [main] INFO  ELO CLI - [ENTER] EloConvertEloInstToGit.unzip(C:/Git/Dev/testIntegration/.build/default/_work___Business Solutions_cec_selfcare//,C:\Git\Dev\testIntegration\.\Business Solutions\cec.selfcare)
+15:03:48.600 [main] ERROR ELO CLI - [EXCEPTION] EloConvertEloInstToGit.execute(C:/Git/Dev/testIntegration/.build/default/_work___Business Solutions_cec_selfcare//) err.message: C:\Git\Dev\testIntegration\.build\default\_work___Business Solutions_cec_selfcare (The system cannot find the file specified)
+15:03:48.601 [main] INFO  ELO CLI - Script finished
+15:05:44.912 [main] INFO  ELO CLI - scriptArg0=sol.dev.sh.BuildPackages.js
+15:05:44.915 [main] INFO  ELO CLI - scriptArg1=C:/Git/Dev/testIntegration/.config/session.json
+15:05:44.916 [main] INFO  ELO CLI - scriptArg2=/Business Solutions/cec.selfcare
+15:05:44.916 [main] INFO  ELO CLI - scriptArg3=C:/Git/Dev/testIntegration/.build/default/_work___Business Solutions_cec_selfcare/
+15:05:44.919 [main] INFO  ELO CLI - Execute ELO shell script: sol.dev.sh.BuildPackages.js
+15:05:45.111 [main] INFO  ELO CLI - [sol.define] sol.Logger
+15:05:45.124 [main] INFO  ELO CLI - [sol.define] sol.Base
+15:05:45.610 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectUtils
+15:05:45.627 [main] INFO  ELO CLI - [sol.define] sol.common.mixins.ObjectFilter
+15:05:45.684 [main] INFO  ELO CLI - [sol.define] sol.common.Cache
+15:05:45.751 [main] INFO  ELO CLI - [sol.define] sol.common.RepoUtils
+15:05:45.776 [main] INFO  ELO CLI - [sol.define] sol.common.UserUtils
+15:05:45.879 [main] INFO  ELO CLI - [sol.define] sol.common.IxUtils
+15:05:45.882 [main] INFO  ELO CLI - [sol.define] sol.common.IxUtils.Proxy
+15:05:45.895 [main] INFO  ELO CLI - [sol.define] sol.common.Config
+15:05:45.897 [main] INFO  ELO CLI - [sol.define] sol.common.ConfigCache
+15:05:45.899 [main] INFO  ELO CLI - [sol.define] sol.common.ConfigMixin
+15:05:46.203 [main] INFO  ELO CLI - [sol.define] sol.common.StringUtils
+15:05:46.257 [main] INFO  ELO CLI - [sol.define] sol.common.AclUtils
+15:05:46.269 [main] INFO  ELO CLI - [sol.define] sol.common.JsonUtils
+15:05:46.287 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectFormatter
+15:05:46.297 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectFormatter.BaseSord
+15:05:46.298 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectFormatter.StatisticSord
+15:05:46.300 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectFormatter.TemplateSord
+15:05:46.301 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectFormatter.WfMap
+15:05:46.302 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectFormatter.BaseTask
+15:05:46.303 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectFormatter.StatisticTask
+15:05:46.304 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectFormatter.TemplateTask
+15:05:46.305 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectFormatter.BaseWfDiagramNode
+15:05:46.307 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectFormatter.TemplateWfDiagramNode
+15:05:46.321 [main] INFO  ELO CLI - [sol.define] sol.common.SordUtils
+15:05:46.336 [main] INFO  ELO CLI - [sol.define] sol.common.CounterUtils
+15:05:46.362 [main] INFO  ELO CLI - [sol.define] sol.common.DateUtils
+15:05:46.385 [main] INFO  ELO CLI - [sol.define] sol.common.TranslateTerms
+15:05:46.408 [main] INFO  ELO CLI - [sol.define] sol.common.WfUtils
+15:05:46.436 [main] INFO  ELO CLI - [sol.define] sol.common.XmlUtils
+15:05:46.438 [main] INFO  ELO CLI - [sol.define] sol.common.XmlBuilder
+15:05:46.483 [main] INFO  ELO CLI - [sol.define] sol.common.Template
+15:05:46.490 [main] INFO  ELO CLI - [sol.define] sol.common.TemplateXslUtils
+15:05:46.496 [main] INFO  ELO CLI - [sol.define] sol.common.TemplateRegexUtils
+15:05:46.499 [main] INFO  ELO CLI - [sol.define] sol.common.TemplateUtils
+15:05:46.501 [main] INFO  ELO CLI - [sol.define] sol.common.TemplateSordUtils
+15:05:46.565 [main] INFO  ELO CLI - [sol.define] sol.common.FileUtils
+15:05:46.567 [main] INFO  ELO CLI - [sol.define] sol.common.IniFile
+15:05:46.578 [main] INFO  ELO CLI - [sol.define] sol.common.ExecUtils
+15:05:46.588 [main] INFO  ELO CLI - [sol.define] sol.common.AsyncUtils
+15:05:46.605 [main] INFO  ELO CLI - [sol.define] sol.common.SordTypeUtils
+15:05:46.618 [main] INFO  ELO CLI - [sol.define] sol.common.ZipUtils
+15:05:46.630 [main] INFO  ELO CLI - [sol.define] sol.dev.BuildPackages
+15:05:46.631 [main] INFO  ELO CLI - [sol.define] sol.dev.BuildPackage
+15:05:46.643 [main] INFO  ELO CLI - Build packages: undefined ...
+15:05:46.643 [main] INFO  ELO CLI - Connect to IX: https://ndelodev01:9093/ix-Repository1/ix
+15:05:46.643 [main] INFO  ELO CLI - User name: Andreea.Hriscu
+15:05:46.643 [main] INFO  ELO CLI - Computer name: MM31
+[ELOIX:2]Socket error, url=https://ndelodev01:9093/ix-Repository1/byps?a=a&negotiate=%5B%22N%22%2C%22SJ%22%2C%2223.0.0.0%22%2C%22_%22%2C%22%22%2C3%2C%2200000000000000000000000000000000%22%5D[DETAILS:Connection timed out: no further information]
+	at byps.BSyncResult.getResult(BSyncResult.java:53)
+	at byps.BSyncResult.getResult(BSyncResult.java:35)
+	at de.elo.ix.client.IXConnFactory.internalCreateWithPassword(IXConnFactory.java:366)
+	at de.elo.ix.client.IXConnFactory.create(IXConnFactory.java:304)
+	at de.elo.ix.client.IXConnFactory.create(IXConnFactory.java:282)
+	at <js> connectIx(script\sol.dev.sh.ShellWorker.js:131:4331-4396)
+	at <js> execute(script\sol.dev.sh.BuildPackages.js:10:274-468)
+	at <js> :program(script\sol.dev.sh.BuildPackages.js:17:695-735)
+	at <js> loadScript(script\sol.dev.sh.ShellWorker.js:114:3875-3891)
+	at <js> execute(script\sol.dev.sh.ShellWorker.js:71:2507-2569)
+	at <js> :program(script\sol.dev.sh.ShellWorker.js:296:10419-10455)
+15:06:09.613 [main] INFO  ELO CLI - scriptArg0=sol.dev.sh.EloinstToGit.js
+15:06:09.617 [main] INFO  ELO CLI - scriptArg1=C:/Git/Dev/testIntegration/.config/session.json
+15:06:09.618 [main] INFO  ELO CLI - scriptArg2=C:/Git/Dev/testIntegration/.build/default/_work___Business Solutions_cec_selfcare//
+15:06:09.618 [main] INFO  ELO CLI - scriptArg3=C:/Git/Dev/testIntegration/./Business Solutions/cec.selfcare
+15:06:09.620 [main] INFO  ELO CLI - Execute ELO shell script: sol.dev.sh.EloinstToGit.js
+15:06:09.754 [main] INFO  ELO CLI - [ENTER] EloConvertEloInstToGit.unzip(C:/Git/Dev/testIntegration/.build/default/_work___Business Solutions_cec_selfcare//,C:\Git\Dev\testIntegration\.\Business Solutions\cec.selfcare)
+15:06:09.759 [main] ERROR ELO CLI - [EXCEPTION] EloConvertEloInstToGit.execute(C:/Git/Dev/testIntegration/.build/default/_work___Business Solutions_cec_selfcare//) err.message: C:\Git\Dev\testIntegration\.build\default\_work___Business Solutions_cec_selfcare (Access is denied)
+15:06:09.760 [main] INFO  ELO CLI - Script finished
+15:07:11.945 [main] INFO  ELO CLI - scriptArg0=sol.dev.sh.GitToEloInst.js
+15:07:11.949 [main] INFO  ELO CLI - scriptArg1=C:/Git/Dev/testIntegration/.config/session.json
+15:07:11.950 [main] INFO  ELO CLI - scriptArg2=C:/Git/Dev/testIntegration/Business Solutions/cec.selfcare
+15:07:11.950 [main] INFO  ELO CLI - scriptArg3=C:/Git/Dev/testIntegration/.build/default/new_cec.selfcare.eloinst
+15:07:11.951 [main] INFO  ELO CLI - scriptArg4=C:/Git/Dev/testIntegration/.build/default/_work_cec.selfcare/
+15:07:11.951 [main] INFO  ELO CLI - scriptArg5=ef89121_nightly
+15:07:11.953 [main] INFO  ELO CLI - scriptArg6=ef89121
+15:07:11.955 [main] INFO  ELO CLI - Execute ELO shell script: sol.dev.sh.GitToEloInst.js
+15:07:12.079 [main] INFO  ELO CLI - [ENTER] EloConvertGitToEloInst.execute(C:/Git/Dev/testIntegration/Business Solutions/cec.selfcare, C:/Git/Dev/testIntegration/.build/default/new_cec.selfcare.eloinst)
+15:07:12.080 [main] INFO  ELO CLI - Working dir: C:/Git/Dev/testIntegration/.build/default/_work_cec.selfcare/
+15:07:12.099 [main] INFO  ELO CLI - prepared backup path: C:\Git\Dev\testIntegration\.build\default\_work_cec.selfcare
+15:07:12.109 [main] ERROR ELO CLI - [EXCEPTION] EloConvertGitToEloInst.execute(undefined) err.message: 'C:\Git\Dev\testIntegration\.build\default\_work_cec.selfcare/install.data/RepoData' does not exist
+15:07:12.110 [main] INFO  ELO CLI - Script finished
+15:07:49.800 [main] INFO  ELO CLI - scriptArg0=sol.dev.sh.BuildPackages.js
+15:07:49.804 [main] INFO  ELO CLI - scriptArg1=C:/Git/Dev/testIntegration/.config/session.json
+15:07:49.805 [main] INFO  ELO CLI - scriptArg2=/Business Solutions/cec.selfcare
+15:07:49.805 [main] INFO  ELO CLI - scriptArg3=C:/Git/Dev/testIntegration/.build
+15:07:49.808 [main] INFO  ELO CLI - Execute ELO shell script: sol.dev.sh.BuildPackages.js
+15:07:49.980 [main] INFO  ELO CLI - [sol.define] sol.Logger
+15:07:49.993 [main] INFO  ELO CLI - [sol.define] sol.Base
+15:07:50.418 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectUtils
+15:07:50.436 [main] INFO  ELO CLI - [sol.define] sol.common.mixins.ObjectFilter
+15:07:50.485 [main] INFO  ELO CLI - [sol.define] sol.common.Cache
+15:07:50.555 [main] INFO  ELO CLI - [sol.define] sol.common.RepoUtils
+15:07:50.576 [main] INFO  ELO CLI - [sol.define] sol.common.UserUtils
+15:07:50.667 [main] INFO  ELO CLI - [sol.define] sol.common.IxUtils
+15:07:50.670 [main] INFO  ELO CLI - [sol.define] sol.common.IxUtils.Proxy
+15:07:50.682 [main] INFO  ELO CLI - [sol.define] sol.common.Config
+15:07:50.685 [main] INFO  ELO CLI - [sol.define] sol.common.ConfigCache
+15:07:50.688 [main] INFO  ELO CLI - [sol.define] sol.common.ConfigMixin
+15:07:50.978 [main] INFO  ELO CLI - [sol.define] sol.common.StringUtils
+15:07:51.031 [main] INFO  ELO CLI - [sol.define] sol.common.AclUtils
+15:07:51.042 [main] INFO  ELO CLI - [sol.define] sol.common.JsonUtils
+15:07:51.061 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectFormatter
+15:07:51.071 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectFormatter.BaseSord
+15:07:51.073 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectFormatter.StatisticSord
+15:07:51.074 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectFormatter.TemplateSord
+15:07:51.075 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectFormatter.WfMap
+15:07:51.076 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectFormatter.BaseTask
+15:07:51.077 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectFormatter.StatisticTask
+15:07:51.078 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectFormatter.TemplateTask
+15:07:51.080 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectFormatter.BaseWfDiagramNode
+15:07:51.081 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectFormatter.TemplateWfDiagramNode
+15:07:51.095 [main] INFO  ELO CLI - [sol.define] sol.common.SordUtils
+15:07:51.111 [main] INFO  ELO CLI - [sol.define] sol.common.CounterUtils
+15:07:51.137 [main] INFO  ELO CLI - [sol.define] sol.common.DateUtils
+15:07:51.161 [main] INFO  ELO CLI - [sol.define] sol.common.TranslateTerms
+15:07:51.182 [main] INFO  ELO CLI - [sol.define] sol.common.WfUtils
+15:07:51.219 [main] INFO  ELO CLI - [sol.define] sol.common.XmlUtils
+15:07:51.221 [main] INFO  ELO CLI - [sol.define] sol.common.XmlBuilder
+15:07:51.241 [main] INFO  ELO CLI - [sol.define] sol.common.Template
+15:07:51.249 [main] INFO  ELO CLI - [sol.define] sol.common.TemplateXslUtils
+15:07:51.250 [main] INFO  ELO CLI - [sol.define] sol.common.TemplateRegexUtils
+15:07:51.253 [main] INFO  ELO CLI - [sol.define] sol.common.TemplateUtils
+15:07:51.254 [main] INFO  ELO CLI - [sol.define] sol.common.TemplateSordUtils
+15:07:51.346 [main] INFO  ELO CLI - [sol.define] sol.common.FileUtils
+15:07:51.348 [main] INFO  ELO CLI - [sol.define] sol.common.IniFile
+15:07:51.358 [main] INFO  ELO CLI - [sol.define] sol.common.ExecUtils
+15:07:51.368 [main] INFO  ELO CLI - [sol.define] sol.common.AsyncUtils
+15:07:51.384 [main] INFO  ELO CLI - [sol.define] sol.common.SordTypeUtils
+15:07:51.397 [main] INFO  ELO CLI - [sol.define] sol.common.ZipUtils
+15:07:51.409 [main] INFO  ELO CLI - [sol.define] sol.dev.BuildPackages
+15:07:51.410 [main] INFO  ELO CLI - [sol.define] sol.dev.BuildPackage
+15:07:51.422 [main] INFO  ELO CLI - Build packages: undefined ...
+15:07:51.423 [main] INFO  ELO CLI - Connect to IX: https://ndelodev01:9093/ix-Repository1/ix
+15:07:51.423 [main] INFO  ELO CLI - User name: Andreea.Hriscu
+15:07:51.423 [main] INFO  ELO CLI - Computer name: MM31
+[ELOIX:2]Socket error, url=https://ndelodev01:9093/ix-Repository1/byps?a=a&negotiate=%5B%22N%22%2C%22SJ%22%2C%2223.0.0.0%22%2C%22_%22%2C%22%22%2C3%2C%2200000000000000000000000000000000%22%5D[DETAILS:Connection timed out: no further information]
+	at byps.BSyncResult.getResult(BSyncResult.java:53)
+	at byps.BSyncResult.getResult(BSyncResult.java:35)
+	at de.elo.ix.client.IXConnFactory.internalCreateWithPassword(IXConnFactory.java:366)
+	at de.elo.ix.client.IXConnFactory.create(IXConnFactory.java:304)
+	at de.elo.ix.client.IXConnFactory.create(IXConnFactory.java:282)
+	at <js> connectIx(script\sol.dev.sh.ShellWorker.js:131:4331-4396)
+	at <js> execute(script\sol.dev.sh.BuildPackages.js:10:274-468)
+	at <js> :program(script\sol.dev.sh.BuildPackages.js:17:695-735)
+	at <js> loadScript(script\sol.dev.sh.ShellWorker.js:114:3875-3891)
+	at <js> execute(script\sol.dev.sh.ShellWorker.js:71:2507-2569)
+	at <js> :program(script\sol.dev.sh.ShellWorker.js:296:10419-10455)
+15:08:20.238 [main] INFO  ELO CLI - scriptArg0=sol.dev.sh.BuildPackages.js
+15:08:20.243 [main] INFO  ELO CLI - scriptArg1=C:/Git/Dev/testIntegration/.config/session.json
+15:08:20.244 [main] INFO  ELO CLI - scriptArg2=/Business Solutions/cec.selfcare
+15:08:20.245 [main] INFO  ELO CLI - scriptArg3=C:/Git/Dev/testIntegration/.build/default/_work___Business Solutions_cec_selfcare/
+15:08:20.249 [main] INFO  ELO CLI - Execute ELO shell script: sol.dev.sh.BuildPackages.js
+15:08:20.424 [main] INFO  ELO CLI - [sol.define] sol.Logger
+15:08:20.437 [main] INFO  ELO CLI - [sol.define] sol.Base
+15:08:20.860 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectUtils
+15:08:20.876 [main] INFO  ELO CLI - [sol.define] sol.common.mixins.ObjectFilter
+15:08:20.926 [main] INFO  ELO CLI - [sol.define] sol.common.Cache
+15:08:20.994 [main] INFO  ELO CLI - [sol.define] sol.common.RepoUtils
+15:08:21.015 [main] INFO  ELO CLI - [sol.define] sol.common.UserUtils
+15:08:21.115 [main] INFO  ELO CLI - [sol.define] sol.common.IxUtils
+15:08:21.118 [main] INFO  ELO CLI - [sol.define] sol.common.IxUtils.Proxy
+15:08:21.130 [main] INFO  ELO CLI - [sol.define] sol.common.Config
+15:08:21.134 [main] INFO  ELO CLI - [sol.define] sol.common.ConfigCache
+15:08:21.136 [main] INFO  ELO CLI - [sol.define] sol.common.ConfigMixin
+15:08:21.435 [main] INFO  ELO CLI - [sol.define] sol.common.StringUtils
+15:08:21.487 [main] INFO  ELO CLI - [sol.define] sol.common.AclUtils
+15:08:21.497 [main] INFO  ELO CLI - [sol.define] sol.common.JsonUtils
+15:08:21.515 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectFormatter
+15:08:21.525 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectFormatter.BaseSord
+15:08:21.526 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectFormatter.StatisticSord
+15:08:21.528 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectFormatter.TemplateSord
+15:08:21.529 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectFormatter.WfMap
+15:08:21.530 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectFormatter.BaseTask
+15:08:21.531 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectFormatter.StatisticTask
+15:08:21.532 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectFormatter.TemplateTask
+15:08:21.533 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectFormatter.BaseWfDiagramNode
+15:08:21.535 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectFormatter.TemplateWfDiagramNode
+15:08:21.548 [main] INFO  ELO CLI - [sol.define] sol.common.SordUtils
+15:08:21.563 [main] INFO  ELO CLI - [sol.define] sol.common.CounterUtils
+15:08:21.584 [main] INFO  ELO CLI - [sol.define] sol.common.DateUtils
+15:08:21.606 [main] INFO  ELO CLI - [sol.define] sol.common.TranslateTerms
+15:08:21.628 [main] INFO  ELO CLI - [sol.define] sol.common.WfUtils
+15:08:21.655 [main] INFO  ELO CLI - [sol.define] sol.common.XmlUtils
+15:08:21.658 [main] INFO  ELO CLI - [sol.define] sol.common.XmlBuilder
+15:08:21.688 [main] INFO  ELO CLI - [sol.define] sol.common.Template
+15:08:21.698 [main] INFO  ELO CLI - [sol.define] sol.common.TemplateXslUtils
+15:08:21.701 [main] INFO  ELO CLI - [sol.define] sol.common.TemplateRegexUtils
+15:08:21.703 [main] INFO  ELO CLI - [sol.define] sol.common.TemplateUtils
+15:08:21.705 [main] INFO  ELO CLI - [sol.define] sol.common.TemplateSordUtils
+15:08:21.795 [main] INFO  ELO CLI - [sol.define] sol.common.FileUtils
+15:08:21.797 [main] INFO  ELO CLI - [sol.define] sol.common.IniFile
+15:08:21.811 [main] INFO  ELO CLI - [sol.define] sol.common.ExecUtils
+15:08:21.822 [main] INFO  ELO CLI - [sol.define] sol.common.AsyncUtils
+15:08:21.839 [main] INFO  ELO CLI - [sol.define] sol.common.SordTypeUtils
+15:08:21.851 [main] INFO  ELO CLI - [sol.define] sol.common.ZipUtils
+15:08:21.862 [main] INFO  ELO CLI - [sol.define] sol.dev.BuildPackages
+15:08:21.863 [main] INFO  ELO CLI - [sol.define] sol.dev.BuildPackage
+15:08:21.875 [main] INFO  ELO CLI - Build packages: undefined ...
+15:08:21.876 [main] INFO  ELO CLI - Connect to IX: https://ndelodev01:9093/ix-Repository1/ix
+15:08:21.876 [main] INFO  ELO CLI - User name: Andreea.Hriscu
+15:08:21.876 [main] INFO  ELO CLI - Computer name: MM31
+[ELOIX:2]Socket error, url=https://ndelodev01:9093/ix-Repository1/byps?a=a&negotiate=%5B%22N%22%2C%22SJ%22%2C%2223.0.0.0%22%2C%22_%22%2C%22%22%2C3%2C%2200000000000000000000000000000000%22%5D[DETAILS:Connection timed out: no further information]
+	at byps.BSyncResult.getResult(BSyncResult.java:53)
+	at byps.BSyncResult.getResult(BSyncResult.java:35)
+	at de.elo.ix.client.IXConnFactory.internalCreateWithPassword(IXConnFactory.java:366)
+	at de.elo.ix.client.IXConnFactory.create(IXConnFactory.java:304)
+	at de.elo.ix.client.IXConnFactory.create(IXConnFactory.java:282)
+	at <js> connectIx(script\sol.dev.sh.ShellWorker.js:131:4331-4396)
+	at <js> execute(script\sol.dev.sh.BuildPackages.js:10:274-468)
+	at <js> :program(script\sol.dev.sh.BuildPackages.js:17:695-735)
+	at <js> loadScript(script\sol.dev.sh.ShellWorker.js:114:3875-3891)
+	at <js> execute(script\sol.dev.sh.ShellWorker.js:71:2507-2569)
+	at <js> :program(script\sol.dev.sh.ShellWorker.js:296:10419-10455)
+15:08:45.063 [main] INFO  ELO CLI - scriptArg0=sol.dev.sh.EloinstToGit.js
+15:08:45.069 [main] INFO  ELO CLI - scriptArg1=C:/Git/Dev/testIntegration/.config/session.json
+15:08:45.069 [main] INFO  ELO CLI - scriptArg2=C:/Git/Dev/testIntegration/.build/default/_work___Business Solutions_cec_selfcare//
+15:08:45.070 [main] INFO  ELO CLI - scriptArg3=C:/Git/Dev/testIntegration/./Business Solutions/cec.selfcare
+15:08:45.072 [main] INFO  ELO CLI - Execute ELO shell script: sol.dev.sh.EloinstToGit.js
+15:08:45.224 [main] INFO  ELO CLI - [ENTER] EloConvertEloInstToGit.unzip(C:/Git/Dev/testIntegration/.build/default/_work___Business Solutions_cec_selfcare//,C:\Git\Dev\testIntegration\.\Business Solutions\cec.selfcare)
+15:08:45.230 [main] ERROR ELO CLI - [EXCEPTION] EloConvertEloInstToGit.execute(C:/Git/Dev/testIntegration/.build/default/_work___Business Solutions_cec_selfcare//) err.message: C:\Git\Dev\testIntegration\.build\default\_work___Business Solutions_cec_selfcare (The system cannot find the file specified)
+15:08:45.230 [main] INFO  ELO CLI - Script finished
+15:10:39.748 [main] INFO  ELO CLI - scriptArg0=sol.dev.sh.BuildPackages.js
+15:10:39.752 [main] INFO  ELO CLI - scriptArg1=C:/Git/Dev/testIntegration/.config/session.json
+15:10:39.752 [main] INFO  ELO CLI - scriptArg2=./Business Solutions/cec.selfcare
+15:10:39.753 [main] INFO  ELO CLI - scriptArg3=C:/Git/Dev/testIntegration/.build
+15:10:39.755 [main] INFO  ELO CLI - Execute ELO shell script: sol.dev.sh.BuildPackages.js
+15:10:39.933 [main] INFO  ELO CLI - [sol.define] sol.Logger
+15:10:39.945 [main] INFO  ELO CLI - [sol.define] sol.Base
+15:10:40.482 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectUtils
+15:10:40.502 [main] INFO  ELO CLI - [sol.define] sol.common.mixins.ObjectFilter
+15:10:40.560 [main] INFO  ELO CLI - [sol.define] sol.common.Cache
+15:10:40.636 [main] INFO  ELO CLI - [sol.define] sol.common.RepoUtils
+15:10:40.666 [main] INFO  ELO CLI - [sol.define] sol.common.UserUtils
+15:10:40.783 [main] INFO  ELO CLI - [sol.define] sol.common.IxUtils
+15:10:40.787 [main] INFO  ELO CLI - [sol.define] sol.common.IxUtils.Proxy
+15:10:40.801 [main] INFO  ELO CLI - [sol.define] sol.common.Config
+15:10:40.804 [main] INFO  ELO CLI - [sol.define] sol.common.ConfigCache
+15:10:40.806 [main] INFO  ELO CLI - [sol.define] sol.common.ConfigMixin
+15:10:41.126 [main] INFO  ELO CLI - [sol.define] sol.common.StringUtils
+15:10:41.179 [main] INFO  ELO CLI - [sol.define] sol.common.AclUtils
+15:10:41.190 [main] INFO  ELO CLI - [sol.define] sol.common.JsonUtils
+15:10:41.209 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectFormatter
+15:10:41.220 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectFormatter.BaseSord
+15:10:41.221 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectFormatter.StatisticSord
+15:10:41.222 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectFormatter.TemplateSord
+15:10:41.223 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectFormatter.WfMap
+15:10:41.225 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectFormatter.BaseTask
+15:10:41.226 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectFormatter.StatisticTask
+15:10:41.229 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectFormatter.TemplateTask
+15:10:41.230 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectFormatter.BaseWfDiagramNode
+15:10:41.231 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectFormatter.TemplateWfDiagramNode
+15:10:41.245 [main] INFO  ELO CLI - [sol.define] sol.common.SordUtils
+15:10:41.260 [main] INFO  ELO CLI - [sol.define] sol.common.CounterUtils
+15:10:41.280 [main] INFO  ELO CLI - [sol.define] sol.common.DateUtils
+15:10:41.304 [main] INFO  ELO CLI - [sol.define] sol.common.TranslateTerms
+15:10:41.327 [main] INFO  ELO CLI - [sol.define] sol.common.WfUtils
+15:10:41.363 [main] INFO  ELO CLI - [sol.define] sol.common.XmlUtils
+15:10:41.364 [main] INFO  ELO CLI - [sol.define] sol.common.XmlBuilder
+15:10:41.385 [main] INFO  ELO CLI - [sol.define] sol.common.Template
+15:10:41.391 [main] INFO  ELO CLI - [sol.define] sol.common.TemplateXslUtils
+15:10:41.393 [main] INFO  ELO CLI - [sol.define] sol.common.TemplateRegexUtils
+15:10:41.395 [main] INFO  ELO CLI - [sol.define] sol.common.TemplateUtils
+15:10:41.396 [main] INFO  ELO CLI - [sol.define] sol.common.TemplateSordUtils
+15:10:41.491 [main] INFO  ELO CLI - [sol.define] sol.common.FileUtils
+15:10:41.494 [main] INFO  ELO CLI - [sol.define] sol.common.IniFile
+15:10:41.504 [main] INFO  ELO CLI - [sol.define] sol.common.ExecUtils
+15:10:41.514 [main] INFO  ELO CLI - [sol.define] sol.common.AsyncUtils
+15:10:41.531 [main] INFO  ELO CLI - [sol.define] sol.common.SordTypeUtils
+15:10:41.544 [main] INFO  ELO CLI - [sol.define] sol.common.ZipUtils
+15:10:41.557 [main] INFO  ELO CLI - [sol.define] sol.dev.BuildPackages
+15:10:41.559 [main] INFO  ELO CLI - [sol.define] sol.dev.BuildPackage
+15:10:41.574 [main] INFO  ELO CLI - Build packages: undefined ...
+15:10:41.575 [main] INFO  ELO CLI - Connect to IX: https://ndelodev01:9093/ix-Repository1/ix
+15:10:41.575 [main] INFO  ELO CLI - User name: Andreea.Hriscu
+15:10:41.575 [main] INFO  ELO CLI - Computer name: MM31
+[ELOIX:2]Socket error, url=https://ndelodev01:9093/ix-Repository1/byps?a=a&negotiate=%5B%22N%22%2C%22SJ%22%2C%2223.0.0.0%22%2C%22_%22%2C%22%22%2C3%2C%2200000000000000000000000000000000%22%5D[DETAILS:Connection timed out: no further information]
+	at byps.BSyncResult.getResult(BSyncResult.java:53)
+	at byps.BSyncResult.getResult(BSyncResult.java:35)
+	at de.elo.ix.client.IXConnFactory.internalCreateWithPassword(IXConnFactory.java:366)
+	at de.elo.ix.client.IXConnFactory.create(IXConnFactory.java:304)
+	at de.elo.ix.client.IXConnFactory.create(IXConnFactory.java:282)
+	at <js> connectIx(script\sol.dev.sh.ShellWorker.js:131:4331-4396)
+	at <js> execute(script\sol.dev.sh.BuildPackages.js:10:274-468)
+	at <js> :program(script\sol.dev.sh.BuildPackages.js:17:695-735)
+	at <js> loadScript(script\sol.dev.sh.ShellWorker.js:114:3875-3891)
+	at <js> execute(script\sol.dev.sh.ShellWorker.js:71:2507-2569)
+	at <js> :program(script\sol.dev.sh.ShellWorker.js:296:10419-10455)
+15:11:11.188 [main] INFO  ELO CLI - scriptArg0=sol.dev.sh.BuildPackages.js
+15:11:11.192 [main] INFO  ELO CLI - scriptArg1=C:/Git/Dev/testIntegration/.config/session.json
+15:11:11.193 [main] INFO  ELO CLI - scriptArg2=/Business Solutions/cec.selfcare
+15:11:11.193 [main] INFO  ELO CLI - scriptArg3=C:/Git/Dev/testIntegration/.build/default/_work___Business Solutions_cec_selfcare/
+15:11:11.195 [main] INFO  ELO CLI - Execute ELO shell script: sol.dev.sh.BuildPackages.js
+15:11:11.368 [main] INFO  ELO CLI - [sol.define] sol.Logger
+15:11:11.380 [main] INFO  ELO CLI - [sol.define] sol.Base
+15:11:11.806 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectUtils
+15:11:11.822 [main] INFO  ELO CLI - [sol.define] sol.common.mixins.ObjectFilter
+15:11:11.875 [main] INFO  ELO CLI - [sol.define] sol.common.Cache
+15:11:11.945 [main] INFO  ELO CLI - [sol.define] sol.common.RepoUtils
+15:11:11.967 [main] INFO  ELO CLI - [sol.define] sol.common.UserUtils
+15:11:12.065 [main] INFO  ELO CLI - [sol.define] sol.common.IxUtils
+15:11:12.069 [main] INFO  ELO CLI - [sol.define] sol.common.IxUtils.Proxy
+15:11:12.081 [main] INFO  ELO CLI - [sol.define] sol.common.Config
+15:11:12.083 [main] INFO  ELO CLI - [sol.define] sol.common.ConfigCache
+15:11:12.086 [main] INFO  ELO CLI - [sol.define] sol.common.ConfigMixin
+15:11:12.372 [main] INFO  ELO CLI - [sol.define] sol.common.StringUtils
+15:11:12.425 [main] INFO  ELO CLI - [sol.define] sol.common.AclUtils
+15:11:12.436 [main] INFO  ELO CLI - [sol.define] sol.common.JsonUtils
+15:11:12.455 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectFormatter
+15:11:12.465 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectFormatter.BaseSord
+15:11:12.466 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectFormatter.StatisticSord
+15:11:12.468 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectFormatter.TemplateSord
+15:11:12.468 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectFormatter.WfMap
+15:11:12.469 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectFormatter.BaseTask
+15:11:12.470 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectFormatter.StatisticTask
+15:11:12.471 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectFormatter.TemplateTask
+15:11:12.472 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectFormatter.BaseWfDiagramNode
+15:11:12.473 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectFormatter.TemplateWfDiagramNode
+15:11:12.488 [main] INFO  ELO CLI - [sol.define] sol.common.SordUtils
+15:11:12.502 [main] INFO  ELO CLI - [sol.define] sol.common.CounterUtils
+15:11:12.524 [main] INFO  ELO CLI - [sol.define] sol.common.DateUtils
+15:11:12.549 [main] INFO  ELO CLI - [sol.define] sol.common.TranslateTerms
+15:11:12.573 [main] INFO  ELO CLI - [sol.define] sol.common.WfUtils
+15:11:12.604 [main] INFO  ELO CLI - [sol.define] sol.common.XmlUtils
+15:11:12.606 [main] INFO  ELO CLI - [sol.define] sol.common.XmlBuilder
+15:11:12.637 [main] INFO  ELO CLI - [sol.define] sol.common.Template
+15:11:12.646 [main] INFO  ELO CLI - [sol.define] sol.common.TemplateXslUtils
+15:11:12.649 [main] INFO  ELO CLI - [sol.define] sol.common.TemplateRegexUtils
+15:11:12.651 [main] INFO  ELO CLI - [sol.define] sol.common.TemplateUtils
+15:11:12.653 [main] INFO  ELO CLI - [sol.define] sol.common.TemplateSordUtils
+15:11:12.740 [main] INFO  ELO CLI - [sol.define] sol.common.FileUtils
+15:11:12.741 [main] INFO  ELO CLI - [sol.define] sol.common.IniFile
+15:11:12.753 [main] INFO  ELO CLI - [sol.define] sol.common.ExecUtils
+15:11:12.764 [main] INFO  ELO CLI - [sol.define] sol.common.AsyncUtils
+15:11:12.781 [main] INFO  ELO CLI - [sol.define] sol.common.SordTypeUtils
+15:11:12.795 [main] INFO  ELO CLI - [sol.define] sol.common.ZipUtils
+15:11:12.807 [main] INFO  ELO CLI - [sol.define] sol.dev.BuildPackages
+15:11:12.807 [main] INFO  ELO CLI - [sol.define] sol.dev.BuildPackage
+15:11:12.820 [main] INFO  ELO CLI - Build packages: undefined ...
+15:11:12.821 [main] INFO  ELO CLI - Connect to IX: https://ndelodev01:9093/ix-Repository1/ix
+15:11:12.822 [main] INFO  ELO CLI - User name: Andreea.Hriscu
+15:11:12.822 [main] INFO  ELO CLI - Computer name: MM31
+[ELOIX:2]Socket error, url=https://ndelodev01:9093/ix-Repository1/byps?a=a&negotiate=%5B%22N%22%2C%22SJ%22%2C%2223.0.0.0%22%2C%22_%22%2C%22%22%2C3%2C%2200000000000000000000000000000000%22%5D[DETAILS:Connection timed out: no further information]
+	at byps.BSyncResult.getResult(BSyncResult.java:53)
+	at byps.BSyncResult.getResult(BSyncResult.java:35)
+	at de.elo.ix.client.IXConnFactory.internalCreateWithPassword(IXConnFactory.java:366)
+	at de.elo.ix.client.IXConnFactory.create(IXConnFactory.java:304)
+	at de.elo.ix.client.IXConnFactory.create(IXConnFactory.java:282)
+	at <js> connectIx(script\sol.dev.sh.ShellWorker.js:131:4331-4396)
+	at <js> execute(script\sol.dev.sh.BuildPackages.js:10:274-468)
+	at <js> :program(script\sol.dev.sh.BuildPackages.js:17:695-735)
+	at <js> loadScript(script\sol.dev.sh.ShellWorker.js:114:3875-3891)
+	at <js> execute(script\sol.dev.sh.ShellWorker.js:71:2507-2569)
+	at <js> :program(script\sol.dev.sh.ShellWorker.js:296:10419-10455)
+15:11:35.720 [main] INFO  ELO CLI - scriptArg0=sol.dev.sh.EloinstToGit.js
+15:11:35.724 [main] INFO  ELO CLI - scriptArg1=C:/Git/Dev/testIntegration/.config/session.json
+15:11:35.725 [main] INFO  ELO CLI - scriptArg2=C:/Git/Dev/testIntegration/.build/default/_work___Business Solutions_cec_selfcare//
+15:11:35.725 [main] INFO  ELO CLI - scriptArg3=C:/Git/Dev/testIntegration/./Business Solutions/cec.selfcare
+15:11:35.728 [main] INFO  ELO CLI - Execute ELO shell script: sol.dev.sh.EloinstToGit.js
+15:11:35.856 [main] INFO  ELO CLI - [ENTER] EloConvertEloInstToGit.unzip(C:/Git/Dev/testIntegration/.build/default/_work___Business Solutions_cec_selfcare//,C:\Git\Dev\testIntegration\.\Business Solutions\cec.selfcare)
+15:11:35.862 [main] ERROR ELO CLI - [EXCEPTION] EloConvertEloInstToGit.execute(C:/Git/Dev/testIntegration/.build/default/_work___Business Solutions_cec_selfcare//) err.message: C:\Git\Dev\testIntegration\.build\default\_work___Business Solutions_cec_selfcare (The system cannot find the file specified)
+15:11:35.863 [main] INFO  ELO CLI - Script finished
+15:17:37.291 [main] INFO  ELO CLI - scriptArg0=sol.dev.sh.BuildPackages.js
+15:17:37.295 [main] INFO  ELO CLI - scriptArg1=C:/Git/Dev/testIntegration/.config/session.json
+15:17:37.296 [main] INFO  ELO CLI - scriptArg2=./Business Solutions/cec.selfCare
+15:17:37.296 [main] INFO  ELO CLI - scriptArg3=C:/Git/Dev/testIntegration/.build
+15:17:37.299 [main] INFO  ELO CLI - Execute ELO shell script: sol.dev.sh.BuildPackages.js
+15:17:37.485 [main] INFO  ELO CLI - [sol.define] sol.Logger
+15:17:37.500 [main] INFO  ELO CLI - [sol.define] sol.Base
+15:17:37.916 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectUtils
+15:17:37.934 [main] INFO  ELO CLI - [sol.define] sol.common.mixins.ObjectFilter
+15:17:37.983 [main] INFO  ELO CLI - [sol.define] sol.common.Cache
+15:17:38.046 [main] INFO  ELO CLI - [sol.define] sol.common.RepoUtils
+15:17:38.070 [main] INFO  ELO CLI - [sol.define] sol.common.UserUtils
+15:17:38.169 [main] INFO  ELO CLI - [sol.define] sol.common.IxUtils
+15:17:38.172 [main] INFO  ELO CLI - [sol.define] sol.common.IxUtils.Proxy
+15:17:38.183 [main] INFO  ELO CLI - [sol.define] sol.common.Config
+15:17:38.186 [main] INFO  ELO CLI - [sol.define] sol.common.ConfigCache
+15:17:38.189 [main] INFO  ELO CLI - [sol.define] sol.common.ConfigMixin
+15:17:38.498 [main] INFO  ELO CLI - [sol.define] sol.common.StringUtils
+15:17:38.553 [main] INFO  ELO CLI - [sol.define] sol.common.AclUtils
+15:17:38.565 [main] INFO  ELO CLI - [sol.define] sol.common.JsonUtils
+15:17:38.582 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectFormatter
+15:17:38.593 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectFormatter.BaseSord
+15:17:38.594 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectFormatter.StatisticSord
+15:17:38.595 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectFormatter.TemplateSord
+15:17:38.596 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectFormatter.WfMap
+15:17:38.598 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectFormatter.BaseTask
+15:17:38.599 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectFormatter.StatisticTask
+15:17:38.600 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectFormatter.TemplateTask
+15:17:38.601 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectFormatter.BaseWfDiagramNode
+15:17:38.602 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectFormatter.TemplateWfDiagramNode
+15:17:38.622 [main] INFO  ELO CLI - [sol.define] sol.common.SordUtils
+15:17:38.641 [main] INFO  ELO CLI - [sol.define] sol.common.CounterUtils
+15:17:38.669 [main] INFO  ELO CLI - [sol.define] sol.common.DateUtils
+15:17:38.692 [main] INFO  ELO CLI - [sol.define] sol.common.TranslateTerms
+15:17:38.713 [main] INFO  ELO CLI - [sol.define] sol.common.WfUtils
+15:17:38.747 [main] INFO  ELO CLI - [sol.define] sol.common.XmlUtils
+15:17:38.773 [main] INFO  ELO CLI - [sol.define] sol.common.XmlBuilder
+15:17:38.796 [main] INFO  ELO CLI - [sol.define] sol.common.Template
+15:17:38.802 [main] INFO  ELO CLI - [sol.define] sol.common.TemplateXslUtils
+15:17:38.804 [main] INFO  ELO CLI - [sol.define] sol.common.TemplateRegexUtils
+15:17:38.806 [main] INFO  ELO CLI - [sol.define] sol.common.TemplateUtils
+15:17:38.808 [main] INFO  ELO CLI - [sol.define] sol.common.TemplateSordUtils
+15:17:38.870 [main] INFO  ELO CLI - [sol.define] sol.common.FileUtils
+15:17:38.872 [main] INFO  ELO CLI - [sol.define] sol.common.IniFile
+15:17:38.884 [main] INFO  ELO CLI - [sol.define] sol.common.ExecUtils
+15:17:38.893 [main] INFO  ELO CLI - [sol.define] sol.common.AsyncUtils
+15:17:38.911 [main] INFO  ELO CLI - [sol.define] sol.common.SordTypeUtils
+15:17:38.924 [main] INFO  ELO CLI - [sol.define] sol.common.ZipUtils
+15:17:38.938 [main] INFO  ELO CLI - [sol.define] sol.dev.BuildPackages
+15:17:38.939 [main] INFO  ELO CLI - [sol.define] sol.dev.BuildPackage
+15:17:38.954 [main] INFO  ELO CLI - Build packages: undefined ...
+15:17:38.955 [main] INFO  ELO CLI - Connect to IX: https://ndelodev01:9093/ix-Repository1/ix
+15:17:38.955 [main] INFO  ELO CLI - User name: Andreea.Hriscu
+15:17:38.956 [main] INFO  ELO CLI - Computer name: MM31
+[ELOIX:2]Socket error, url=https://ndelodev01:9093/ix-Repository1/byps?a=a&negotiate=%5B%22N%22%2C%22SJ%22%2C%2223.0.0.0%22%2C%22_%22%2C%22%22%2C3%2C%2200000000000000000000000000000000%22%5D[DETAILS:Connection timed out: no further information]
+	at byps.BSyncResult.getResult(BSyncResult.java:53)
+	at byps.BSyncResult.getResult(BSyncResult.java:35)
+	at de.elo.ix.client.IXConnFactory.internalCreateWithPassword(IXConnFactory.java:366)
+	at de.elo.ix.client.IXConnFactory.create(IXConnFactory.java:304)
+	at de.elo.ix.client.IXConnFactory.create(IXConnFactory.java:282)
+	at <js> connectIx(script\sol.dev.sh.ShellWorker.js:131:4331-4396)
+	at <js> execute(script\sol.dev.sh.BuildPackages.js:10:274-468)
+	at <js> :program(script\sol.dev.sh.BuildPackages.js:17:695-735)
+	at <js> loadScript(script\sol.dev.sh.ShellWorker.js:114:3875-3891)
+	at <js> execute(script\sol.dev.sh.ShellWorker.js:71:2507-2569)
+	at <js> :program(script\sol.dev.sh.ShellWorker.js:296:10419-10455)
+15:18:06.672 [main] INFO  ELO CLI - scriptArg0=sol.dev.sh.BuildPackages.js
+15:18:06.675 [main] INFO  ELO CLI - scriptArg1=C:/Git/Dev/testIntegration/.config/session.json
+15:18:06.676 [main] INFO  ELO CLI - scriptArg2=/Business Solutions/cec.selfCare
+15:18:06.676 [main] INFO  ELO CLI - scriptArg3=C:/Git/Dev/testIntegration/.build/default/_work___Business Solutions_cec_selfCare/
+15:18:06.679 [main] INFO  ELO CLI - Execute ELO shell script: sol.dev.sh.BuildPackages.js
+15:18:06.861 [main] INFO  ELO CLI - [sol.define] sol.Logger
+15:18:06.873 [main] INFO  ELO CLI - [sol.define] sol.Base
+15:18:07.310 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectUtils
+15:18:07.326 [main] INFO  ELO CLI - [sol.define] sol.common.mixins.ObjectFilter
+15:18:07.379 [main] INFO  ELO CLI - [sol.define] sol.common.Cache
+15:18:07.449 [main] INFO  ELO CLI - [sol.define] sol.common.RepoUtils
+15:18:07.471 [main] INFO  ELO CLI - [sol.define] sol.common.UserUtils
+15:18:07.566 [main] INFO  ELO CLI - [sol.define] sol.common.IxUtils
+15:18:07.569 [main] INFO  ELO CLI - [sol.define] sol.common.IxUtils.Proxy
+15:18:07.581 [main] INFO  ELO CLI - [sol.define] sol.common.Config
+15:18:07.584 [main] INFO  ELO CLI - [sol.define] sol.common.ConfigCache
+15:18:07.587 [main] INFO  ELO CLI - [sol.define] sol.common.ConfigMixin
+15:18:07.883 [main] INFO  ELO CLI - [sol.define] sol.common.StringUtils
+15:18:07.933 [main] INFO  ELO CLI - [sol.define] sol.common.AclUtils
+15:18:07.944 [main] INFO  ELO CLI - [sol.define] sol.common.JsonUtils
+15:18:07.963 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectFormatter
+15:18:07.974 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectFormatter.BaseSord
+15:18:07.976 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectFormatter.StatisticSord
+15:18:07.977 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectFormatter.TemplateSord
+15:18:07.977 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectFormatter.WfMap
+15:18:07.979 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectFormatter.BaseTask
+15:18:07.980 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectFormatter.StatisticTask
+15:18:07.981 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectFormatter.TemplateTask
+15:18:07.982 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectFormatter.BaseWfDiagramNode
+15:18:07.983 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectFormatter.TemplateWfDiagramNode
+15:18:07.998 [main] INFO  ELO CLI - [sol.define] sol.common.SordUtils
+15:18:08.012 [main] INFO  ELO CLI - [sol.define] sol.common.CounterUtils
+15:18:08.033 [main] INFO  ELO CLI - [sol.define] sol.common.DateUtils
+15:18:08.058 [main] INFO  ELO CLI - [sol.define] sol.common.TranslateTerms
+15:18:08.080 [main] INFO  ELO CLI - [sol.define] sol.common.WfUtils
+15:18:08.107 [main] INFO  ELO CLI - [sol.define] sol.common.XmlUtils
+15:18:08.108 [main] INFO  ELO CLI - [sol.define] sol.common.XmlBuilder
+15:18:08.137 [main] INFO  ELO CLI - [sol.define] sol.common.Template
+15:18:08.142 [main] INFO  ELO CLI - [sol.define] sol.common.TemplateXslUtils
+15:18:08.145 [main] INFO  ELO CLI - [sol.define] sol.common.TemplateRegexUtils
+15:18:08.146 [main] INFO  ELO CLI - [sol.define] sol.common.TemplateUtils
+15:18:08.148 [main] INFO  ELO CLI - [sol.define] sol.common.TemplateSordUtils
+15:18:08.242 [main] INFO  ELO CLI - [sol.define] sol.common.FileUtils
+15:18:08.244 [main] INFO  ELO CLI - [sol.define] sol.common.IniFile
+15:18:08.256 [main] INFO  ELO CLI - [sol.define] sol.common.ExecUtils
+15:18:08.267 [main] INFO  ELO CLI - [sol.define] sol.common.AsyncUtils
+15:18:08.285 [main] INFO  ELO CLI - [sol.define] sol.common.SordTypeUtils
+15:18:08.298 [main] INFO  ELO CLI - [sol.define] sol.common.ZipUtils
+15:18:08.311 [main] INFO  ELO CLI - [sol.define] sol.dev.BuildPackages
+15:18:08.312 [main] INFO  ELO CLI - [sol.define] sol.dev.BuildPackage
+15:18:08.326 [main] INFO  ELO CLI - Build packages: undefined ...
+15:18:08.326 [main] INFO  ELO CLI - Connect to IX: https://ndelodev01:9093/ix-Repository1/ix
+15:18:08.328 [main] INFO  ELO CLI - User name: Andreea.Hriscu
+15:18:08.328 [main] INFO  ELO CLI - Computer name: MM31
+[ELOIX:2]Socket error, url=https://ndelodev01:9093/ix-Repository1/byps?a=a&negotiate=%5B%22N%22%2C%22SJ%22%2C%2223.0.0.0%22%2C%22_%22%2C%22%22%2C3%2C%2200000000000000000000000000000000%22%5D[DETAILS:Connection timed out: no further information]
+	at byps.BSyncResult.getResult(BSyncResult.java:53)
+	at byps.BSyncResult.getResult(BSyncResult.java:35)
+	at de.elo.ix.client.IXConnFactory.internalCreateWithPassword(IXConnFactory.java:366)
+	at de.elo.ix.client.IXConnFactory.create(IXConnFactory.java:304)
+	at de.elo.ix.client.IXConnFactory.create(IXConnFactory.java:282)
+	at <js> connectIx(script\sol.dev.sh.ShellWorker.js:131:4331-4396)
+	at <js> execute(script\sol.dev.sh.BuildPackages.js:10:274-468)
+	at <js> :program(script\sol.dev.sh.BuildPackages.js:17:695-735)
+	at <js> loadScript(script\sol.dev.sh.ShellWorker.js:114:3875-3891)
+	at <js> execute(script\sol.dev.sh.ShellWorker.js:71:2507-2569)
+	at <js> :program(script\sol.dev.sh.ShellWorker.js:296:10419-10455)
+15:18:31.226 [main] INFO  ELO CLI - scriptArg0=sol.dev.sh.EloinstToGit.js
+15:18:31.230 [main] INFO  ELO CLI - scriptArg1=C:/Git/Dev/testIntegration/.config/session.json
+15:18:31.231 [main] INFO  ELO CLI - scriptArg2=C:/Git/Dev/testIntegration/.build/default/_work___Business Solutions_cec_selfCare//
+15:18:31.231 [main] INFO  ELO CLI - scriptArg3=C:/Git/Dev/testIntegration/./Business Solutions/cec.selfCare
+15:18:31.234 [main] INFO  ELO CLI - Execute ELO shell script: sol.dev.sh.EloinstToGit.js
+15:18:31.370 [main] INFO  ELO CLI - [ENTER] EloConvertEloInstToGit.unzip(C:/Git/Dev/testIntegration/.build/default/_work___Business Solutions_cec_selfCare//,C:\Git\Dev\testIntegration\.\Business Solutions\cec.selfCare)
+15:18:31.376 [main] ERROR ELO CLI - [EXCEPTION] EloConvertEloInstToGit.execute(C:/Git/Dev/testIntegration/.build/default/_work___Business Solutions_cec_selfCare//) err.message: C:\Git\Dev\testIntegration\.build\default\_work___Business Solutions_cec_selfCare (The system cannot find the file specified)
+15:18:31.376 [main] INFO  ELO CLI - Script finished
+15:20:14.467 [main] INFO  ELO CLI - scriptArg0=sol.dev.sh.BuildPackages.js
+15:20:14.470 [main] INFO  ELO CLI - scriptArg1=C:/Git/Dev/testIntegration/.config/session.json
+15:20:14.471 [main] INFO  ELO CLI - scriptArg2=./Business Solutions/cec.selfCare
+15:20:14.471 [main] INFO  ELO CLI - scriptArg3=C:/Git/Dev/testIntegration/.build
+15:20:14.473 [main] INFO  ELO CLI - Execute ELO shell script: sol.dev.sh.BuildPackages.js
+15:20:14.651 [main] INFO  ELO CLI - [sol.define] sol.Logger
+15:20:14.664 [main] INFO  ELO CLI - [sol.define] sol.Base
+15:20:15.083 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectUtils
+15:20:15.099 [main] INFO  ELO CLI - [sol.define] sol.common.mixins.ObjectFilter
+15:20:15.150 [main] INFO  ELO CLI - [sol.define] sol.common.Cache
+15:20:15.224 [main] INFO  ELO CLI - [sol.define] sol.common.RepoUtils
+15:20:15.251 [main] INFO  ELO CLI - [sol.define] sol.common.UserUtils
+15:20:15.346 [main] INFO  ELO CLI - [sol.define] sol.common.IxUtils
+15:20:15.350 [main] INFO  ELO CLI - [sol.define] sol.common.IxUtils.Proxy
+15:20:15.362 [main] INFO  ELO CLI - [sol.define] sol.common.Config
+15:20:15.365 [main] INFO  ELO CLI - [sol.define] sol.common.ConfigCache
+15:20:15.368 [main] INFO  ELO CLI - [sol.define] sol.common.ConfigMixin
+15:20:15.649 [main] INFO  ELO CLI - [sol.define] sol.common.StringUtils
+15:20:15.704 [main] INFO  ELO CLI - [sol.define] sol.common.AclUtils
+15:20:15.716 [main] INFO  ELO CLI - [sol.define] sol.common.JsonUtils
+15:20:15.733 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectFormatter
+15:20:15.744 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectFormatter.BaseSord
+15:20:15.745 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectFormatter.StatisticSord
+15:20:15.746 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectFormatter.TemplateSord
+15:20:15.747 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectFormatter.WfMap
+15:20:15.749 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectFormatter.BaseTask
+15:20:15.749 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectFormatter.StatisticTask
+15:20:15.750 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectFormatter.TemplateTask
+15:20:15.752 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectFormatter.BaseWfDiagramNode
+15:20:15.753 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectFormatter.TemplateWfDiagramNode
+15:20:15.767 [main] INFO  ELO CLI - [sol.define] sol.common.SordUtils
+15:20:15.782 [main] INFO  ELO CLI - [sol.define] sol.common.CounterUtils
+15:20:15.802 [main] INFO  ELO CLI - [sol.define] sol.common.DateUtils
+15:20:15.824 [main] INFO  ELO CLI - [sol.define] sol.common.TranslateTerms
+15:20:15.847 [main] INFO  ELO CLI - [sol.define] sol.common.WfUtils
+15:20:15.875 [main] INFO  ELO CLI - [sol.define] sol.common.XmlUtils
+15:20:15.876 [main] INFO  ELO CLI - [sol.define] sol.common.XmlBuilder
+15:20:15.904 [main] INFO  ELO CLI - [sol.define] sol.common.Template
+15:20:15.911 [main] INFO  ELO CLI - [sol.define] sol.common.TemplateXslUtils
+15:20:15.913 [main] INFO  ELO CLI - [sol.define] sol.common.TemplateRegexUtils
+15:20:15.915 [main] INFO  ELO CLI - [sol.define] sol.common.TemplateUtils
+15:20:15.916 [main] INFO  ELO CLI - [sol.define] sol.common.TemplateSordUtils
+15:20:16.001 [main] INFO  ELO CLI - [sol.define] sol.common.FileUtils
+15:20:16.003 [main] INFO  ELO CLI - [sol.define] sol.common.IniFile
+15:20:16.013 [main] INFO  ELO CLI - [sol.define] sol.common.ExecUtils
+15:20:16.023 [main] INFO  ELO CLI - [sol.define] sol.common.AsyncUtils
+15:20:16.040 [main] INFO  ELO CLI - [sol.define] sol.common.SordTypeUtils
+15:20:16.053 [main] INFO  ELO CLI - [sol.define] sol.common.ZipUtils
+15:20:16.064 [main] INFO  ELO CLI - [sol.define] sol.dev.BuildPackages
+15:20:16.065 [main] INFO  ELO CLI - [sol.define] sol.dev.BuildPackage
+15:20:16.078 [main] INFO  ELO CLI - Build packages: undefined ...
+15:20:16.079 [main] INFO  ELO CLI - Connect to IX: https://ndelodev01:9093/ix-Repository1/ix
+15:20:16.079 [main] INFO  ELO CLI - User name: Andreea.Hriscu
+15:20:16.080 [main] INFO  ELO CLI - Computer name: MM31
+[ELOIX:2]Socket error, url=https://ndelodev01:9093/ix-Repository1/byps?a=a&negotiate=%5B%22N%22%2C%22SJ%22%2C%2223.0.0.0%22%2C%22_%22%2C%22%22%2C3%2C%2200000000000000000000000000000000%22%5D[DETAILS:Connection timed out: no further information]
+	at byps.BSyncResult.getResult(BSyncResult.java:53)
+	at byps.BSyncResult.getResult(BSyncResult.java:35)
+	at de.elo.ix.client.IXConnFactory.internalCreateWithPassword(IXConnFactory.java:366)
+	at de.elo.ix.client.IXConnFactory.create(IXConnFactory.java:304)
+	at de.elo.ix.client.IXConnFactory.create(IXConnFactory.java:282)
+	at <js> connectIx(script\sol.dev.sh.ShellWorker.js:131:4331-4396)
+	at <js> execute(script\sol.dev.sh.BuildPackages.js:10:274-468)
+	at <js> :program(script\sol.dev.sh.BuildPackages.js:17:695-735)
+	at <js> loadScript(script\sol.dev.sh.ShellWorker.js:114:3875-3891)
+	at <js> execute(script\sol.dev.sh.ShellWorker.js:71:2507-2569)
+	at <js> :program(script\sol.dev.sh.ShellWorker.js:296:10419-10455)
+15:20:55.636 [main] INFO  ELO CLI - scriptArg0=sol.dev.sh.BuildPackages.js
+15:20:55.639 [main] INFO  ELO CLI - scriptArg1=C:/Git/Dev/testIntegration/.config/session.json
+15:20:55.640 [main] INFO  ELO CLI - scriptArg2=/Business Solutions/cec.selfCare
+15:20:55.640 [main] INFO  ELO CLI - scriptArg3=C:/Git/Dev/testIntegration/.build
+15:20:55.642 [main] INFO  ELO CLI - Execute ELO shell script: sol.dev.sh.BuildPackages.js
+15:20:55.822 [main] INFO  ELO CLI - [sol.define] sol.Logger
+15:20:55.836 [main] INFO  ELO CLI - [sol.define] sol.Base
+15:20:56.260 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectUtils
+15:20:56.276 [main] INFO  ELO CLI - [sol.define] sol.common.mixins.ObjectFilter
+15:20:56.329 [main] INFO  ELO CLI - [sol.define] sol.common.Cache
+15:20:56.395 [main] INFO  ELO CLI - [sol.define] sol.common.RepoUtils
+15:20:56.417 [main] INFO  ELO CLI - [sol.define] sol.common.UserUtils
+15:20:56.514 [main] INFO  ELO CLI - [sol.define] sol.common.IxUtils
+15:20:56.517 [main] INFO  ELO CLI - [sol.define] sol.common.IxUtils.Proxy
+15:20:56.529 [main] INFO  ELO CLI - [sol.define] sol.common.Config
+15:20:56.533 [main] INFO  ELO CLI - [sol.define] sol.common.ConfigCache
+15:20:56.535 [main] INFO  ELO CLI - [sol.define] sol.common.ConfigMixin
+15:20:56.832 [main] INFO  ELO CLI - [sol.define] sol.common.StringUtils
+15:20:56.885 [main] INFO  ELO CLI - [sol.define] sol.common.AclUtils
+15:20:56.896 [main] INFO  ELO CLI - [sol.define] sol.common.JsonUtils
+15:20:56.915 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectFormatter
+15:20:56.925 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectFormatter.BaseSord
+15:20:56.926 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectFormatter.StatisticSord
+15:20:56.928 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectFormatter.TemplateSord
+15:20:56.929 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectFormatter.WfMap
+15:20:56.930 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectFormatter.BaseTask
+15:20:56.931 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectFormatter.StatisticTask
+15:20:56.932 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectFormatter.TemplateTask
+15:20:56.933 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectFormatter.BaseWfDiagramNode
+15:20:56.934 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectFormatter.TemplateWfDiagramNode
+15:20:56.949 [main] INFO  ELO CLI - [sol.define] sol.common.SordUtils
+15:20:56.965 [main] INFO  ELO CLI - [sol.define] sol.common.CounterUtils
+15:20:56.985 [main] INFO  ELO CLI - [sol.define] sol.common.DateUtils
+15:20:57.009 [main] INFO  ELO CLI - [sol.define] sol.common.TranslateTerms
+15:20:57.031 [main] INFO  ELO CLI - [sol.define] sol.common.WfUtils
+15:20:57.059 [main] INFO  ELO CLI - [sol.define] sol.common.XmlUtils
+15:20:57.061 [main] INFO  ELO CLI - [sol.define] sol.common.XmlBuilder
+15:20:57.090 [main] INFO  ELO CLI - [sol.define] sol.common.Template
+15:20:57.095 [main] INFO  ELO CLI - [sol.define] sol.common.TemplateXslUtils
+15:20:57.097 [main] INFO  ELO CLI - [sol.define] sol.common.TemplateRegexUtils
+15:20:57.100 [main] INFO  ELO CLI - [sol.define] sol.common.TemplateUtils
+15:20:57.105 [main] INFO  ELO CLI - [sol.define] sol.common.TemplateSordUtils
+15:20:57.193 [main] INFO  ELO CLI - [sol.define] sol.common.FileUtils
+15:20:57.195 [main] INFO  ELO CLI - [sol.define] sol.common.IniFile
+15:20:57.206 [main] INFO  ELO CLI - [sol.define] sol.common.ExecUtils
+15:20:57.216 [main] INFO  ELO CLI - [sol.define] sol.common.AsyncUtils
+15:20:57.231 [main] INFO  ELO CLI - [sol.define] sol.common.SordTypeUtils
+15:20:57.243 [main] INFO  ELO CLI - [sol.define] sol.common.ZipUtils
+15:20:57.254 [main] INFO  ELO CLI - [sol.define] sol.dev.BuildPackages
+15:20:57.256 [main] INFO  ELO CLI - [sol.define] sol.dev.BuildPackage
+15:20:57.269 [main] INFO  ELO CLI - Build packages: undefined ...
+15:20:57.269 [main] INFO  ELO CLI - Connect to IX: https://ndelodev01:9093/ix-Repository1/ix
+15:20:57.269 [main] INFO  ELO CLI - User name: Andreea.Hriscu
+15:20:57.269 [main] INFO  ELO CLI - Computer name: MM31
+[ELOIX:2]Socket error, url=https://ndelodev01:9093/ix-Repository1/byps?a=a&negotiate=%5B%22N%22%2C%22SJ%22%2C%2223.0.0.0%22%2C%22_%22%2C%22%22%2C3%2C%2200000000000000000000000000000000%22%5D[DETAILS:Connection timed out: no further information]
+	at byps.BSyncResult.getResult(BSyncResult.java:53)
+	at byps.BSyncResult.getResult(BSyncResult.java:35)
+	at de.elo.ix.client.IXConnFactory.internalCreateWithPassword(IXConnFactory.java:366)
+	at de.elo.ix.client.IXConnFactory.create(IXConnFactory.java:304)
+	at de.elo.ix.client.IXConnFactory.create(IXConnFactory.java:282)
+	at <js> connectIx(script\sol.dev.sh.ShellWorker.js:131:4331-4396)
+	at <js> execute(script\sol.dev.sh.BuildPackages.js:10:274-468)
+	at <js> :program(script\sol.dev.sh.BuildPackages.js:17:695-735)
+	at <js> loadScript(script\sol.dev.sh.ShellWorker.js:114:3875-3891)
+	at <js> execute(script\sol.dev.sh.ShellWorker.js:71:2507-2569)
+	at <js> :program(script\sol.dev.sh.ShellWorker.js:296:10419-10455)
+15:21:23.449 [main] INFO  ELO CLI - scriptArg0=sol.dev.sh.BuildPackages.js
+15:21:23.452 [main] INFO  ELO CLI - scriptArg1=C:/Git/Dev/testIntegration/.config/session.json
+15:21:23.453 [main] INFO  ELO CLI - scriptArg2=/Business Solutions/cec.selfCare
+15:21:23.453 [main] INFO  ELO CLI - scriptArg3=C:/Git/Dev/testIntegration/.build/default/_work___Business Solutions_cec_selfCare/
+15:21:23.456 [main] INFO  ELO CLI - Execute ELO shell script: sol.dev.sh.BuildPackages.js
+15:21:23.632 [main] INFO  ELO CLI - [sol.define] sol.Logger
+15:21:23.645 [main] INFO  ELO CLI - [sol.define] sol.Base
+15:21:24.065 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectUtils
+15:21:24.082 [main] INFO  ELO CLI - [sol.define] sol.common.mixins.ObjectFilter
+15:21:24.130 [main] INFO  ELO CLI - [sol.define] sol.common.Cache
+15:21:24.198 [main] INFO  ELO CLI - [sol.define] sol.common.RepoUtils
+15:21:24.219 [main] INFO  ELO CLI - [sol.define] sol.common.UserUtils
+15:21:24.313 [main] INFO  ELO CLI - [sol.define] sol.common.IxUtils
+15:21:24.316 [main] INFO  ELO CLI - [sol.define] sol.common.IxUtils.Proxy
+15:21:24.328 [main] INFO  ELO CLI - [sol.define] sol.common.Config
+15:21:24.330 [main] INFO  ELO CLI - [sol.define] sol.common.ConfigCache
+15:21:24.333 [main] INFO  ELO CLI - [sol.define] sol.common.ConfigMixin
+15:21:24.621 [main] INFO  ELO CLI - [sol.define] sol.common.StringUtils
+15:21:24.678 [main] INFO  ELO CLI - [sol.define] sol.common.AclUtils
+15:21:24.689 [main] INFO  ELO CLI - [sol.define] sol.common.JsonUtils
+15:21:24.707 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectFormatter
+15:21:24.717 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectFormatter.BaseSord
+15:21:24.718 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectFormatter.StatisticSord
+15:21:24.720 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectFormatter.TemplateSord
+15:21:24.721 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectFormatter.WfMap
+15:21:24.723 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectFormatter.BaseTask
+15:21:24.724 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectFormatter.StatisticTask
+15:21:24.726 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectFormatter.TemplateTask
+15:21:24.727 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectFormatter.BaseWfDiagramNode
+15:21:24.729 [main] INFO  ELO CLI - [sol.define] sol.common.ObjectFormatter.TemplateWfDiagramNode
+15:21:24.748 [main] INFO  ELO CLI - [sol.define] sol.common.SordUtils
+15:21:24.763 [main] INFO  ELO CLI - [sol.define] sol.common.CounterUtils
+15:21:24.784 [main] INFO  ELO CLI - [sol.define] sol.common.DateUtils
+15:21:24.808 [main] INFO  ELO CLI - [sol.define] sol.common.TranslateTerms
+15:21:24.829 [main] INFO  ELO CLI - [sol.define] sol.common.WfUtils
+15:21:24.859 [main] INFO  ELO CLI - [sol.define] sol.common.XmlUtils
+15:21:24.862 [main] INFO  ELO CLI - [sol.define] sol.common.XmlBuilder
+15:21:24.894 [main] INFO  ELO CLI - [sol.define] sol.common.Template
+15:21:24.905 [main] INFO  ELO CLI - [sol.define] sol.common.TemplateXslUtils
+15:21:24.907 [main] INFO  ELO CLI - [sol.define] sol.common.TemplateRegexUtils
+15:21:24.910 [main] INFO  ELO CLI - [sol.define] sol.common.TemplateUtils
+15:21:24.913 [main] INFO  ELO CLI - [sol.define] sol.common.TemplateSordUtils
+15:21:24.999 [main] INFO  ELO CLI - [sol.define] sol.common.FileUtils
+15:21:25.000 [main] INFO  ELO CLI - [sol.define] sol.common.IniFile
+15:21:25.012 [main] INFO  ELO CLI - [sol.define] sol.common.ExecUtils
+15:21:25.022 [main] INFO  ELO CLI - [sol.define] sol.common.AsyncUtils
+15:21:25.044 [main] INFO  ELO CLI - [sol.define] sol.common.SordTypeUtils
+15:21:25.058 [main] INFO  ELO CLI - [sol.define] sol.common.ZipUtils
+15:21:25.068 [main] INFO  ELO CLI - [sol.define] sol.dev.BuildPackages
+15:21:25.069 [main] INFO  ELO CLI - [sol.define] sol.dev.BuildPackage
+15:21:25.084 [main] INFO  ELO CLI - Build packages: undefined ...
+15:21:25.084 [main] INFO  ELO CLI - Connect to IX: https://ndelodev01:9093/ix-Repository1/ix
+15:21:25.085 [main] INFO  ELO CLI - User name: Andreea.Hriscu
+15:21:25.085 [main] INFO  ELO CLI - Computer name: MM31
+[ELOIX:2]Socket error, url=https://ndelodev01:9093/ix-Repository1/byps?a=a&negotiate=%5B%22N%22%2C%22SJ%22%2C%2223.0.0.0%22%2C%22_%22%2C%22%22%2C3%2C%2200000000000000000000000000000000%22%5D[DETAILS:Connection timed out: no further information]
+	at byps.BSyncResult.getResult(BSyncResult.java:53)
+	at byps.BSyncResult.getResult(BSyncResult.java:35)
+	at de.elo.ix.client.IXConnFactory.internalCreateWithPassword(IXConnFactory.java:366)
+	at de.elo.ix.client.IXConnFactory.create(IXConnFactory.java:304)
+	at de.elo.ix.client.IXConnFactory.create(IXConnFactory.java:282)
+	at <js> connectIx(script\sol.dev.sh.ShellWorker.js:131:4331-4396)
+	at <js> execute(script\sol.dev.sh.BuildPackages.js:10:274-468)
+	at <js> :program(script\sol.dev.sh.BuildPackages.js:17:695-735)
+	at <js> loadScript(script\sol.dev.sh.ShellWorker.js:114:3875-3891)
+	at <js> execute(script\sol.dev.sh.ShellWorker.js:71:2507-2569)
+	at <js> :program(script\sol.dev.sh.ShellWorker.js:296:10419-10455)
+15:21:47.998 [main] INFO  ELO CLI - scriptArg0=sol.dev.sh.EloinstToGit.js
+15:21:48.002 [main] INFO  ELO CLI - scriptArg1=C:/Git/Dev/testIntegration/.config/session.json
+15:21:48.003 [main] INFO  ELO CLI - scriptArg2=C:/Git/Dev/testIntegration/.build/default/_work___Business Solutions_cec_selfCare//
+15:21:48.004 [main] INFO  ELO CLI - scriptArg3=C:/Git/Dev/testIntegration/./Business Solutions/cec.selfCare
+15:21:48.006 [main] INFO  ELO CLI - Execute ELO shell script: sol.dev.sh.EloinstToGit.js
+15:21:48.142 [main] INFO  ELO CLI - [ENTER] EloConvertEloInstToGit.unzip(C:/Git/Dev/testIntegration/.build/default/_work___Business Solutions_cec_selfCare//,C:\Git\Dev\testIntegration\.\Business Solutions\cec.selfCare)
+15:21:48.148 [main] ERROR ELO CLI - [EXCEPTION] EloConvertEloInstToGit.execute(C:/Git/Dev/testIntegration/.build/default/_work___Business Solutions_cec_selfCare//) err.message: C:\Git\Dev\testIntegration\.build\default\_work___Business Solutions_cec_selfCare (Access is denied)
+15:21:48.148 [main] INFO  ELO CLI - Script finished
