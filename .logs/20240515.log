@@ -2035,3 +2035,1071 @@ Not for resale
 12:52:41.695 [main] INFO  ELO CLI - [ENTER] EloConvertEloInstToGit.unzip(C:/Git/Dev/testIntegration/.build/default/_work___Business Solutions_cec_selfCare//C:\Git\Dev\testIntegration\.build\default\_work___Business Solutions_cec_selfCare\cec.selfCare_undefined.eloinst,C:\Git\Dev\testIntegration\.\Business Solutions\cec.selfCare)
 12:52:41.701 [main] ERROR ELO CLI - [EXCEPTION] EloConvertEloInstToGit.execute(C:/Git/Dev/testIntegration/.build/default/_work___Business Solutions_cec_selfCare//C:\Git\Dev\testIntegration\.build\default\_work___Business Solutions_cec_selfCare\cec.selfCare_undefined.eloinst) err.message: C:\Git\Dev\testIntegration\.build\default\_work___Business Solutions_cec_selfCare\C:\Git\Dev\testIntegration\.build\default\_work___Business Solutions_cec_selfCare\cec.selfCare_undefined.eloinst (The filename, directory name, or volume label syntax is incorrect)
 12:52:41.701 [main] INFO  ELO CLI - Script finished
+12:54:48.416 [main] INFO  ELO CLI - scriptArg0=sol.dev.sh.EloinstToGit.js
+12:54:48.419 [main] INFO  ELO CLI - scriptArg1=C:/Git/Dev/testIntegration/.config/session.json
+12:54:48.420 [main] INFO  ELO CLI - scriptArg2=C:/Git/Dev/testIntegration/.build/default/_work___Business
+12:54:48.420 [main] INFO  ELO CLI - scriptArg3=C:/Git/Dev/testIntegration/cec.selfCare
+12:54:48.423 [main] INFO  ELO CLI - Execute ELO shell script: sol.dev.sh.EloinstToGit.js
+12:54:48.555 [main] INFO  ELO CLI - [ENTER] EloConvertEloInstToGit.unzip(C:/Git/Dev/testIntegration/.build/default/_work___Business,C:\Git\Dev\testIntegration\cec.selfCare)
+12:54:48.560 [main] ERROR ELO CLI - [EXCEPTION] EloConvertEloInstToGit.execute(C:/Git/Dev/testIntegration/.build/default/_work___Business) err.message: C:\Git\Dev\testIntegration\.build\default\_work___Business (The system cannot find the file specified)
+12:54:48.560 [main] INFO  ELO CLI - Script finished
+12:55:06.430 [main] INFO  ELO CLI - scriptArg0=sol.dev.sh.EloinstToGit.js
+12:55:06.433 [main] INFO  ELO CLI - scriptArg1=C:/Git/Dev/testIntegration/.config/session.json
+12:55:06.433 [main] INFO  ELO CLI - scriptArg2=C:/Git/Dev/testIntegration/build/default/_work___Business
+12:55:06.434 [main] INFO  ELO CLI - scriptArg3=C:/Git/Dev/testIntegration/cec.selfCare
+12:55:06.437 [main] INFO  ELO CLI - Execute ELO shell script: sol.dev.sh.EloinstToGit.js
+12:55:06.570 [main] INFO  ELO CLI - [ENTER] EloConvertEloInstToGit.unzip(C:/Git/Dev/testIntegration/build/default/_work___Business,C:\Git\Dev\testIntegration\cec.selfCare)
+12:55:06.575 [main] ERROR ELO CLI - [EXCEPTION] EloConvertEloInstToGit.execute(C:/Git/Dev/testIntegration/build/default/_work___Business) err.message: C:\Git\Dev\testIntegration\build\default\_work___Business (The system cannot find the path specified)
+12:55:06.575 [main] INFO  ELO CLI - Script finished
+12:56:31.988 [main] INFO  ELO CLI - scriptArg0=sol.dev.sh.EloinstToGit.js
+12:56:31.992 [main] INFO  ELO CLI - scriptArg1=C:/Git/Dev/testIntegration/.config/session.json
+12:56:31.992 [main] INFO  ELO CLI - scriptArg2=C:/Git/Dev/testIntegration/build/default/_work___Business
+12:56:31.994 [main] INFO  ELO CLI - scriptArg3=C:/Git/Dev/testIntegration/cec.selfCare
+12:56:31.996 [main] INFO  ELO CLI - Execute ELO shell script: sol.dev.sh.EloinstToGit.js
+12:56:32.134 [main] INFO  ELO CLI - [ENTER] EloConvertEloInstToGit.unzip(C:/Git/Dev/testIntegration/build/default/_work___Business,C:\Git\Dev\testIntegration\cec.selfCare)
+12:56:32.140 [main] ERROR ELO CLI - [EXCEPTION] EloConvertEloInstToGit.execute(C:/Git/Dev/testIntegration/build/default/_work___Business) err.message: C:\Git\Dev\testIntegration\build\default\_work___Business (The system cannot find the path specified)
+12:56:32.141 [main] INFO  ELO CLI - Script finished
+12:57:02.937 [main] INFO  ELO CLI - scriptArg0=sol.dev.sh.EloinstToGit.js
+12:57:02.941 [main] INFO  ELO CLI - scriptArg1=C:/Git/Dev/testIntegration/.config/session.json
+12:57:02.942 [main] INFO  ELO CLI - scriptArg2=C:/Git/Dev/testIntegration/build/default/_work___Business Solutions_cec_selfCare/cec.selfCare_undefined.eloinst
+12:57:02.942 [main] INFO  ELO CLI - scriptArg3=C:/Git/Dev/testIntegration/cec.selfCare
+12:57:02.944 [main] INFO  ELO CLI - Execute ELO shell script: sol.dev.sh.EloinstToGit.js
+12:57:03.082 [main] INFO  ELO CLI - [ENTER] EloConvertEloInstToGit.unzip(C:/Git/Dev/testIntegration/build/default/_work___Business Solutions_cec_selfCare/cec.selfCare_undefined.eloinst,C:\Git\Dev\testIntegration\cec.selfCare)
+12:57:03.088 [main] ERROR ELO CLI - [EXCEPTION] EloConvertEloInstToGit.execute(C:/Git/Dev/testIntegration/build/default/_work___Business Solutions_cec_selfCare/cec.selfCare_undefined.eloinst) err.message: C:\Git\Dev\testIntegration\build\default\_work___Business Solutions_cec_selfCare\cec.selfCare_undefined.eloinst (The system cannot find the path specified)
+12:57:03.088 [main] INFO  ELO CLI - Script finished
+12:57:59.959 [main] INFO  ELO CLI - scriptArg0=sol.dev.sh.EloinstToGit.js
+12:57:59.965 [main] INFO  ELO CLI - scriptArg1=C:/Git/Dev/testIntegration/.config/session.json
+12:57:59.966 [main] INFO  ELO CLI - scriptArg2=C:/Git/Dev/testIntegration/.build/cec.selfCare_undefined.eloinst
+12:57:59.967 [main] INFO  ELO CLI - scriptArg3=C:/Git/Dev/testIntegration/cec.selfCare
+12:57:59.971 [main] INFO  ELO CLI - Execute ELO shell script: sol.dev.sh.EloinstToGit.js
+12:58:00.166 [main] INFO  ELO CLI - [ENTER] EloConvertEloInstToGit.unzip(C:/Git/Dev/testIntegration/.build/cec.selfCare_undefined.eloinst,C:\Git\Dev\testIntegration\cec.selfCare)
+12:58:00.176 [main] ERROR ELO CLI - [EXCEPTION] EloConvertEloInstToGit.execute(C:/Git/Dev/testIntegration/.build/cec.selfCare_undefined.eloinst) err.message: C:\Git\Dev\testIntegration\.build\cec.selfCare_undefined.eloinst (The system cannot find the file specified)
+12:58:00.177 [main] INFO  ELO CLI - Script finished
+12:58:42.869 [main] INFO  ELO CLI - scriptArg0=sol.dev.sh.EloinstToGit.js
+12:58:42.873 [main] INFO  ELO CLI - scriptArg1=C:/Git/Dev/testIntegration/.config/session.json
+12:58:42.873 [main] INFO  ELO CLI - scriptArg2=C:/Git/Dev/testIntegration/C:/Git/Dev/testIntegration/.build/default/_work___Business Solutions_cec_selfCare/cec.selfCare_undefined.eloinst
+12:58:42.874 [main] INFO  ELO CLI - scriptArg3=C:/Git/Dev/testIntegration/cec.selfCare
+12:58:42.876 [main] INFO  ELO CLI - Execute ELO shell script: sol.dev.sh.EloinstToGit.js
+12:58:43.008 [main] INFO  ELO CLI - [ENTER] EloConvertEloInstToGit.unzip(C:/Git/Dev/testIntegration/C:/Git/Dev/testIntegration/.build/default/_work___Business Solutions_cec_selfCare/cec.selfCare_undefined.eloinst,C:\Git\Dev\testIntegration\cec.selfCare)
+12:58:43.013 [main] ERROR ELO CLI - [EXCEPTION] EloConvertEloInstToGit.execute(C:/Git/Dev/testIntegration/C:/Git/Dev/testIntegration/.build/default/_work___Business Solutions_cec_selfCare/cec.selfCare_undefined.eloinst) err.message: C:\Git\Dev\testIntegration\C:\Git\Dev\testIntegration\.build\default\_work___Business Solutions_cec_selfCare\cec.selfCare_undefined.eloinst (The filename, directory name, or volume label syntax is incorrect)
+12:58:43.014 [main] INFO  ELO CLI - Script finished
+12:59:34.226 [main] INFO  ELO CLI - scriptArg0=sol.dev.sh.EloinstToGit.js
+12:59:34.230 [main] INFO  ELO CLI - scriptArg1=C:/Git/Dev/testIntegration/.config/session.json
+12:59:34.230 [main] INFO  ELO CLI - scriptArg2=C:/Git/Dev/testIntegration/testIntegration/.build/default/_work___Business Solutions_cec_selfCare/cec.selfCare_undefined.eloinst
+12:59:34.231 [main] INFO  ELO CLI - scriptArg3=C:/Git/Dev/testIntegration/cec.selfCare
+12:59:34.233 [main] INFO  ELO CLI - Execute ELO shell script: sol.dev.sh.EloinstToGit.js
+12:59:34.367 [main] INFO  ELO CLI - [ENTER] EloConvertEloInstToGit.unzip(C:/Git/Dev/testIntegration/testIntegration/.build/default/_work___Business Solutions_cec_selfCare/cec.selfCare_undefined.eloinst,C:\Git\Dev\testIntegration\cec.selfCare)
+12:59:34.374 [main] ERROR ELO CLI - [EXCEPTION] EloConvertEloInstToGit.execute(C:/Git/Dev/testIntegration/testIntegration/.build/default/_work___Business Solutions_cec_selfCare/cec.selfCare_undefined.eloinst) err.message: C:\Git\Dev\testIntegration\testIntegration\.build\default\_work___Business Solutions_cec_selfCare\cec.selfCare_undefined.eloinst (The system cannot find the path specified)
+12:59:34.374 [main] INFO  ELO CLI - Script finished
+13:00:22.270 [main] INFO  ELO CLI - scriptArg0=sol.dev.sh.EloinstToGit.js
+13:00:22.275 [main] INFO  ELO CLI - scriptArg1=C:/Git/Dev/testIntegration/.config/session.json
+13:00:22.276 [main] INFO  ELO CLI - scriptArg2=C:/Git/Dev/testIntegration/.build/default/_work___Business Solutions_cec_selfCare/cec.selfCare_undefined.eloinst
+13:00:22.276 [main] INFO  ELO CLI - scriptArg3=C:/Git/Dev/testIntegration/cec.selfCare
+13:00:22.278 [main] INFO  ELO CLI - Execute ELO shell script: sol.dev.sh.EloinstToGit.js
+13:00:22.414 [main] INFO  ELO CLI - [ENTER] EloConvertEloInstToGit.unzip(C:/Git/Dev/testIntegration/.build/default/_work___Business Solutions_cec_selfCare/cec.selfCare_undefined.eloinst,C:\Git\Dev\testIntegration\cec.selfCare)
+13:00:23.113 [main] INFO  ELO CLI - [EXIT] EloConvertEloInstToGit.unzip(C:/Git/Dev/testIntegration/.build/default/_work___Business Solutions_cec_selfCare/cec.selfCare_undefined.eloinst,C:\Git\Dev\testIntegration\cec.selfCare)
+13:00:23.141 [main] INFO  ELO CLI - found files: C:\Git\Dev\testIntegration\cec.selfCare, [C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData.zip]
+13:00:23.143 [main] INFO  ELO CLI - [0]: C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData.zip
+13:00:23.156 [main] INFO  ELO CLI - [ENTER] EloConvertEloInstToGit.unzip(C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData.zip,C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData)
+13:00:23.924 [main] INFO  ELO CLI - [EXIT] EloConvertEloInstToGit.unzip(C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData.zip,C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData)
+13:00:23.928 [main] INFO  ELO CLI - current path is: C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData
+13:00:23.957 [main] INFO  ELO CLI - Dir:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare
+13:00:23.967 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\0015D33F.es8
+13:00:23.975 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\0015D33F.ESW
+13:00:23.977 [main] INFO  ELO CLI - Dir:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\buzzwds
+13:00:23.978 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\ExpInfo.ini
+13:00:23.979 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\ExpRefs.exr
+13:00:24.021 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare.es8
+13:00:24.025 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\ExpInfo.ini
+13:00:24.026 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\ExpRefs.exr
+13:00:24.052 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare.es8
+13:00:24.053 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\ExpInfo.ini
+13:00:24.054 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\ExpRefs.exr
+13:00:24.060 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\buzzwds\ELOSTDCOM.xml
+13:00:24.060 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\buzzwds\ELOSTDSWL.xml
+13:00:24.061 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\buzzwds\ELOSTDVER.xml
+13:00:24.062 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\buzzwds\ELOSTDWFW.xml
+13:00:24.064 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\buzzwds\ELOSTDCOM.xml
+13:00:24.064 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\buzzwds\ELOSTDSWL.xml
+13:00:24.065 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\buzzwds\ELOSTDVER.xml
+13:00:24.066 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\buzzwds\ELOSTDWFW.xml
+13:00:24.067 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\buzzwds\ELOSTDCOM.xml
+13:00:24.067 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\buzzwds\ELOSTDSWL.xml
+13:00:24.068 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\buzzwds\ELOSTDVER.xml
+13:00:24.069 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\buzzwds\ELOSTDWFW.xml
+13:00:24.075 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\buzzwds\ELOSTDCOM.xml
+13:00:24.076 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\buzzwds\ELOSTDSWL.xml
+13:00:24.076 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\buzzwds\ELOSTDVER.xml
+13:00:24.077 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\buzzwds\ELOSTDWFW.xml
+13:00:24.082 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\0015D341.es8
+13:00:24.086 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\0015D341.ESW
+13:00:24.094 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\0015D342.es8
+13:00:24.098 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\0015D342.ESW
+13:00:24.106 [main] INFO  ELO CLI - Dir:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOas Base
+13:00:24.111 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\0015D343.es8
+13:00:24.115 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\0015D343.ESW
+13:00:24.129 [main] INFO  ELO CLI - Dir:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\Configuration
+13:00:24.134 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\0015D346.es8
+13:00:24.137 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\0015D346.ESW
+13:00:24.143 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\0015D348.es8
+13:00:24.146 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\0015D348.ESW
+13:00:24.155 [main] INFO  ELO CLI - Dir:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base
+13:00:24.160 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\0015D349.es8
+13:00:24.163 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\0015D349.ESW
+13:00:24.168 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\0015D34E.es8
+13:00:24.170 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\0015D34E.ESW
+13:00:24.177 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\0015D34F.es8
+13:00:24.182 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\0015D34F.ESW
+13:00:24.192 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\Version history.html
+13:00:24.200 [main] INFO  ELO CLI - Dir:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\.eloinst
+13:00:24.203 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\0015D350.es8
+13:00:24.206 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\0015D350.ESW
+13:00:24.218 [main] INFO  ELO CLI - Dir:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base
+13:00:24.221 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\0015D357.es8
+13:00:24.226 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\0015D357.ESW
+13:00:24.272 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\.keywording forms.es8
+13:00:24.280 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\Java Client Scripting Base.es8
+13:00:24.288 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOas Base.es8
+13:00:24.298 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\Configuration.es8
+13:00:24.307 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\Webclient Scripting Base.es8
+13:00:24.316 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base.es8
+13:00:24.324 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\Localization.es8
+13:00:24.334 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\Version history.html.es8
+13:00:24.344 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\.eloinst.es8
+13:00:24.353 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base.es8
+13:00:24.354 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\Version history.html
+13:00:24.365 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\.eloinst.es8
+13:00:24.371 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\.keywording forms.es8
+13:00:24.381 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\Configuration.es8
+13:00:24.391 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOas Base.es8
+13:00:24.402 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base.es8
+13:00:24.414 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base.es8
+13:00:24.419 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\Java Client Scripting Base.es8
+13:00:24.424 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\Localization.es8
+13:00:24.425 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\Version history.html
+13:00:24.429 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\Version history.html.es8
+13:00:24.432 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\Webclient Scripting Base.es8
+13:00:24.438 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\.eloinst\0015D351.es8
+13:00:24.440 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\.eloinst\0015D351.ESW
+13:00:24.446 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\.eloinst\build.json
+13:00:24.450 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\.eloinst\0015D352.es8
+13:00:24.453 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\.eloinst\0015D352.ESW
+13:00:24.467 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\.eloinst\install.json
+13:00:24.484 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\.eloinst\build.json.es8
+13:00:24.492 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\.eloinst\install.json.es8
+13:00:24.493 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\.eloinst\build.json
+13:00:24.493 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\.eloinst\install.json
+13:00:24.494 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\.eloinst\build.json
+13:00:24.499 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\.eloinst\build.json.es8
+13:00:24.499 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\.eloinst\install.json
+13:00:24.504 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\.eloinst\install.json.es8
+13:00:24.507 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\.eloinst\build.json
+13:00:24.508 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\.eloinst\build.json.es8
+13:00:24.509 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\.eloinst\install.json
+13:00:24.509 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\.eloinst\install.json.es8
+13:00:24.526 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\.eloinst\build.json.es8
+13:00:24.535 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\.eloinst\build.json.es8
+13:00:24.544 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\.eloinst\install.json.es8
+13:00:24.551 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\.eloinst\install.json.es8
+13:00:24.557 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\Configuration\0015D347.es8
+13:00:24.559 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\Configuration\0015D347.ESW
+13:00:24.566 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\Configuration\selfCare.config.json
+13:00:24.570 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\Configuration\0015D7D2.es8
+13:00:24.572 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\Configuration\0015D7D2.ESW
+13:00:24.578 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\Configuration\taraTest.config.json
+13:00:24.594 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\Configuration\selfCare.config.json.es8
+13:00:24.601 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\Configuration\taraTest.config.json.es8
+13:00:24.601 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\Configuration\selfCare.config.json
+13:00:24.601 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\Configuration\taraTest.config.json
+13:00:24.603 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\Configuration\selfCare.config.json
+13:00:24.608 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\Configuration\selfCare.config.json.es8
+13:00:24.609 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\Configuration\taraTest.config.json
+13:00:24.614 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\Configuration\taraTest.config.json.es8
+13:00:24.616 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\Configuration\selfCare.config.json
+13:00:24.617 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\Configuration\selfCare.config.json.es8
+13:00:24.618 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\Configuration\taraTest.config.json
+13:00:24.619 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\Configuration\taraTest.config.json.es8
+13:00:24.628 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\Configuration\selfCare.config.json.es8
+13:00:24.636 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\Configuration\selfCare.config.json.es8
+13:00:24.644 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\Configuration\taraTest.config.json.es8
+13:00:24.652 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\Configuration\taraTest.config.json.es8
+13:00:24.657 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOas Base\0015D344.es8
+13:00:24.660 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOas Base\0015D344.ESW
+13:00:24.665 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOas Base\0015D345.es8
+13:00:24.667 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOas Base\0015D345.ESW
+13:00:24.674 [main] INFO  ELO CLI - Dir:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOas Base\Rules
+13:00:24.677 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOas Base\0015D387.es8
+13:00:24.680 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOas Base\0015D387.ESW
+13:00:24.721 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOas Base\OptionalJsLibs.es8
+13:00:24.733 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOas Base\Direct.es8
+13:00:24.742 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOas Base\Rules.es8
+13:00:24.746 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOas Base\Direct.es8
+13:00:24.752 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOas Base\OptionalJsLibs.es8
+13:00:24.762 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOas Base\Rules.es8
+13:00:24.768 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOas Base\Rules\0015D650.es8
+13:00:24.771 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOas Base\Rules\0015D650.ESW
+13:00:24.777 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOas Base\Rules\as_SELF_CARE_validare_CI.txt
+13:00:24.790 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOas Base\Rules\as_SELF_CARE_validare_CI.txt.es8
+13:00:24.791 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOas Base\Rules\as_SELF_CARE_validare_CI.txt
+13:00:24.792 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOas Base\Rules\as_SELF_CARE_validare_CI.txt
+13:00:24.797 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOas Base\Rules\as_SELF_CARE_validare_CI.txt.es8
+13:00:24.798 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOas Base\Rules\as_SELF_CARE_validare_CI.txt
+13:00:24.799 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOas Base\Rules\as_SELF_CARE_validare_CI.txt.es8
+13:00:24.807 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOas Base\Rules\as_SELF_CARE_validare_CI.txt.es8
+13:00:24.815 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOas Base\Rules\as_SELF_CARE_validare_CI.txt.es8
+13:00:24.816 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOas Base\Direct.es8
+13:00:24.817 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOas Base\OptionalJsLibs.es8
+13:00:24.817 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOas Base\Rules.es8
+13:00:24.825 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOas Base\Direct.es8
+13:00:24.833 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOas Base\Direct.es8
+13:00:24.840 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOas Base\OptionalJsLibs.es8
+13:00:24.848 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOas Base\OptionalJsLibs.es8
+13:00:24.856 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOas Base\Rules.es8
+13:00:24.864 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOas Base\Rules.es8
+13:00:24.872 [main] INFO  ELO CLI - Dir:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\Feed
+13:00:24.875 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\0015D358.es8
+13:00:24.877 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\0015D358.ESW
+13:00:24.882 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\0015D35A.es8
+13:00:24.886 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\0015D35A.ESW
+13:00:24.894 [main] INFO  ELO CLI - Dir:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\Forms
+13:00:24.896 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\0015D35B.es8
+13:00:24.898 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\0015D35B.ESW
+13:00:24.903 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\0015D35C.es8
+13:00:24.905 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\0015D35C.ESW
+13:00:24.931 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\Feed.es8
+13:00:24.939 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\Webapp.es8
+13:00:24.947 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\Forms.es8
+13:00:24.956 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\Images.es8
+13:00:24.969 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\Feed.es8
+13:00:24.979 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\Forms.es8
+13:00:24.984 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\Images.es8
+13:00:24.987 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\Webapp.es8
+13:00:24.994 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\Feed\0015D359.es8
+13:00:24.996 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\Feed\0015D359.ESW
+13:00:25.014 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\Feed\Script Locales.es8
+13:00:25.018 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\Feed\Script Locales.es8
+13:00:25.020 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\Feed\Script Locales.es8
+13:00:25.031 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\Feed\Script Locales.es8
+13:00:25.039 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\Feed\Script Locales.es8
+13:00:25.049 [main] INFO  ELO CLI - Dir:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\Forms\sc_carteidentitate
+13:00:25.051 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\Forms\0015D6A9.es8
+13:00:25.054 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\Forms\0015D6A9.ESW
+13:00:25.080 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\Forms\sc_carteidentitate.es8
+13:00:25.091 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\Forms\sc_carteidentitate.es8
+13:00:25.096 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\Forms\sc_carteidentitate\0015D6AA.es8
+13:00:25.099 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\Forms\sc_carteidentitate\0015D6AA.ESW
+13:00:25.105 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\Forms\sc_carteidentitate\Header.txt
+13:00:25.110 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\Forms\sc_carteidentitate\0015D6AE.es8
+13:00:25.113 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\Forms\sc_carteidentitate\0015D6AE.ESW
+13:00:25.118 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\Forms\sc_carteidentitate\validare_carte_identitate_mb.txt
+13:00:25.135 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\Forms\sc_carteidentitate\Header.txt.es8
+13:00:25.145 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\Forms\sc_carteidentitate\validare_carte_identitate_mb.txt.es8
+13:00:25.145 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\Forms\sc_carteidentitate\Header.txt
+13:00:25.146 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\Forms\sc_carteidentitate\validare_carte_identitate_mb.txt
+13:00:25.147 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\Forms\sc_carteidentitate\Header.txt
+13:00:25.151 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\Forms\sc_carteidentitate\Header.txt.es8
+13:00:25.152 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\Forms\sc_carteidentitate\validare_carte_identitate_mb.txt
+13:00:25.156 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\Forms\sc_carteidentitate\validare_carte_identitate_mb.txt.es8
+13:00:25.158 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\Forms\sc_carteidentitate\Header.txt
+13:00:25.158 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\Forms\sc_carteidentitate\Header.txt.es8
+13:00:25.159 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\Forms\sc_carteidentitate\validare_carte_identitate_mb.txt
+13:00:25.159 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\Forms\sc_carteidentitate\validare_carte_identitate_mb.txt.es8
+13:00:25.166 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\Forms\sc_carteidentitate\Header.txt.es8
+13:00:25.174 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\Forms\sc_carteidentitate\Header.txt.es8
+13:00:25.180 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\Forms\sc_carteidentitate\validare_carte_identitate_mb.txt.es8
+13:00:25.189 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\Forms\sc_carteidentitate\validare_carte_identitate_mb.txt.es8
+13:00:25.191 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\Forms\sc_carteidentitate.es8
+13:00:25.199 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\Forms\sc_carteidentitate.es8
+13:00:25.207 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\Forms\sc_carteidentitate.es8
+13:00:25.210 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\Feed.es8
+13:00:25.210 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\Forms.es8
+13:00:25.210 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\Images.es8
+13:00:25.211 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\Webapp.es8
+13:00:25.218 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\Feed.es8
+13:00:25.226 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\Feed.es8
+13:00:25.233 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\Forms.es8
+13:00:25.240 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\Forms.es8
+13:00:25.247 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\Images.es8
+13:00:25.254 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\Images.es8
+13:00:25.261 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\Webapp.es8
+13:00:25.276 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\Webapp.es8
+13:00:25.284 [main] INFO  ELO CLI - Dir:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\DynKwl
+13:00:25.286 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\0015D34A.es8
+13:00:25.288 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\0015D34A.ESW
+13:00:25.293 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\0015D34B.es8
+13:00:25.295 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\0015D34B.ESW
+13:00:25.301 [main] INFO  ELO CLI - Dir:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Functions
+13:00:25.303 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\0015D34C.es8
+13:00:25.305 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\0015D34C.ESW
+13:00:25.310 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\0015D34D.es8
+13:00:25.312 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\0015D34D.ESW
+13:00:25.319 [main] INFO  ELO CLI - Dir:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Events
+13:00:25.322 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\0015D38A.es8
+13:00:25.325 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\0015D38A.ESW
+13:00:25.353 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\DynKwl.es8
+13:00:25.361 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Actions.es8
+13:00:25.369 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Functions.es8
+13:00:25.378 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Services.es8
+13:00:25.385 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Events.es8
+13:00:25.390 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Actions.es8
+13:00:25.398 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\DynKwl.es8
+13:00:25.407 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Events.es8
+13:00:25.416 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Functions.es8
+13:00:25.419 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Services.es8
+13:00:25.425 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\DynKwl\0015D778.es8
+13:00:25.429 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\DynKwl\0015D778.ESW
+13:00:25.436 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\DynKwl\dkl_Counties.js
+13:00:25.440 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\DynKwl\0015D78C.es8
+13:00:25.443 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\DynKwl\0015D78C.ESW
+13:00:25.449 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\DynKwl\dkl_Cities.js
+13:00:25.453 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\DynKwl\00308C06.es8
+13:00:25.456 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\DynKwl\00308C06.ESW
+13:00:25.465 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\DynKwl\dkl_RejectionReason.js
+13:00:25.486 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\DynKwl\dkl_Counties.js.es8
+13:00:25.494 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\DynKwl\dkl_Cities.js.es8
+13:00:25.503 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\DynKwl\dkl_RejectionReason.js.es8
+13:00:25.503 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\DynKwl\dkl_Cities.js
+13:00:25.503 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\DynKwl\dkl_Counties.js
+13:00:25.503 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\DynKwl\dkl_RejectionReason.js
+13:00:25.504 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\DynKwl\dkl_Cities.js
+13:00:25.509 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\DynKwl\dkl_Cities.js.es8
+13:00:25.509 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\DynKwl\dkl_Counties.js
+13:00:25.512 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\DynKwl\dkl_Counties.js.es8
+13:00:25.513 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\DynKwl\dkl_RejectionReason.js
+13:00:25.516 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\DynKwl\dkl_RejectionReason.js.es8
+13:00:25.518 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\DynKwl\dkl_Cities.js
+13:00:25.519 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\DynKwl\dkl_Cities.js.es8
+13:00:25.519 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\DynKwl\dkl_Counties.js
+13:00:25.519 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\DynKwl\dkl_Counties.js.es8
+13:00:25.519 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\DynKwl\dkl_RejectionReason.js
+13:00:25.519 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\DynKwl\dkl_RejectionReason.js.es8
+13:00:25.528 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\DynKwl\dkl_Cities.js.es8
+13:00:25.535 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\DynKwl\dkl_Cities.js.es8
+13:00:25.541 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\DynKwl\dkl_Counties.js.es8
+13:00:25.548 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\DynKwl\dkl_Counties.js.es8
+13:00:25.553 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\DynKwl\dkl_RejectionReason.js.es8
+13:00:25.560 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\DynKwl\dkl_RejectionReason.js.es8
+13:00:25.565 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Events\0015D8C9.es8
+13:00:25.567 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Events\0015D8C9.ESW
+13:00:25.573 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Events\ix_SelfCare_ev_onExitNode_moveDocumentToEloArchive.js
+13:00:25.583 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Events\ix_SelfCare_ev_onExitNode_moveDocumentToEloArchive.js.es8
+13:00:25.584 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Events\ix_SelfCare_ev_onExitNode_moveDocumentToEloArchive.js
+13:00:25.585 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Events\ix_SelfCare_ev_onExitNode_moveDocumentToEloArchive.js
+13:00:25.590 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Events\ix_SelfCare_ev_onExitNode_moveDocumentToEloArchive.js.es8
+13:00:25.591 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Events\ix_SelfCare_ev_onExitNode_moveDocumentToEloArchive.js
+13:00:25.592 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Events\ix_SelfCare_ev_onExitNode_moveDocumentToEloArchive.js.es8
+13:00:25.598 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Events\ix_SelfCare_ev_onExitNode_moveDocumentToEloArchive.js.es8
+13:00:25.605 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Events\ix_SelfCare_ev_onExitNode_moveDocumentToEloArchive.js.es8
+13:00:25.609 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Functions\0015D78B.es8
+13:00:25.611 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Functions\0015D78B.ESW
+13:00:25.618 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Functions\lib_Country.js
+13:00:25.624 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Functions\0015D7F1.es8
+13:00:25.626 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Functions\0015D7F1.ESW
+13:00:25.634 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Functions\SelfCare_RF_DB_Utils.js
+13:00:25.637 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Functions\0015D931.es8
+13:00:25.640 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Functions\0015D931.ESW
+13:00:25.647 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Functions\RF_search_self_care.js
+13:00:25.651 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Functions\0015D932.es8
+13:00:25.655 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Functions\0015D932.ESW
+13:00:25.663 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Functions\RF_upload_self_care.js
+13:00:25.690 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Functions\lib_Country.js.es8
+13:00:25.700 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Functions\SelfCare_RF_DB_Utils.js.es8
+13:00:25.716 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Functions\RF_search_self_care.js.es8
+13:00:25.730 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Functions\RF_upload_self_care.js.es8
+13:00:25.730 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Functions\lib_Country.js
+13:00:25.731 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Functions\RF_search_self_care.js
+13:00:25.731 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Functions\RF_upload_self_care.js
+13:00:25.731 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Functions\SelfCare_RF_DB_Utils.js
+13:00:25.732 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Functions\lib_Country.js
+13:00:25.738 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Functions\lib_Country.js.es8
+13:00:25.738 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Functions\RF_search_self_care.js
+13:00:25.742 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Functions\RF_search_self_care.js.es8
+13:00:25.742 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Functions\RF_upload_self_care.js
+13:00:25.745 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Functions\RF_upload_self_care.js.es8
+13:00:25.745 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Functions\SelfCare_RF_DB_Utils.js
+13:00:25.750 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Functions\SelfCare_RF_DB_Utils.js.es8
+13:00:25.752 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Functions\lib_Country.js
+13:00:25.753 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Functions\lib_Country.js.es8
+13:00:25.753 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Functions\RF_search_self_care.js
+13:00:25.753 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Functions\RF_search_self_care.js.es8
+13:00:25.754 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Functions\RF_upload_self_care.js
+13:00:25.754 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Functions\RF_upload_self_care.js.es8
+13:00:25.754 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Functions\SelfCare_RF_DB_Utils.js
+13:00:25.754 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Functions\SelfCare_RF_DB_Utils.js.es8
+13:00:25.763 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Functions\lib_Country.js.es8
+13:00:25.772 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Functions\lib_Country.js.es8
+13:00:25.781 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Functions\RF_search_self_care.js.es8
+13:00:25.789 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Functions\RF_search_self_care.js.es8
+13:00:25.796 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Functions\RF_upload_self_care.js.es8
+13:00:25.802 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Functions\RF_upload_self_care.js.es8
+13:00:25.810 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Functions\SelfCare_RF_DB_Utils.js.es8
+13:00:25.818 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Functions\SelfCare_RF_DB_Utils.js.es8
+13:00:25.820 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Actions.es8
+13:00:25.820 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\DynKwl.es8
+13:00:25.821 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Events.es8
+13:00:25.822 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Functions.es8
+13:00:25.822 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Services.es8
+13:00:25.829 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Actions.es8
+13:00:25.837 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Actions.es8
+13:00:25.845 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\DynKwl.es8
+13:00:25.851 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\DynKwl.es8
+13:00:25.859 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Events.es8
+13:00:25.866 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Events.es8
+13:00:25.874 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Functions.es8
+13:00:25.880 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Functions.es8
+13:00:25.887 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Services.es8
+13:00:25.893 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Services.es8
+13:00:25.895 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\.eloinst.es8
+13:00:25.896 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\.keywording forms.es8
+13:00:25.896 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\Configuration.es8
+13:00:25.896 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOas Base.es8
+13:00:25.896 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base.es8
+13:00:25.897 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base.es8
+13:00:25.897 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\Java Client Scripting Base.es8
+13:00:25.898 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\Localization.es8
+13:00:25.898 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\Version history.html
+13:00:25.898 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\Version history.html.es8
+13:00:25.898 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\Webclient Scripting Base.es8
+13:00:25.909 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\.eloinst.es8
+13:00:25.918 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\.eloinst.es8
+13:00:25.928 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\.keywording forms.es8
+13:00:25.935 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\.keywording forms.es8
+13:00:25.943 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\Configuration.es8
+13:00:25.950 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\Configuration.es8
+13:00:25.958 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOas Base.es8
+13:00:25.968 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOas Base.es8
+13:00:25.975 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base.es8
+13:00:25.981 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base.es8
+13:00:25.989 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base.es8
+13:00:25.996 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base.es8
+13:00:26.003 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\Java Client Scripting Base.es8
+13:00:26.010 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\Java Client Scripting Base.es8
+13:00:26.016 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\Localization.es8
+13:00:26.023 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\Localization.es8
+13:00:26.029 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\Version history.html.es8
+13:00:26.036 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\Version history.html.es8
+13:00:26.042 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\Webclient Scripting Base.es8
+13:00:26.051 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\Webclient Scripting Base.es8
+13:00:26.052 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare.es8
+13:00:26.053 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\ExpInfo.ini
+13:00:26.053 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\ExpRefs.exr
+13:00:26.061 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare.es8
+13:00:26.067 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare.es8
+13:00:26.068 [main] INFO  ELO CLI - Cleanup ini files... C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData
+13:00:26.077 [main] INFO  ELO CLI - found files: C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData, [C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\ExpInfo.ini, C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\ExpRefs.exr]
+13:00:26.077 [main] INFO  ELO CLI - Found ini exr files: [C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\ExpInfo.ini, C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\ExpRefs.exr]
+13:00:26.080 [main] INFO  ELO CLI - Found Export Info root file...
+13:00:26.114 [main] INFO  ELO CLI - ?[INFO]
+13:00:26.115 [main] INFO  ELO CLI - VERSION=7
+13:00:26.115 [main] INFO  ELO CLI - EXTACL=1
+13:00:26.115 [main] INFO  ELO CLI - EXPDOCVERS=0
+13:00:26.115 [main] INFO  ELO CLI - EXPATTVERS=0
+13:00:26.115 [main] INFO  ELO CLI - DELIMCHAR=╢
+13:00:26.115 [main] INFO  ELO CLI - PATH=╢Repository1╢Administration╢Business Solutions
+13:00:26.115 [main] INFO  ELO CLI - CRYPTEDDOCS=0
+13:00:26.115 [main] INFO  ELO CLI - ENCRYPTIONSETS=
+13:00:26.115 [main] INFO  ELO CLI - [SUBITEMS]
+13:00:26.115 [main] INFO  ELO CLI - -- subfiles
+13:00:26.115 [main] INFO  ELO CLI - 0=0015D33F
+13:00:26.115 [main] INFO  ELO CLI - [MASKS]
+13:00:26.115 [main] INFO  ELO CLI - 0=Basic Entry
+13:00:26.115 [main] INFO  ELO CLI - 1=Folder
+13:00:26.115 [main] INFO  ELO CLI - 2=ELOScripts
+13:00:26.115 [main] INFO  ELO CLI - 3=ELO Business Solution Configuration
+13:00:26.115 [main] INFO  ELO CLI - 4=ELO Business Solution
+13:00:26.115 [main] INFO  ELO CLI - [MASK0]
+13:00:26.115 [main] INFO  ELO CLI - MaskElms=0,75PYJA,0,0,0,25,"Basic Entry","","",-1,7A555H,"",,2017.01.01.12.00.00,,,1-7+PYJA,1-7A555H,
+13:00:26.115 [main] INFO  ELO CLI - MaskGuid=(E10E1000-E100-E100-E100-E10E10E10E30)
+13:00:26.115 [main] INFO  ELO CLI - MaskNameTK=
+13:00:26.115 [main] INFO  ELO CLI - MaskTextTK=
+13:00:26.115 [main] INFO  ELO CLI - dataOrganisation=0
+13:00:26.115 [main] INFO  ELO CLI - sordType=0
+13:00:26.115 [main] INFO  ELO CLI - [MASK1]
+13:00:26.117 [main] INFO  ELO CLI - MaskElms=1,75PYJA,0,0,0,4194321,"Folder","","",-1,7A555H,"Basis||||",,2017.01.01.12.00.00,,,1-7+PYJA,1-7A555H,
+13:00:26.117 [main] INFO  ELO CLI - MaskGuid=(E10E1000-E100-E100-E100-E10E10E10E31)
+13:00:26.117 [main] INFO  ELO CLI - MaskNameTK=
+13:00:26.117 [main] INFO  ELO CLI - MaskTextTK=||||
+13:00:26.117 [main] INFO  ELO CLI - dataOrganisation=0
+13:00:26.117 [main] INFO  ELO CLI - sordType=0
+13:00:26.117 [main] INFO  ELO CLI - MaskPosInfo0=A1,4,15,4,0,0
+13:00:26.117 [main] INFO  ELO CLI - MaskLine0=1,0,0,0,255,"ELOINDEX","ELOINDEX",0,75PYJA,"","","",0,"",1-7+PYJA
+13:00:26.117 [main] INFO  ELO CLI - LineNameTK0=
+13:00:26.117 [main] INFO  ELO CLI - LineCommentTK0=
+13:00:26.117 [main] INFO  ELO CLI - serverScriptName0=
+13:00:26.117 [main] INFO  ELO CLI - [MASK2]
+13:00:26.117 [main] INFO  ELO CLI - MaskElms=4,75PYJA,2,0,0,4194313,"ELOScripts","","",-1,7A555H,"",,2017.01.01.12.00.00,,,1-7+PYJA,1-7A555H,
+13:00:26.117 [main] INFO  ELO CLI - MaskGuid=(E10E1000-E100-E100-E100-E10E10E10E34)
+13:00:26.117 [main] INFO  ELO CLI - MaskNameTK=
+13:00:26.117 [main] INFO  ELO CLI - MaskTextTK=
+13:00:26.117 [main] INFO  ELO CLI - dataOrganisation=0
+13:00:26.117 [main] INFO  ELO CLI - sordType=0
+13:00:26.117 [main] INFO  ELO CLI - [MASK3]
+13:00:26.117 [main] INFO  ELO CLI - MaskElms=565,75PYJA,2,0,0,71303177,"ELO Business Solution Configuration","","",-1,7A555H,"Basis||||",,2017.01.01.12.00.00,,,1-75PYJA,1-7A555H,
+13:00:26.117 [main] INFO  ELO CLI - MaskGuid=(B10B1000-B100-B100-B100-10D10D10D11)
+13:00:26.117 [main] INFO  ELO CLI - MaskNameTK=
+13:00:26.117 [main] INFO  ELO CLI - MaskTextTK=||||
+13:00:26.117 [main] INFO  ELO CLI - dataOrganisation=0
+13:00:26.117 [main] INFO  ELO CLI - sordType=0
+13:00:26.117 [main] INFO  ELO CLI - MaskPosInfo0=A1,4,14,4,0,0,1,5,14,5,0,0,1,6,14,6,0,0,1,7,14,7,0,0
+13:00:26.117 [main] INFO  ELO CLI - MaskLine0=565,0,0,0,255,"Name","BS_CONFIG_NAME",4096,75PYJA,"","","",0,"",1-75PYJA
+13:00:26.117 [main] INFO  ELO CLI - LineNameTK0=
+13:00:26.117 [main] INFO  ELO CLI - LineCommentTK0=
+13:00:26.117 [main] INFO  ELO CLI - serverScriptName0=
+13:00:26.117 [main] INFO  ELO CLI - MaskLine1=565,1,0,0,255,"Version","BS_CONFIG_VERSION",4096,75PYJA,"","","",0,"",1-75PYJA
+13:00:26.117 [main] INFO  ELO CLI - LineNameTK1=
+13:00:26.117 [main] INFO  ELO CLI - LineCommentTK1=
+13:00:26.117 [main] INFO  ELO CLI - serverScriptName1=
+13:00:26.117 [main] INFO  ELO CLI - MaskLine2=565,2,0,0,255,"Type","BS_CONFIG_TYPE",4112,75PYJA,"RESERVED FIELD. Don't rely on its existance.","","",0,"",1-75PYJA
+13:00:26.117 [main] INFO  ELO CLI - LineNameTK2=
+13:00:26.117 [main] INFO  ELO CLI - LineCommentTK2=
+13:00:26.117 [main] INFO  ELO CLI - serverScriptName2=
+13:00:26.117 [main] INFO  ELO CLI - MaskLine3=565,3,0,0,255,"Solution object type","SOL_TYPE",0,75PYJA,"","","CONFIGURATION_TEMPLATE",0,"",1-7+PYJA
+13:00:26.117 [main] INFO  ELO CLI - LineNameTK3=
+13:00:26.117 [main] INFO  ELO CLI - LineCommentTK3=
+13:00:26.117 [main] INFO  ELO CLI - serverScriptName3=
+13:00:26.117 [main] INFO  ELO CLI - [MASK4]
+13:00:26.117 [main] INFO  ELO CLI - MaskElms=566,75PYJA,0,0,0,4194304,"ELO Business Solution","","",-1,7A555H,"Basis||||",,2017.01.01.12.00.00,,,1-75PYJA,1-7A555H,
+13:00:26.117 [main] INFO  ELO CLI - MaskGuid=(B10B1000-B100-B100-B100-10D10D10D10)
+13:00:26.117 [main] INFO  ELO CLI - MaskNameTK=
+13:00:26.117 [main] INFO  ELO CLI - MaskTextTK=||||
+13:00:26.117 [main] INFO  ELO CLI - dataOrganisation=0
+13:00:26.117 [main] INFO  ELO CLI - sordType=0
+13:00:26.117 [main] INFO  ELO CLI - MaskPosInfo0=A1,4,14,4,0,0,1,5,14,5,0,0,1,6,14,6,0,0,1,7,14,7,0,0
+13:00:26.117 [main] INFO  ELO CLI - MaskLine0=566,0,0,0,255,"Version","BS_VERSION_NO",576,75PYJA,"","","",0,"",1-75PYJA
+13:00:26.118 [main] INFO  ELO CLI - LineNameTK0=
+13:00:26.118 [main] INFO  ELO CLI - LineCommentTK0=
+13:00:26.118 [main] INFO  ELO CLI - serverScriptName0=
+13:00:26.118 [main] INFO  ELO CLI - MaskLine1=566,1,2,0,255,"Build","BS_BUILD_NO",576,75PYJA,"","","",0,"",1-75PYJA
+13:00:26.118 [main] INFO  ELO CLI - LineNameTK1=
+13:00:26.118 [main] INFO  ELO CLI - LineCommentTK1=
+13:00:26.118 [main] INFO  ELO CLI - serverScriptName1=
+13:00:26.118 [main] INFO  ELO CLI - MaskLine2=566,2,0,0,255,"Setup name suffix","BS_SETUP_NAME_SUFFIX",4096,75PYJA,"","","",0,"",1-75PYJA
+13:00:26.118 [main] INFO  ELO CLI - LineNameTK2=
+13:00:26.118 [main] INFO  ELO CLI - LineCommentTK2=
+13:00:26.118 [main] INFO  ELO CLI - serverScriptName2=
+13:00:26.118 [main] INFO  ELO CLI - MaskLine3=566,3,0,0,255,"Git reference","BS_GIT",4096,75PYJA,"","","",0,"",1-75PYJA
+13:00:26.118 [main] INFO  ELO CLI - LineNameTK3=
+13:00:26.118 [main] INFO  ELO CLI - LineCommentTK3=
+13:00:26.118 [main] INFO  ELO CLI - serverScriptName3=
+13:00:26.118 [main] INFO  ELO CLI - 
+13:00:26.118 [main] INFO  ELO CLI - [COLORS]
+13:00:26.118 [main] INFO  ELO CLI - [USERS]
+13:00:26.118 [main] INFO  ELO CLI - 0=0,"Administrator",null
+13:00:26.118 [main] INFO  ELO CLI - 1=1,"ELO Service",null
+13:00:26.118 [main] INFO  ELO CLI - 2=9999,"Everyone",0
+13:00:26.118 [main] INFO  ELO CLI - 
+13:00:26.141 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\ExpInfo.ini
+13:00:26.142 [main] INFO  ELO CLI - Found Export References file...
+13:00:26.147 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\ExpRefs.exr
+13:00:26.147 [main] INFO  ELO CLI - subdir:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData
+13:00:26.149 [main] INFO  ELO CLI - getParentPath(subdir):C:\Git\Dev\testIntegration\cec.selfCare\install.data
+13:00:26.150 [main] INFO  ELO CLI - subdir workflowTemplates:C:\Git\Dev\testIntegration\cec.selfCare\install.data\workflowTemplates
+13:00:26.150 [main] INFO  ELO CLI - Format Workflow JSON-Object files... C:\Git\Dev\testIntegration\cec.selfCare\install.data\workflowTemplates
+13:00:26.151 [main] INFO  ELO CLI - [EXIT] EloConvertEloInstToGit.execute(C:/Git/Dev/testIntegration/.build/default/_work___Business Solutions_cec_selfCare/cec.selfCare_undefined.eloinst)
+13:00:26.151 [main] INFO  ELO CLI - Script finished
+14:45:05.667 [main] INFO  ELO CLI - scriptArg0=sol.dev.sh.EloinstToGit.js
+14:45:05.671 [main] INFO  ELO CLI - scriptArg1=C:/Git/Dev/testIntegration/.config/session.json
+14:45:05.671 [main] INFO  ELO CLI - scriptArg2=C:/Git/Dev/testIntegration/.build/default/_work___Business Solutions_cec_selfCare/cec.selfCare_undefined.eloinst
+14:45:05.672 [main] INFO  ELO CLI - scriptArg3=C:/Git/Dev/testIntegration/cec.selfCare
+14:45:05.674 [main] INFO  ELO CLI - Execute ELO shell script: sol.dev.sh.EloinstToGit.js
+14:45:06.073 [main] INFO  ELO CLI - [ENTER] EloConvertEloInstToGit.unzip(C:/Git/Dev/testIntegration/.build/default/_work___Business Solutions_cec_selfCare/cec.selfCare_undefined.eloinst,C:\Git\Dev\testIntegration\cec.selfCare)
+14:45:06.767 [main] INFO  ELO CLI - [EXIT] EloConvertEloInstToGit.unzip(C:/Git/Dev/testIntegration/.build/default/_work___Business Solutions_cec_selfCare/cec.selfCare_undefined.eloinst,C:\Git\Dev\testIntegration\cec.selfCare)
+14:45:06.794 [main] INFO  ELO CLI - found files: C:\Git\Dev\testIntegration\cec.selfCare, [C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData.zip]
+14:45:06.796 [main] INFO  ELO CLI - [0]: C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData.zip
+14:45:06.808 [main] INFO  ELO CLI - [ENTER] EloConvertEloInstToGit.unzip(C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData.zip,C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData)
+14:45:07.548 [main] INFO  ELO CLI - [EXIT] EloConvertEloInstToGit.unzip(C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData.zip,C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData)
+14:45:07.553 [main] INFO  ELO CLI - current path is: C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData
+14:45:07.578 [main] INFO  ELO CLI - Dir:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare
+14:45:07.586 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\0015D33F.es8
+14:45:07.592 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\0015D33F.ESW
+14:45:07.593 [main] INFO  ELO CLI - Dir:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\buzzwds
+14:45:07.594 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\ExpInfo.ini
+14:45:07.595 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\ExpRefs.exr
+14:45:07.618 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare.es8
+14:45:07.620 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\ExpInfo.ini
+14:45:07.621 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\ExpRefs.exr
+14:45:07.641 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare.es8
+14:45:07.642 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\ExpInfo.ini
+14:45:07.642 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\ExpRefs.exr
+14:45:07.645 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\buzzwds\ELOSTDCOM.xml
+14:45:07.646 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\buzzwds\ELOSTDSWL.xml
+14:45:07.647 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\buzzwds\ELOSTDVER.xml
+14:45:07.648 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\buzzwds\ELOSTDWFW.xml
+14:45:07.650 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\buzzwds\ELOSTDCOM.xml
+14:45:07.651 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\buzzwds\ELOSTDSWL.xml
+14:45:07.652 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\buzzwds\ELOSTDVER.xml
+14:45:07.654 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\buzzwds\ELOSTDWFW.xml
+14:45:07.655 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\buzzwds\ELOSTDCOM.xml
+14:45:07.656 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\buzzwds\ELOSTDSWL.xml
+14:45:07.656 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\buzzwds\ELOSTDVER.xml
+14:45:07.657 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\buzzwds\ELOSTDWFW.xml
+14:45:07.660 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\buzzwds\ELOSTDCOM.xml
+14:45:07.660 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\buzzwds\ELOSTDSWL.xml
+14:45:07.661 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\buzzwds\ELOSTDVER.xml
+14:45:07.661 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\buzzwds\ELOSTDWFW.xml
+14:45:07.667 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\0015D341.es8
+14:45:07.671 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\0015D341.ESW
+14:45:07.676 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\0015D342.es8
+14:45:07.679 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\0015D342.ESW
+14:45:07.688 [main] INFO  ELO CLI - Dir:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOas Base
+14:45:07.691 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\0015D343.es8
+14:45:07.694 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\0015D343.ESW
+14:45:07.703 [main] INFO  ELO CLI - Dir:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\Configuration
+14:45:07.707 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\0015D346.es8
+14:45:07.709 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\0015D346.ESW
+14:45:07.715 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\0015D348.es8
+14:45:07.718 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\0015D348.ESW
+14:45:07.725 [main] INFO  ELO CLI - Dir:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base
+14:45:07.728 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\0015D349.es8
+14:45:07.733 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\0015D349.ESW
+14:45:07.738 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\0015D34E.es8
+14:45:07.742 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\0015D34E.ESW
+14:45:07.747 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\0015D34F.es8
+14:45:07.750 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\0015D34F.ESW
+14:45:07.758 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\Version history.html
+14:45:07.768 [main] INFO  ELO CLI - Dir:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\.eloinst
+14:45:07.771 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\0015D350.es8
+14:45:07.774 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\0015D350.ESW
+14:45:07.783 [main] INFO  ELO CLI - Dir:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base
+14:45:07.787 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\0015D357.es8
+14:45:07.790 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\0015D357.ESW
+14:45:07.841 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\.keywording forms.es8
+14:45:07.849 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\Java Client Scripting Base.es8
+14:45:07.857 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOas Base.es8
+14:45:07.865 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\Configuration.es8
+14:45:07.873 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\Webclient Scripting Base.es8
+14:45:07.881 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base.es8
+14:45:07.889 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\Localization.es8
+14:45:07.900 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\Version history.html.es8
+14:45:07.909 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\.eloinst.es8
+14:45:07.917 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base.es8
+14:45:07.918 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\Version history.html
+14:45:07.932 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\.eloinst.es8
+14:45:07.937 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\.keywording forms.es8
+14:45:07.946 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\Configuration.es8
+14:45:07.955 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOas Base.es8
+14:45:07.964 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base.es8
+14:45:07.975 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base.es8
+14:45:07.980 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\Java Client Scripting Base.es8
+14:45:07.985 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\Localization.es8
+14:45:07.985 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\Version history.html
+14:45:07.990 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\Version history.html.es8
+14:45:07.995 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\Webclient Scripting Base.es8
+14:45:08.000 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\.eloinst\0015D351.es8
+14:45:08.003 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\.eloinst\0015D351.ESW
+14:45:08.009 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\.eloinst\build.json
+14:45:08.019 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\.eloinst\0015D352.es8
+14:45:08.021 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\.eloinst\0015D352.ESW
+14:45:08.028 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\.eloinst\install.json
+14:45:08.047 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\.eloinst\build.json.es8
+14:45:08.054 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\.eloinst\install.json.es8
+14:45:08.055 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\.eloinst\build.json
+14:45:08.055 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\.eloinst\install.json
+14:45:08.057 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\.eloinst\build.json
+14:45:08.062 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\.eloinst\build.json.es8
+14:45:08.062 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\.eloinst\install.json
+14:45:08.067 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\.eloinst\install.json.es8
+14:45:08.069 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\.eloinst\build.json
+14:45:08.070 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\.eloinst\build.json.es8
+14:45:08.070 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\.eloinst\install.json
+14:45:08.071 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\.eloinst\install.json.es8
+14:45:08.082 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\.eloinst\build.json.es8
+14:45:08.092 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\.eloinst\build.json.es8
+14:45:08.101 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\.eloinst\install.json.es8
+14:45:08.108 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\.eloinst\install.json.es8
+14:45:08.113 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\Configuration\0015D347.es8
+14:45:08.116 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\Configuration\0015D347.ESW
+14:45:08.121 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\Configuration\selfCare.config.json
+14:45:08.126 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\Configuration\0015D7D2.es8
+14:45:08.128 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\Configuration\0015D7D2.ESW
+14:45:08.134 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\Configuration\taraTest.config.json
+14:45:08.150 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\Configuration\selfCare.config.json.es8
+14:45:08.158 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\Configuration\taraTest.config.json.es8
+14:45:08.158 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\Configuration\selfCare.config.json
+14:45:08.158 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\Configuration\taraTest.config.json
+14:45:08.160 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\Configuration\selfCare.config.json
+14:45:08.166 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\Configuration\selfCare.config.json.es8
+14:45:08.167 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\Configuration\taraTest.config.json
+14:45:08.171 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\Configuration\taraTest.config.json.es8
+14:45:08.173 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\Configuration\selfCare.config.json
+14:45:08.173 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\Configuration\selfCare.config.json.es8
+14:45:08.175 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\Configuration\taraTest.config.json
+14:45:08.176 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\Configuration\taraTest.config.json.es8
+14:45:08.185 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\Configuration\selfCare.config.json.es8
+14:45:08.194 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\Configuration\selfCare.config.json.es8
+14:45:08.201 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\Configuration\taraTest.config.json.es8
+14:45:08.209 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\Configuration\taraTest.config.json.es8
+14:45:08.214 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOas Base\0015D344.es8
+14:45:08.216 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOas Base\0015D344.ESW
+14:45:08.220 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOas Base\0015D345.es8
+14:45:08.222 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOas Base\0015D345.ESW
+14:45:08.228 [main] INFO  ELO CLI - Dir:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOas Base\Rules
+14:45:08.231 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOas Base\0015D387.es8
+14:45:08.234 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOas Base\0015D387.ESW
+14:45:08.250 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOas Base\OptionalJsLibs.es8
+14:45:08.257 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOas Base\Direct.es8
+14:45:08.263 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOas Base\Rules.es8
+14:45:08.268 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOas Base\Direct.es8
+14:45:08.272 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOas Base\OptionalJsLibs.es8
+14:45:08.281 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOas Base\Rules.es8
+14:45:08.286 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOas Base\Rules\0015D650.es8
+14:45:08.288 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOas Base\Rules\0015D650.ESW
+14:45:08.294 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOas Base\Rules\as_SELF_CARE_validare_CI.txt
+14:45:08.307 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOas Base\Rules\as_SELF_CARE_validare_CI.txt.es8
+14:45:08.308 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOas Base\Rules\as_SELF_CARE_validare_CI.txt
+14:45:08.309 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOas Base\Rules\as_SELF_CARE_validare_CI.txt
+14:45:08.313 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOas Base\Rules\as_SELF_CARE_validare_CI.txt.es8
+14:45:08.316 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOas Base\Rules\as_SELF_CARE_validare_CI.txt
+14:45:08.316 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOas Base\Rules\as_SELF_CARE_validare_CI.txt.es8
+14:45:08.324 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOas Base\Rules\as_SELF_CARE_validare_CI.txt.es8
+14:45:08.332 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOas Base\Rules\as_SELF_CARE_validare_CI.txt.es8
+14:45:08.333 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOas Base\Direct.es8
+14:45:08.333 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOas Base\OptionalJsLibs.es8
+14:45:08.334 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOas Base\Rules.es8
+14:45:08.340 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOas Base\Direct.es8
+14:45:08.348 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOas Base\Direct.es8
+14:45:08.355 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOas Base\OptionalJsLibs.es8
+14:45:08.363 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOas Base\OptionalJsLibs.es8
+14:45:08.371 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOas Base\Rules.es8
+14:45:08.379 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOas Base\Rules.es8
+14:45:08.387 [main] INFO  ELO CLI - Dir:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\Feed
+14:45:08.389 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\0015D358.es8
+14:45:08.391 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\0015D358.ESW
+14:45:08.395 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\0015D35A.es8
+14:45:08.397 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\0015D35A.ESW
+14:45:08.404 [main] INFO  ELO CLI - Dir:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\Forms
+14:45:08.406 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\0015D35B.es8
+14:45:08.408 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\0015D35B.ESW
+14:45:08.412 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\0015D35C.es8
+14:45:08.415 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\0015D35C.ESW
+14:45:08.441 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\Feed.es8
+14:45:08.449 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\Webapp.es8
+14:45:08.456 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\Forms.es8
+14:45:08.463 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\Images.es8
+14:45:08.472 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\Feed.es8
+14:45:08.481 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\Forms.es8
+14:45:08.484 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\Images.es8
+14:45:08.488 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\Webapp.es8
+14:45:08.494 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\Feed\0015D359.es8
+14:45:08.496 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\Feed\0015D359.ESW
+14:45:08.507 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\Feed\Script Locales.es8
+14:45:08.512 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\Feed\Script Locales.es8
+14:45:08.513 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\Feed\Script Locales.es8
+14:45:08.521 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\Feed\Script Locales.es8
+14:45:08.529 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\Feed\Script Locales.es8
+14:45:08.537 [main] INFO  ELO CLI - Dir:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\Forms\sc_carteidentitate
+14:45:08.539 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\Forms\0015D6A9.es8
+14:45:08.542 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\Forms\0015D6A9.ESW
+14:45:08.555 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\Forms\sc_carteidentitate.es8
+14:45:08.565 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\Forms\sc_carteidentitate.es8
+14:45:08.570 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\Forms\sc_carteidentitate\0015D6AA.es8
+14:45:08.572 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\Forms\sc_carteidentitate\0015D6AA.ESW
+14:45:08.579 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\Forms\sc_carteidentitate\Header.txt
+14:45:08.584 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\Forms\sc_carteidentitate\0015D6AE.es8
+14:45:08.586 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\Forms\sc_carteidentitate\0015D6AE.ESW
+14:45:08.592 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\Forms\sc_carteidentitate\validare_carte_identitate_mb.txt
+14:45:08.607 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\Forms\sc_carteidentitate\Header.txt.es8
+14:45:08.615 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\Forms\sc_carteidentitate\validare_carte_identitate_mb.txt.es8
+14:45:08.615 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\Forms\sc_carteidentitate\Header.txt
+14:45:08.616 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\Forms\sc_carteidentitate\validare_carte_identitate_mb.txt
+14:45:08.617 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\Forms\sc_carteidentitate\Header.txt
+14:45:08.620 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\Forms\sc_carteidentitate\Header.txt.es8
+14:45:08.620 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\Forms\sc_carteidentitate\validare_carte_identitate_mb.txt
+14:45:08.623 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\Forms\sc_carteidentitate\validare_carte_identitate_mb.txt.es8
+14:45:08.625 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\Forms\sc_carteidentitate\Header.txt
+14:45:08.625 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\Forms\sc_carteidentitate\Header.txt.es8
+14:45:08.626 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\Forms\sc_carteidentitate\validare_carte_identitate_mb.txt
+14:45:08.626 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\Forms\sc_carteidentitate\validare_carte_identitate_mb.txt.es8
+14:45:08.633 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\Forms\sc_carteidentitate\Header.txt.es8
+14:45:08.641 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\Forms\sc_carteidentitate\Header.txt.es8
+14:45:08.648 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\Forms\sc_carteidentitate\validare_carte_identitate_mb.txt.es8
+14:45:08.654 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\Forms\sc_carteidentitate\validare_carte_identitate_mb.txt.es8
+14:45:08.657 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\Forms\sc_carteidentitate.es8
+14:45:08.665 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\Forms\sc_carteidentitate.es8
+14:45:08.672 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\Forms\sc_carteidentitate.es8
+14:45:08.674 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\Feed.es8
+14:45:08.674 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\Forms.es8
+14:45:08.674 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\Images.es8
+14:45:08.674 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\Webapp.es8
+14:45:08.681 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\Feed.es8
+14:45:08.689 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\Feed.es8
+14:45:08.697 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\Forms.es8
+14:45:08.704 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\Forms.es8
+14:45:08.710 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\Images.es8
+14:45:08.717 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\Images.es8
+14:45:08.730 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\Webapp.es8
+14:45:08.737 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base\Webapp.es8
+14:45:08.745 [main] INFO  ELO CLI - Dir:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\DynKwl
+14:45:08.747 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\0015D34A.es8
+14:45:08.749 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\0015D34A.ESW
+14:45:08.753 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\0015D34B.es8
+14:45:08.756 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\0015D34B.ESW
+14:45:08.762 [main] INFO  ELO CLI - Dir:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Functions
+14:45:08.765 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\0015D34C.es8
+14:45:08.766 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\0015D34C.ESW
+14:45:08.770 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\0015D34D.es8
+14:45:08.772 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\0015D34D.ESW
+14:45:08.780 [main] INFO  ELO CLI - Dir:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Events
+14:45:08.782 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\0015D38A.es8
+14:45:08.784 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\0015D38A.ESW
+14:45:08.805 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\DynKwl.es8
+14:45:08.811 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Actions.es8
+14:45:08.818 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Functions.es8
+14:45:08.824 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Services.es8
+14:45:08.830 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Events.es8
+14:45:08.835 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Actions.es8
+14:45:08.843 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\DynKwl.es8
+14:45:08.851 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Events.es8
+14:45:08.859 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Functions.es8
+14:45:08.863 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Services.es8
+14:45:08.867 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\DynKwl\0015D778.es8
+14:45:08.870 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\DynKwl\0015D778.ESW
+14:45:08.875 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\DynKwl\dkl_Counties.js
+14:45:08.880 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\DynKwl\0015D78C.es8
+14:45:08.882 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\DynKwl\0015D78C.ESW
+14:45:08.889 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\DynKwl\dkl_Cities.js
+14:45:08.893 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\DynKwl\00308C06.es8
+14:45:08.896 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\DynKwl\00308C06.ESW
+14:45:08.901 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\DynKwl\dkl_RejectionReason.js
+14:45:08.919 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\DynKwl\dkl_Counties.js.es8
+14:45:08.928 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\DynKwl\dkl_Cities.js.es8
+14:45:08.936 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\DynKwl\dkl_RejectionReason.js.es8
+14:45:08.938 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\DynKwl\dkl_Cities.js
+14:45:08.938 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\DynKwl\dkl_Counties.js
+14:45:08.938 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\DynKwl\dkl_RejectionReason.js
+14:45:08.939 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\DynKwl\dkl_Cities.js
+14:45:08.943 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\DynKwl\dkl_Cities.js.es8
+14:45:08.943 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\DynKwl\dkl_Counties.js
+14:45:08.947 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\DynKwl\dkl_Counties.js.es8
+14:45:08.947 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\DynKwl\dkl_RejectionReason.js
+14:45:08.951 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\DynKwl\dkl_RejectionReason.js.es8
+14:45:08.953 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\DynKwl\dkl_Cities.js
+14:45:08.953 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\DynKwl\dkl_Cities.js.es8
+14:45:08.954 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\DynKwl\dkl_Counties.js
+14:45:08.954 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\DynKwl\dkl_Counties.js.es8
+14:45:08.954 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\DynKwl\dkl_RejectionReason.js
+14:45:08.954 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\DynKwl\dkl_RejectionReason.js.es8
+14:45:08.960 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\DynKwl\dkl_Cities.js.es8
+14:45:08.968 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\DynKwl\dkl_Cities.js.es8
+14:45:08.975 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\DynKwl\dkl_Counties.js.es8
+14:45:08.982 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\DynKwl\dkl_Counties.js.es8
+14:45:08.987 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\DynKwl\dkl_RejectionReason.js.es8
+14:45:08.993 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\DynKwl\dkl_RejectionReason.js.es8
+14:45:08.998 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Events\0015D8C9.es8
+14:45:09.001 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Events\0015D8C9.ESW
+14:45:09.007 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Events\ix_SelfCare_ev_onExitNode_moveDocumentToEloArchive.js
+14:45:09.017 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Events\ix_SelfCare_ev_onExitNode_moveDocumentToEloArchive.js.es8
+14:45:09.018 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Events\ix_SelfCare_ev_onExitNode_moveDocumentToEloArchive.js
+14:45:09.018 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Events\ix_SelfCare_ev_onExitNode_moveDocumentToEloArchive.js
+14:45:09.022 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Events\ix_SelfCare_ev_onExitNode_moveDocumentToEloArchive.js.es8
+14:45:09.023 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Events\ix_SelfCare_ev_onExitNode_moveDocumentToEloArchive.js
+14:45:09.023 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Events\ix_SelfCare_ev_onExitNode_moveDocumentToEloArchive.js.es8
+14:45:09.031 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Events\ix_SelfCare_ev_onExitNode_moveDocumentToEloArchive.js.es8
+14:45:09.037 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Events\ix_SelfCare_ev_onExitNode_moveDocumentToEloArchive.js.es8
+14:45:09.041 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Functions\0015D78B.es8
+14:45:09.044 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Functions\0015D78B.ESW
+14:45:09.050 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Functions\lib_Country.js
+14:45:09.054 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Functions\0015D7F1.es8
+14:45:09.056 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Functions\0015D7F1.ESW
+14:45:09.062 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Functions\SelfCare_RF_DB_Utils.js
+14:45:09.067 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Functions\0015D931.es8
+14:45:09.069 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Functions\0015D931.ESW
+14:45:09.076 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Functions\RF_search_self_care.js
+14:45:09.080 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Functions\0015D932.es8
+14:45:09.082 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Functions\0015D932.ESW
+14:45:09.089 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Functions\RF_upload_self_care.js
+14:45:09.111 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Functions\lib_Country.js.es8
+14:45:09.119 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Functions\SelfCare_RF_DB_Utils.js.es8
+14:45:09.127 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Functions\RF_search_self_care.js.es8
+14:45:09.134 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Functions\RF_upload_self_care.js.es8
+14:45:09.135 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Functions\lib_Country.js
+14:45:09.135 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Functions\RF_search_self_care.js
+14:45:09.136 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Functions\RF_upload_self_care.js
+14:45:09.136 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Functions\SelfCare_RF_DB_Utils.js
+14:45:09.137 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Functions\lib_Country.js
+14:45:09.141 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Functions\lib_Country.js.es8
+14:45:09.141 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Functions\RF_search_self_care.js
+14:45:09.145 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Functions\RF_search_self_care.js.es8
+14:45:09.145 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Functions\RF_upload_self_care.js
+14:45:09.148 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Functions\RF_upload_self_care.js.es8
+14:45:09.149 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Functions\SelfCare_RF_DB_Utils.js
+14:45:09.153 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Functions\SelfCare_RF_DB_Utils.js.es8
+14:45:09.154 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Functions\lib_Country.js
+14:45:09.154 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Functions\lib_Country.js.es8
+14:45:09.155 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Functions\RF_search_self_care.js
+14:45:09.155 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Functions\RF_search_self_care.js.es8
+14:45:09.155 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Functions\RF_upload_self_care.js
+14:45:09.155 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Functions\RF_upload_self_care.js.es8
+14:45:09.155 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Functions\SelfCare_RF_DB_Utils.js
+14:45:09.155 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Functions\SelfCare_RF_DB_Utils.js.es8
+14:45:09.163 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Functions\lib_Country.js.es8
+14:45:09.170 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Functions\lib_Country.js.es8
+14:45:09.176 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Functions\RF_search_self_care.js.es8
+14:45:09.184 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Functions\RF_search_self_care.js.es8
+14:45:09.191 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Functions\RF_upload_self_care.js.es8
+14:45:09.197 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Functions\RF_upload_self_care.js.es8
+14:45:09.204 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Functions\SelfCare_RF_DB_Utils.js.es8
+14:45:09.210 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Functions\SelfCare_RF_DB_Utils.js.es8
+14:45:09.211 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Actions.es8
+14:45:09.211 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\DynKwl.es8
+14:45:09.211 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Events.es8
+14:45:09.211 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Functions.es8
+14:45:09.211 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Services.es8
+14:45:09.219 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Actions.es8
+14:45:09.225 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Actions.es8
+14:45:09.232 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\DynKwl.es8
+14:45:09.238 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\DynKwl.es8
+14:45:09.244 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Events.es8
+14:45:09.251 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Events.es8
+14:45:09.257 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Functions.es8
+14:45:09.264 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Functions.es8
+14:45:09.269 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Services.es8
+14:45:09.276 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base\Services.es8
+14:45:09.278 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\.eloinst.es8
+14:45:09.278 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\.keywording forms.es8
+14:45:09.278 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\Configuration.es8
+14:45:09.279 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOas Base.es8
+14:45:09.279 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base.es8
+14:45:09.279 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base.es8
+14:45:09.279 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\Java Client Scripting Base.es8
+14:45:09.279 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\Localization.es8
+14:45:09.279 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\Version history.html
+14:45:09.280 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\Version history.html.es8
+14:45:09.280 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\Webclient Scripting Base.es8
+14:45:09.286 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\.eloinst.es8
+14:45:09.294 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\.eloinst.es8
+14:45:09.300 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\.keywording forms.es8
+14:45:09.306 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\.keywording forms.es8
+14:45:09.313 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\Configuration.es8
+14:45:09.319 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\Configuration.es8
+14:45:09.326 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOas Base.es8
+14:45:09.332 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOas Base.es8
+14:45:09.339 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base.es8
+14:45:09.345 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\ELOwf Base.es8
+14:45:09.352 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base.es8
+14:45:09.359 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\IndexServer Scripting Base.es8
+14:45:09.365 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\Java Client Scripting Base.es8
+14:45:09.372 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\Java Client Scripting Base.es8
+14:45:09.378 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\Localization.es8
+14:45:09.384 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\Localization.es8
+14:45:09.390 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\Version history.html.es8
+14:45:09.397 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\Version history.html.es8
+14:45:09.403 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\Webclient Scripting Base.es8
+14:45:09.419 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare\Webclient Scripting Base.es8
+14:45:09.420 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare.es8
+14:45:09.420 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\ExpInfo.ini
+14:45:09.420 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\ExpRefs.exr
+14:45:09.428 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare.es8
+14:45:09.434 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\cec.selfCare.es8
+14:45:09.435 [main] INFO  ELO CLI - Cleanup ini files... C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData
+14:45:09.444 [main] INFO  ELO CLI - found files: C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData, [C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\ExpInfo.ini, C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\ExpRefs.exr]
+14:45:09.445 [main] INFO  ELO CLI - Found ini exr files: [C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\ExpInfo.ini, C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\ExpRefs.exr]
+14:45:09.446 [main] INFO  ELO CLI - Found Export Info root file...
+14:45:09.475 [main] INFO  ELO CLI - ?[INFO]
+14:45:09.475 [main] INFO  ELO CLI - VERSION=7
+14:45:09.475 [main] INFO  ELO CLI - EXTACL=1
+14:45:09.475 [main] INFO  ELO CLI - EXPDOCVERS=0
+14:45:09.475 [main] INFO  ELO CLI - EXPATTVERS=0
+14:45:09.475 [main] INFO  ELO CLI - DELIMCHAR=╢
+14:45:09.475 [main] INFO  ELO CLI - PATH=╢Repository1╢Administration╢Business Solutions
+14:45:09.476 [main] INFO  ELO CLI - CRYPTEDDOCS=0
+14:45:09.476 [main] INFO  ELO CLI - ENCRYPTIONSETS=
+14:45:09.476 [main] INFO  ELO CLI - [SUBITEMS]
+14:45:09.476 [main] INFO  ELO CLI - -- subfiles
+14:45:09.476 [main] INFO  ELO CLI - 0=0015D33F
+14:45:09.476 [main] INFO  ELO CLI - [MASKS]
+14:45:09.476 [main] INFO  ELO CLI - 0=Basic Entry
+14:45:09.476 [main] INFO  ELO CLI - 1=Folder
+14:45:09.476 [main] INFO  ELO CLI - 2=ELOScripts
+14:45:09.476 [main] INFO  ELO CLI - 3=ELO Business Solution Configuration
+14:45:09.476 [main] INFO  ELO CLI - 4=ELO Business Solution
+14:45:09.476 [main] INFO  ELO CLI - [MASK0]
+14:45:09.476 [main] INFO  ELO CLI - MaskElms=0,75PYJA,0,0,0,25,"Basic Entry","","",-1,7A555H,"",,2017.01.01.12.00.00,,,1-7+PYJA,1-7A555H,
+14:45:09.476 [main] INFO  ELO CLI - MaskGuid=(E10E1000-E100-E100-E100-E10E10E10E30)
+14:45:09.476 [main] INFO  ELO CLI - MaskNameTK=
+14:45:09.476 [main] INFO  ELO CLI - MaskTextTK=
+14:45:09.476 [main] INFO  ELO CLI - dataOrganisation=0
+14:45:09.476 [main] INFO  ELO CLI - sordType=0
+14:45:09.476 [main] INFO  ELO CLI - [MASK1]
+14:45:09.476 [main] INFO  ELO CLI - MaskElms=1,75PYJA,0,0,0,4194321,"Folder","","",-1,7A555H,"Basis||||",,2017.01.01.12.00.00,,,1-7+PYJA,1-7A555H,
+14:45:09.476 [main] INFO  ELO CLI - MaskGuid=(E10E1000-E100-E100-E100-E10E10E10E31)
+14:45:09.476 [main] INFO  ELO CLI - MaskNameTK=
+14:45:09.476 [main] INFO  ELO CLI - MaskTextTK=||||
+14:45:09.476 [main] INFO  ELO CLI - dataOrganisation=0
+14:45:09.476 [main] INFO  ELO CLI - sordType=0
+14:45:09.476 [main] INFO  ELO CLI - MaskPosInfo0=A1,4,15,4,0,0
+14:45:09.476 [main] INFO  ELO CLI - MaskLine0=1,0,0,0,255,"ELOINDEX","ELOINDEX",0,75PYJA,"","","",0,"",1-7+PYJA
+14:45:09.476 [main] INFO  ELO CLI - LineNameTK0=
+14:45:09.476 [main] INFO  ELO CLI - LineCommentTK0=
+14:45:09.476 [main] INFO  ELO CLI - serverScriptName0=
+14:45:09.476 [main] INFO  ELO CLI - [MASK2]
+14:45:09.476 [main] INFO  ELO CLI - MaskElms=4,75PYJA,2,0,0,4194313,"ELOScripts","","",-1,7A555H,"",,2017.01.01.12.00.00,,,1-7+PYJA,1-7A555H,
+14:45:09.476 [main] INFO  ELO CLI - MaskGuid=(E10E1000-E100-E100-E100-E10E10E10E34)
+14:45:09.476 [main] INFO  ELO CLI - MaskNameTK=
+14:45:09.476 [main] INFO  ELO CLI - MaskTextTK=
+14:45:09.476 [main] INFO  ELO CLI - dataOrganisation=0
+14:45:09.476 [main] INFO  ELO CLI - sordType=0
+14:45:09.476 [main] INFO  ELO CLI - [MASK3]
+14:45:09.476 [main] INFO  ELO CLI - MaskElms=565,75PYJA,2,0,0,71303177,"ELO Business Solution Configuration","","",-1,7A555H,"Basis||||",,2017.01.01.12.00.00,,,1-75PYJA,1-7A555H,
+14:45:09.476 [main] INFO  ELO CLI - MaskGuid=(B10B1000-B100-B100-B100-10D10D10D11)
+14:45:09.476 [main] INFO  ELO CLI - MaskNameTK=
+14:45:09.476 [main] INFO  ELO CLI - MaskTextTK=||||
+14:45:09.476 [main] INFO  ELO CLI - dataOrganisation=0
+14:45:09.476 [main] INFO  ELO CLI - sordType=0
+14:45:09.476 [main] INFO  ELO CLI - MaskPosInfo0=A1,4,14,4,0,0,1,5,14,5,0,0,1,6,14,6,0,0,1,7,14,7,0,0
+14:45:09.476 [main] INFO  ELO CLI - MaskLine0=565,0,0,0,255,"Name","BS_CONFIG_NAME",4096,75PYJA,"","","",0,"",1-75PYJA
+14:45:09.477 [main] INFO  ELO CLI - LineNameTK0=
+14:45:09.477 [main] INFO  ELO CLI - LineCommentTK0=
+14:45:09.477 [main] INFO  ELO CLI - serverScriptName0=
+14:45:09.477 [main] INFO  ELO CLI - MaskLine1=565,1,0,0,255,"Version","BS_CONFIG_VERSION",4096,75PYJA,"","","",0,"",1-75PYJA
+14:45:09.477 [main] INFO  ELO CLI - LineNameTK1=
+14:45:09.477 [main] INFO  ELO CLI - LineCommentTK1=
+14:45:09.477 [main] INFO  ELO CLI - serverScriptName1=
+14:45:09.477 [main] INFO  ELO CLI - MaskLine2=565,2,0,0,255,"Type","BS_CONFIG_TYPE",4112,75PYJA,"RESERVED FIELD. Don't rely on its existance.","","",0,"",1-75PYJA
+14:45:09.477 [main] INFO  ELO CLI - LineNameTK2=
+14:45:09.477 [main] INFO  ELO CLI - LineCommentTK2=
+14:45:09.477 [main] INFO  ELO CLI - serverScriptName2=
+14:45:09.477 [main] INFO  ELO CLI - MaskLine3=565,3,0,0,255,"Solution object type","SOL_TYPE",0,75PYJA,"","","CONFIGURATION_TEMPLATE",0,"",1-7+PYJA
+14:45:09.477 [main] INFO  ELO CLI - LineNameTK3=
+14:45:09.477 [main] INFO  ELO CLI - LineCommentTK3=
+14:45:09.477 [main] INFO  ELO CLI - serverScriptName3=
+14:45:09.477 [main] INFO  ELO CLI - [MASK4]
+14:45:09.477 [main] INFO  ELO CLI - MaskElms=566,75PYJA,0,0,0,4194304,"ELO Business Solution","","",-1,7A555H,"Basis||||",,2017.01.01.12.00.00,,,1-75PYJA,1-7A555H,
+14:45:09.477 [main] INFO  ELO CLI - MaskGuid=(B10B1000-B100-B100-B100-10D10D10D10)
+14:45:09.477 [main] INFO  ELO CLI - MaskNameTK=
+14:45:09.477 [main] INFO  ELO CLI - MaskTextTK=||||
+14:45:09.477 [main] INFO  ELO CLI - dataOrganisation=0
+14:45:09.477 [main] INFO  ELO CLI - sordType=0
+14:45:09.477 [main] INFO  ELO CLI - MaskPosInfo0=A1,4,14,4,0,0,1,5,14,5,0,0,1,6,14,6,0,0,1,7,14,7,0,0
+14:45:09.477 [main] INFO  ELO CLI - MaskLine0=566,0,0,0,255,"Version","BS_VERSION_NO",576,75PYJA,"","","",0,"",1-75PYJA
+14:45:09.477 [main] INFO  ELO CLI - LineNameTK0=
+14:45:09.477 [main] INFO  ELO CLI - LineCommentTK0=
+14:45:09.477 [main] INFO  ELO CLI - serverScriptName0=
+14:45:09.477 [main] INFO  ELO CLI - MaskLine1=566,1,2,0,255,"Build","BS_BUILD_NO",576,75PYJA,"","","",0,"",1-75PYJA
+14:45:09.477 [main] INFO  ELO CLI - LineNameTK1=
+14:45:09.477 [main] INFO  ELO CLI - LineCommentTK1=
+14:45:09.477 [main] INFO  ELO CLI - serverScriptName1=
+14:45:09.477 [main] INFO  ELO CLI - MaskLine2=566,2,0,0,255,"Setup name suffix","BS_SETUP_NAME_SUFFIX",4096,75PYJA,"","","",0,"",1-75PYJA
+14:45:09.477 [main] INFO  ELO CLI - LineNameTK2=
+14:45:09.477 [main] INFO  ELO CLI - LineCommentTK2=
+14:45:09.477 [main] INFO  ELO CLI - serverScriptName2=
+14:45:09.477 [main] INFO  ELO CLI - MaskLine3=566,3,0,0,255,"Git reference","BS_GIT",4096,75PYJA,"","","",0,"",1-75PYJA
+14:45:09.477 [main] INFO  ELO CLI - LineNameTK3=
+14:45:09.477 [main] INFO  ELO CLI - LineCommentTK3=
+14:45:09.477 [main] INFO  ELO CLI - serverScriptName3=
+14:45:09.477 [main] INFO  ELO CLI - 
+14:45:09.477 [main] INFO  ELO CLI - [COLORS]
+14:45:09.477 [main] INFO  ELO CLI - [USERS]
+14:45:09.477 [main] INFO  ELO CLI - 0=0,"Administrator",null
+14:45:09.477 [main] INFO  ELO CLI - 1=1,"ELO Service",null
+14:45:09.477 [main] INFO  ELO CLI - 2=9999,"Everyone",0
+14:45:09.477 [main] INFO  ELO CLI - 
+14:45:09.490 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\ExpInfo.ini
+14:45:09.491 [main] INFO  ELO CLI - Found Export References file...
+14:45:09.494 [main] INFO  ELO CLI - File:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData\ExpRefs.exr
+14:45:09.495 [main] INFO  ELO CLI - subdir:C:\Git\Dev\testIntegration\cec.selfCare\install.data\RepoData
+14:45:09.495 [main] INFO  ELO CLI - getParentPath(subdir):C:\Git\Dev\testIntegration\cec.selfCare\install.data
+14:45:09.496 [main] INFO  ELO CLI - subdir workflowTemplates:C:\Git\Dev\testIntegration\cec.selfCare\install.data\workflowTemplates
+14:45:09.496 [main] INFO  ELO CLI - Format Workflow JSON-Object files... C:\Git\Dev\testIntegration\cec.selfCare\install.data\workflowTemplates
+14:45:09.496 [main] INFO  ELO CLI - [EXIT] EloConvertEloInstToGit.execute(C:/Git/Dev/testIntegration/.build/default/_work___Business Solutions_cec_selfCare/cec.selfCare_undefined.eloinst)
+14:45:09.498 [main] INFO  ELO CLI - Script finished

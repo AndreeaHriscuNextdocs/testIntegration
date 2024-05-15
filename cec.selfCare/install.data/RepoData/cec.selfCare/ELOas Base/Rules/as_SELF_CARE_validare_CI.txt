@@ -1,0 +1,178 @@
+﻿<ruleset>
+  <base>
+    <name>as_SELF_CARE_Carte_identitate_MB</name>
+    <search>
+      <name>"WORKFLOW"</name>
+      <value>""</value>
+      <mask>(0B941DA2-E261-8AE1-3F7A-8E88D9FB7B75)</mask>
+      <max>200</max>
+    </search>
+    <interval>10S</interval>
+    <includes>
+<name>lib_Class</name>
+<name>lib_sol.common.IxUtils</name>
+<name>lib_sord</name>
+<name>lib_user</name>
+<name>mail: Mail Utils</name>
+<name>lib_CEC</name>
+</includes>
+  </base>
+<rule>
+  <name>New rule</name>
+  <condition></condition>
+  <script>importPackage(Packages.com.aspose.email);
+
+var currentNodeId = EM_WF_NODE.nodeId;
+var currentNodeName = EM_WF_NODE.nodeName;
+var currentFlowName = EM_WF_NODE.flowName;
+var workflowOwnerName = EM_WF_NODE.workflowOwnerName;
+var workflowId = EM_WF_NODE.flowId;
+var currentSord = EM_ACT_SORD;
+var currentSordId = EM_ACT_SORD.id;
+
+var targetWorkflowName = "SelfCare - Validare carte de identitate (CI)";
+var identityCardValidationNodeName = "Carte_identitate_CNP_MB";
+var map;
+
+var SELF_CARE_CONFIG = {};
+
+sordExt.setIxAndConst();
+cec.seteazaIxSiConstante();
+
+var cfgObj = sol.common.IxUtils.execute('RF_sol_common_service_GetConfigHierarchy', {
+    compose: "/cec.selfCare/Configuration/selfCare.config",
+    content: true,  //optional, if not set, or none `true` value, only GUIDs will be returned
+    forceReload: true  // optional, if true, the cache will be refreshed
+});
+
+function getObjectFromSelfCareConfig(propertyName) {
+    var currentConfig = cfgObj.defaultConfig;
+
+    if (cfgObj.customConfigs &amp;&amp; cfgObj.customConfigs[0] &amp;&amp; cfgObj.customConfigs[0].content[propertyName]) {
+        currentConfig = cfgObj.customConfigs[0];
+    }
+
+    return currentConfig.content[propertyName];
+}
+
+if (currentFlowName.indexOf(targetWorkflowName) !== -1) {
+    if (currentNodeName.indexOf("Trimite notificare grup") !== -1) {
+        SELF_CARE_CONFIG.MASK_ID = getObjectFromSelfCareConfig("MASK_ID");
+        SELF_CARE_CONFIG.NOTIFICARE_GRUP = getObjectFromSelfCareConfig("NOTIFICARE_GRUP");
+        sendGroupEmailNotification();
+        EM_WF_NEXT = "0";
+    }
+
+    if (currentNodeName.indexOf("Notificare QBank") !== -1) {
+        var x = 3;
+        EM_WF_NEXT = "0";
+    }
+
+    if (currentNodeName.indexOf("Trimite email client") !== -1) {
+        SELF_CARE_CONFIG.CLIENT_MAIL = getObjectFromSelfCareConfig("CLIENT_MAIL");
+        SELF_CARE_CONFIG.EMAIL_FROM = getObjectFromSelfCareConfig("EMAIL_FROM");
+        sendClientEmail();
+        // getEmailSent();
+        EM_WF_NEXT = "0";
+    }
+
+    if (currentNodeName.indexOf("Arhivare CertSign") !== -1) {
+        EM_WF_NEXT = "0";
+    }
+}
+
+function sendGroupEmailNotification() {
+    var workflow, taskNodeId, groupName, tasklink;
+    var mailSubject, reg, mailContent;
+
+    workflow = ixConnect.ix().checkoutWorkFlow(workflowId, WFTypeC.ACTIVE, WFDiagramC.mbAll, LockC.NO);
+    taskNodeId = getNodeIdByName(workflow, identityCardValidationNodeName);
+
+    groupName = SELF_CARE_CONFIG.NOTIFICARE_GRUP.numeGrup;
+    tasklink = (SELF_CARE_CONFIG.NOTIFICARE_GRUP.linkTask).replace("{workflowId}", workflowId).replace("{nodeId}", taskNodeId);
+
+    mailSubject = SELF_CARE_CONFIG.NOTIFICARE_GRUP.mailSubject;
+    reg = new RegExp("{tasklink}", "g");
+    mailContent = (SELF_CARE_CONFIG.NOTIFICARE_GRUP.mailContent).replace(reg, tasklink);
+
+    cec.trimitereNotificareCatreGrupStandard(groupName, mailSubject, mailContent);
+}
+
+function getNodeIdByName(workflow, nodeName) {
+    var nodes = workflow.nodes;
+    for (var index = 0; index &lt; nodes.length; index++) {
+        var currentNode = nodes[index];
+        var currentNodeName = currentNode.name + "";
+        if (currentNodeName === nodeName) {
+            return currentNode.id;
+        }
+    }
+}
+
+function sendClientEmail() {
+    var workflowStatus, newCI;
+    var emailFrom, emailTo, mailSubject, mailContent;
+    emailFrom = SELF_CARE_CONFIG.EMAIL_FROM.address + "";
+
+    log.info("emailFrom: " + emailFrom);
+
+    workflowStatus = sordExt.getValueFromObjKeys(currentSord, "SELF_CARE_STATUS_FLUX");
+    newCI = sordExt.getValueFromObjKeys(currentSord, "SELF_CARE_CI_NOU");
+    emailTo = sordExt.getValueFromObjKeys(currentSord, "SELF_CARE_ADRESA_EMAIL") + "";
+
+    log.info("emailTo: " + emailTo);
+
+    if (newCI == "NU" || workflowStatus == "ACCEPTAT") {
+        mailSubject = SELF_CARE_CONFIG.CLIENT_MAIL.acceptedCI.subject;
+        mailContent = SELF_CARE_CONFIG.CLIENT_MAIL.acceptedCI.body;
+    }
+
+    if (workflowStatus == "RESPINS") {
+        mailSubject = SELF_CARE_CONFIG.CLIENT_MAIL.rejectedCI.subject;
+        mailContent = SELF_CARE_CONFIG.CLIENT_MAIL.rejectedCI.body;
+    }
+
+    log.info("mailSubject: " + mailSubject);
+    log.info("mailContent: " + mailContent);
+
+    cec.trimitereMailClient(emailFrom, emailTo, mailSubject, mailContent);
+}
+
+function getEmailSent() {
+    var host, userName, password;
+    host = SELF_CARE_CONFIG.EMAIL_FROM.host;
+    userName = SELF_CARE_CONFIG.EMAIL_FROM.address;
+    password = SELF_CARE_CONFIG.EMAIL_FROM.password;
+
+    var properties = new Properties();
+    properties.setProperty("mail.imap.host", host);
+    properties.setProperty("mail.imap.user", userName);
+    properties.setProperty("mail.imap.password", password);
+
+    var session = Session.getInstance(properties);
+
+    try {
+        // connect to IMAP server
+        var store = session.getStore("imap");
+        store.connect(host, userName, password);
+
+        // Open "Sent"
+        var sentFolder = store.getFolder("Sent");
+        sentFolder.open(Folder.READ_WRITE);
+
+        // get client mail
+        //
+
+        sentFolder.close(false);
+        store.close();
+    } catch (ex) {
+        var x = ex;
+    }
+}</script>
+</rule>
+<rule>
+  <name>Global Error Rule</name>
+  <condition>OnError</condition>
+  <script></script>
+</rule>
+</ruleset>

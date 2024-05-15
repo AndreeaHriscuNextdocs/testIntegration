@@ -1,0 +1,118 @@
+{
+  "setupName": "cec.selfCare",
+  "packageName": "cec.selfCare",
+  "deleteSords": [],
+  "previewForms": [],
+  "refChildren": [
+    {
+      "source": "{{packageFolderPath}}/All Rhino",
+      "destinations": [
+        "{{ixScriptingBaseFolderPath}}/_ALL/business_solutions",
+        "{{asBaseFolderPath}}/OptionalJsLibs"
+      ]
+    },
+    {
+      "source": "{{packageFolderPath}}/Java Client Scripting Base",
+      "destinations": [
+        "{{jcScriptingBaseFolderPath}}/business_solutions"
+      ]
+    },
+    {
+      "source": "{{packageFolderPath}}/ELOwf Base/Forms",
+      "destinations": [
+        "{{wfBaseFolderPath}}/Forms"
+      ],
+      "refFolders": true
+    },
+    {
+      "source": "{{packageFolderPath}}/ELOwf Base/Feed/Script Locales",
+      "destinations": [
+        "{{wfBaseFolderPath}}/Feed/Script Locales"
+      ]
+    },
+    {
+      "source": "{{packageFolderPath}}/ELOwf Base/Webapp",
+      "destinations": [
+        "{{wfBaseFolderPath}}/Webapp"
+      ]
+    },
+    {
+      "source": "{{packageFolderPath}}/IndexServer Scripting Base",
+      "destinations": [
+        "{{ixScriptingBaseFolderPath}}/_ALL/business_solutions"
+      ],
+      "ignoreSubfolders": true
+    },
+    {
+      "source": "{{packageFolderPath}}/Localization",
+      "destinations": [
+        "{{localizationBaseFolderPath}}/system",
+        "{{jcScriptingBaseFolderPath}}/business_solutions"
+      ]
+    },
+    {
+      "source": "{{packageFolderPath}}/ELOapps/ClientInfos",
+      "destinations": [
+        "{{appsBaseFolderPath}}/ClientInfos"
+      ]
+    },
+    {
+      "source": "{{packageFolderPath}}/ELOapps/Icons",
+      "destinations": [
+        "{{appsBaseFolderPath}}/Icons"
+      ]
+    },
+    {
+      "source": "{{packageFolderPath}}/ELOapps/Apps",
+      "destinations": [
+        "{{appsBaseFolderPath}}/Apps"
+      ],
+      "refFolders": true
+    },
+    {
+      "source": "{{packageFolderPath}}/ELOapps/Modules",
+      "destinations": [
+        "{{appsBaseFolderPath}}/Modules"
+      ],
+      "refFolders": true
+    },
+    {
+      "source": "{{packageFolderPath}}/ELOapps/Configuration",
+      "destinations": [
+        "{{appsBaseFolderPath}}/Configuration"
+      ]
+    },
+    {
+      "source": "{{packageFolderPath}}/Action definitions",
+      "destinations": [
+        "{{bsFolderPath}}/_global/Action definitions"
+      ],
+      "refFolders": true
+    },
+    {
+      "source": "{{packageFolderPath}}/ELOas Base/Rules",
+      "destinations": [
+        "{{asBaseFolderPath}}/Rules"
+      ]
+    },
+    {
+      "source": "{{packageFolderPath}}/ELOas Base/Direct",
+      "destinations": [
+        "{{asBaseFolderPath}}/Direct"
+      ]
+    },
+    {
+      "source": "{{packageFolderPath}}/ELOas Base/OptionalJsLibs",
+      "destinations": [
+        "{{asBaseFolderPath}}/OptionalJsLibs"
+      ]
+    },
+    {
+      "source": "{{packageFolderPath}}/Webclient Scripting Base",
+      "destinations": [
+        "{{webClientScriptingBaseFolderPath}}"
+      ]
+    }
+  ],
+  "ref": []
+}

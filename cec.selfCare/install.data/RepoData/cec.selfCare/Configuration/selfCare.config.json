@@ -1,0 +1,54 @@
+{
+  "MASK_ID": "1377",
+  "ELO_ARCHIVE": {
+    "ROOT": "Digital Onboarding\\Actualizare Date"
+  },
+  "NOTIFICARE_GRUP": {
+    "linkTask": "https://ndelodev01:9093/ix-Repository1/plugin/de.elo.ix.plugin.proxy/web/#/task/{workflowId}/{nodeId}",
+    "numeGrup": "Actualizare Date Clienti",
+    "mailSubject": "Actualizare date inregistrate prin Mobile Banking",
+    "mailContent": "<div style='padding-top: 25px;'><div style='padding-left: 15px;'>Dragi colegi,</div><div style='padding-top: 10px; padding-left: 15px;'>Exista solicitari de actualizare date inregistrate prin aplicatia de Mobile Banking.<br>Va rugam sa o analizati si in consecinta sa <b>ACCEPTATI / RESPINGETI<b>.</div><a style='padding-top: 10px; padding-left: 15px;' href='{tasklink}'>{tasklink}</a></div>"
+  },
+  "FORM": {
+    "REJECTION_REASON_LIST": ["-","CI ilizibil", "Alte motive"]
+  },
+  "rootUploadDocument": "¶Digital Onboarding¶Actualizare Date¶Buffer MB¶",
+  "maskIdDocument": "CEC_SelfCare",
+  "folderIdBufferMb": "1431752",
+  "workflowValidareCi": "SelfCare - Validare carte de identitate (CI)",
+  "DATA_BASE": {
+    "name": "jdbc/CEC"
+  },
+  "EMAIL_FROM": {
+    "host": "nextdocs-ro.mail.protection.outlook.com",
+    "address": "serverelo@nextdocs.ro",
+    "password": "Low46726"
+  },
+  "CLIENT_MAIL": {
+    "acceptedCI": {
+      "subject": "CEC Bank – Actualizare date",
+      "body": "<div style='padding-top: 25px;'> <div class='flex-container' style='padding-left: 15px;'> <div style='padding-left: 15px; font-family: Montserrat'> Dragă client, </div><div style='padding-top: 30px; padding-left: 15px; font-family: Montserrat'> Actualizarea datelor de identitate (CI) a fost realizată cu succes prin intermediul aplicației de Mobile Banking – CEC app. </div><div style='padding-top: 15px; padding-left: 15px; font-family: Montserrat'> Pentru întrebări sau nelămuriri, ne poți contacta pe site-ul băncii (<a href='https://www.cec.ro/'>www.cec.ro</a>) sau la numărul de telefon 021 311 11 19. </div><div style='padding-top: 30px; padding-left: 15px; font-family: Montserrat'> Echipa CEC Bank </div><div style='padding-top: 30px; padding-left: 15px; font-family: Montserrat'> <i>Acest mesaj este trimis în mod automat de către CEC Bank S.A. Te rugăm să nu răspunzi.</i><br>Conform Regulamentului UE nr. 679/2016 - GDPR privind protectia persoanelor fizice in ceea ce priveste prelucrarea datelor cu caracter personal si privind libera circulatie a acestor date, transmiterea informatiilor avand caracter personal prin intermediul mijloacelor de comunicatie nesecurizate nu mai este permisa. Pentru mai multe informatii, va rugam sa consultati Informarea privind prelucrarea datelor cu caracter personal de pe site-ul Bancii: <a href='https://www.cec.ro/informare-privind-prelucrarea-datelor-cu-caracter-personal'>https://www.cec.ro/informare-privind-prelucrarea-datelor-cu-caracter-personal</a>. Pentru transmiterea oricaror informatii/date avand caracter personal adresate CEC BANK S.A., va rugam sa utilizati formularul de contact de la adresa <a href='https://www.cec.ro/contact'>https://www.cec.ro/contact</a>, care permite preluarea acestora in deplina siguranta (comunicatie criptata). Informatiile continute in acest mesaj sunt confidentiale si protejate de lege. Informatiile din acest mesaj trebuie folosite doar de persoana sau entitatea careia i-au fost adresate. Daca nu sunteti destinatarul real al acestui mesaj, sunteti instiintat pe aceasta cale ca dezvaluirea, copierea sau distribuirea informatiilor continute in acest mesaj este strict interzisa si va solicitam stergerea acestuia. CEC BANK S.A. nu este responsabila pentru nicio problema aparuta in transmiterea informatiilor continute in acest mesaj si nici pentru intarzierile care ar aparea in receptionarea acestuia. In plus, prezenta corespondenta si oricare dintre documentele atasate, indiferent de forma sau suportul acestora, nu se vor califica sub nicio forma drept oferta de a contracta, nu vor avea efecte obligatorii asupra partilor implicate si nu vor atrage in mod corespunzator raspunderea acestora, in absenta unui contract scris, semnat in mod valabil si asumat de catre parti, personal sau prin reprezentanti, afara de cazul in care partile intentioneaza sa-si declare in mod expres faptul ca atribuie orice alta semnificatie continutului corespondentei si/sau a documentatiei atasate. Nota: CEC BANK S.A. scaneaza automat toate mesajele impotriva virusilor. Este posibil totusi ca produsele folosite de CEC BANK S.A. in acest sens sa nu detecteze toti virusii lor sau variantele lor. Va rugam sa luati in considerare ca exista un risc de fiecare data cand deschideti un mesaj sau un fisier atasat si ca CEC BANK S.A. nu este responsabila pentru orice prejudiciu cauzat de decizia dumneavoastra. </div></div></div>"
+    },
+    "rejectedCI": {
+      "subject": "CEC Bank – Neactualizare date",
+      "body": "<div style='padding-top: 25px;'> <div class='flex-container' style='padding-left: 15px;'> <div style='padding-left: 15px; font-family: Montserrat'> Dragă client, </div><div style='padding-top: 30px; padding-left: 15px; font-family: Montserrat'> Actualizarea datelor de identitate (CI) nu a fost finalizată cu succes. </div><div style='padding-top: 15px; padding-left: 15px; font-family: Montserrat'> Te rugăm să reiei fluxul de actualizare a datelor din aplicația de Mobile Banking – CEC app și să te asiguri că toate informațiile introduse sunt corecte și complete. </div><div style='padding-top: 15px; padding-left: 15px; font-family: Montserrat'> Pentru întrebări sau nelămuriri, ne poți contacta pe site-ul băncii (<a href='https://www.cec.ro/'>www.cec.ro</a>) sau la numărul de telefon 021 311 11 19. </div><div style='padding-top: 30px; padding-left: 15px; font-family: Montserrat'> Echipa CEC Bank </div><div style='padding-top: 30px; padding-left: 15px; font-family: Montserrat'> <i>Acest mesaj este trimis în mod automat de către CEC Bank S.A. Te rugăm să nu răspunzi.</i><br>Conform Regulamentului UE nr. 679/2016 - GDPR privind protectia persoanelor fizice in ceea ce priveste prelucrarea datelor cu caracter personal si privind libera circulatie a acestor date, transmiterea informatiilor avand caracter personal prin intermediul mijloacelor de comunicatie nesecurizate nu mai este permisa. Pentru mai multe informatii, va rugam sa consultati Informarea privind prelucrarea datelor cu caracter personal de pe site-ul Bancii: <a href='https://www.cec.ro/informare-privind-prelucrarea-datelor-cu-caracter-personal'>https://www.cec.ro/informare-privind-prelucrarea-datelor-cu-caracter-personal</a>. Pentru transmiterea oricaror informatii/date avand caracter personal adresate CEC BANK S.A., va rugam sa utilizati formularul de contact de la adresa <a href='https://www.cec.ro/contact'>https://www.cec.ro/contact</a>, care permite preluarea acestora in deplina siguranta (comunicatie criptata). Informatiile continute in acest mesaj sunt confidentiale si protejate de lege. Informatiile din acest mesaj trebuie folosite doar de persoana sau entitatea careia i-au fost adresate. Daca nu sunteti destinatarul real al acestui mesaj, sunteti instiintat pe aceasta cale ca dezvaluirea, copierea sau distribuirea informatiilor continute in acest mesaj este strict interzisa si va solicitam stergerea acestuia. CEC BANK S.A. nu este responsabila pentru nicio problema aparuta in transmiterea informatiilor continute in acest mesaj si nici pentru intarzierile care ar aparea in receptionarea acestuia. In plus, prezenta corespondenta si oricare dintre documentele atasate, indiferent de forma sau suportul acestora, nu se vor califica sub nicio forma drept oferta de a contracta, nu vor avea efecte obligatorii asupra partilor implicate si nu vor atrage in mod corespunzator raspunderea acestora, in absenta unui contract scris, semnat in mod valabil si asumat de catre parti, personal sau prin reprezentanti, afara de cazul in care partile intentioneaza sa-si declare in mod expres faptul ca atribuie orice alta semnificatie continutului corespondentei si/sau a documentatiei atasate. Nota: CEC BANK S.A. scaneaza automat toate mesajele impotriva virusilor. Este posibil totusi ca produsele folosite de CEC BANK S.A. in acest sens sa nu detecteze toti virusii lor sau variantele lor. Va rugam sa luati in considerare ca exista un risc de fiecare data cand deschideti un mesaj sau un fisier atasat si ca CEC BANK S.A. nu este responsabila pentru orice prejudiciu cauzat de decizia dumneavoastra. </div></div></div>"
+    }
+  },
+  "APEL_VERIFICARE_CI_EXISTENT": {
+    "url": "",
+    "method": "POST",
+    "username": "",
+    "password": "",
+    "requestBody": "",
+    "expectedResponse": {}
+  },
+  "APEL_FINALIZARE_FLUX": {
+    "url": "",
+    "method": "POST",
+    "username": "",
+    "password": "",
+    "requestBody": "",
+    "expectedResponse": {}
+  },
+  "CI_EXISTENT_FLAG": "NU"
+}

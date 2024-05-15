@@ -1,0 +1,1372 @@
+﻿<script src="EloixClient.js" type="text/javascript"></script>
+<script src="jquery-1.11.2.min.js" type="text/javascript"></script>
+<script src="xlsx.full.min.js" type="text/javascript"></script>
+<script src="shim.min.js" type="text/javascript"></script>
+<script src="lib_Class.js" type="text/javascript"></script>
+<script src="lib_sol.common.forms.Utils.js" type="text/javascript"></script>
+<script src="lib_sol.common.IxUtils.js" type="text/javascript"></script>
+<script src="lib_forms.js" type="text/javascript"></script>
+<script src="lib_CEC.js" type="text/javascript"></script>
+<script src="lib_dates.js" type="text/javascript"></script>
+<script src="lib_sord.js" type="text/javascript"></script>
+<script src="lib_emailTemplates.js" type="text/javascript"></script>
+<script src="lib_subiecteEmail.js" type="text/javascript"></script>
+<script type='text/javascript'>
+
+  var numeApp = "SelfCare";
+  var versiuneApp = "1.0";
+
+  var formData;
+
+  function CNPUtils() {
+    this.cnp = "";
+
+    var genderValue = -1;
+    var gender;
+    var year;
+    var birthMonth;
+    var birthDay;
+    var countyCode;
+
+    var calculateGender = function (code) {
+      if (code % 2 == 1) {
+        return "M";
+      }
+      return "F";
+    }
+
+    var getYearMinIntervalWithGender = function () {
+      var result = {};
+      if (genderValue > 0 && genderValue < 7) {
+        if (genderValue == 1 || genderValue == 2) {
+          result.year = 1900;
+        }
+
+        if (genderValue == 3 || genderValue == 4) {
+          result.year = 1800;
+        }
+
+        if (genderValue == 5 || genderValue == 6) {
+          result.year = 2000;
+        }
+        result.gender = calculateGender(genderValue);
+      }
+      return result;
+    };
+
+    this.checkControlDigit = function () {
+      var cnp = this.cnp;
+      var testKeyControlDigit = "279146358279";
+      var sum = 0;
+
+      for (var i = 0; i < 12; i++)
+        sum += parseInt(cnp.charAt(i)) * parseInt(testKeyControlDigit.charAt(i));
+
+      expectedControlDigit = sum % 11;
+      if (expectedControlDigit == 10) expectedControlDigit = 1;
+
+      if (expectedControlDigit == cnp.charAt(12)) {
+        return true;
+      }
+      return false;
+    };
+
+    this.extractInfoFromCNP = function () {
+      var info = {};
+      genderValue = this.cnp.charAt(0);
+      year = parseInt(this.cnp.charAt(1) + this.cnp.charAt(2));
+      birthMonth = this.cnp.charAt(3) + this.cnp.charAt(4);
+      birthDay = this.cnp.charAt(5) + this.cnp.charAt(6);
+      countyCode = parseInt(this.cnp.charAt(7) + this.cnp.charAt(8));
+
+      var yearIntervalMinWithGender = getYearMinIntervalWithGender(genderValue);
+
+      gender = yearIntervalMinWithGender.gender;
+      birthYear = (yearIntervalMinWithGender.year || 0) + year;
+
+      birthDate = `${birthYear.toString()}${birthMonth}${birthDay}`;
+
+      info.gender = gender;
+      info.birthDate = birthDate;
+      info.countyCode = countyCode;
+
+      return info;
+    };
+  }
+
+  class FormDataUtils {
+    static GRP_PREFIX = "IX_GRP_SELF_CARE_";
+    static MAP_PREFIX = "IX_MAP_";
+
+    static hook = 'blur';
+
+    formStyle = (function () {
+      FlowNextButtons?.children[0]?.classList.add('formgradientblue', 'formbold');
+
+      $('[name="NEXTNODE"]')[0].classList.add('formgradientgreen');
+      $('[name="NEXTNODE"]')[1].classList.add('formred');
+
+      SavePrintMessage.classList.add('formgradientblue', 'formbold');
+      $('button[name="JS_Print"]')[0].hidden = true;
+    }());
+
+    getInstance = function () {
+      return this;
+    };
+
+    requiredFieldNames = new Array();
+
+    CORELATION_ID = {
+      fieldName: "CORELATION_ID",
+      label: "Corelation Id",
+      element: null,
+      value: function () {
+        return this.element?.value || "";
+      },
+      properties: {
+        mandatory: false,
+        minLength: 0,
+        maxLength: 255,
+        visibility: false
+      },
+      errors: new Array()
+    };
+
+    NUME_CLIENT = {
+      fieldName: "NUME_CLIENT",
+      label: "Nume client",
+      element: $var(`${FormDataUtils.GRP_PREFIX}NUME_CLIENT`),
+      value: function () {
+        return this.element?.value || "";
+      },
+      properties: {
+        mandatory: true,
+        minLength: 0,
+        maxLength: 255,
+        visibility: true
+      },
+      validations: {
+        mandatory: function (customHandler, paramsJson) {
+          if (customHandler) {
+            return customHandler.call(null, paramsJson);
+          }
+          return formData.mandatory(formData.NUME_CLIENT.fieldName);
+        },
+        minLength: function (customHandler, paramsJson) {
+          if (customHandler) {
+            return customHandler.call(null, paramsJson);
+          }
+          return formData.minLength(formData.NUME_CLIENT.fieldName);
+        },
+        maxLength: function (customHandler, paramsJson) {
+          if (customHandler) {
+            return customHandler.call(null, paramsJson);
+          }
+          return formData.maxLength(formData.NUME_CLIENT.fieldName);
+        },
+      },
+      errors: new Array()
+    };
+
+    PRENUME_CLIENT = {
+      fieldName: "PRENUME_CLIENT",
+      label: "Prenume client",
+      element: $var(`${FormDataUtils.GRP_PREFIX}PRENUME_CLIENT`),
+      value: function () {
+        return this.element?.value || "";
+      },
+      properties: {
+        mandatory: true,
+        minLength: 0,
+        maxLength: 255,
+        visibility: true
+      },
+      validations: {
+        mandatory: function (customHandler, paramsJson) {
+          if (customHandler) {
+            return customHandler.call(null, paramsJson);
+          }
+          return formData.mandatory(formData.PRENUME_CLIENT.fieldName);
+        },
+        minLength: function (customHandler, paramsJson) {
+          if (customHandler) {
+            return customHandler.call(null, paramsJson);
+          }
+          return formData.minLength(formData.PRENUME_CLIENT.fieldName);
+        },
+        maxLength: function (customHandler, paramsJson) {
+          if (customHandler) {
+            return customHandler.call(null, paramsJson);
+          }
+          return formData.maxLength(formData.PRENUME_CLIENT.fieldName);
+        },
+      },
+      errors: new Array()
+    };
+
+    CNP = {
+      fieldName: "CNP",
+      label: "CNP",
+      element: $var(`${FormDataUtils.GRP_PREFIX}CNP`),
+      value: function () {
+        return this.element?.value || "";
+      },
+      properties: {
+        mandatory: false,
+        minLength: 13,
+        maxLength: 13,
+        checkControlDigit: true,
+        visibility: true
+      },
+      validations: {
+        mandatory: function (customHandler, paramsJson) {
+          if (customHandler) {
+            return customHandler.call(null, paramsJson);
+          }
+          return formData.mandatory(formData.CNP.fieldName);
+        },
+        minLength: function (customHandler, paramsJson) {
+          if (customHandler) {
+            return customHandler.call(null, paramsJson);
+          }
+          return formData.minLength(formData.CNP.fieldName);
+        },
+        maxLength: function (customHandler, paramsJson) {
+          if (customHandler) {
+            return customHandler.call(null, paramsJson);
+          }
+          return formData.maxLength(formData.CNP.fieldName);
+        },
+        checkControlDigit: function (customHandler, paramsJson) {
+          if (customHandler) {
+            return customHandler.call(null, paramsJson);
+          }
+          var cnpUtils = new CNPUtils();
+          cnpUtils.cnp = formData.CNP.value();
+          if (!cnpUtils.checkControlDigit()) {
+            formData.CNP.errors.push("CNP invalid.");
+          }
+        },
+      },
+      errors: new Array()
+    };
+
+    DATA_NASTERII = {
+      fieldName: "DATA_NASTERII",
+      label: "Data nasterii",
+      element: $var(`${FormDataUtils.GRP_PREFIX}DATA_NASTERII`),
+      value: function () {
+        return this.element?.value || "";
+      },
+      properties: {
+        mandatory: false,
+        minLength: 0,
+        maxLength: 255,
+        checkBirthDateWithCNP: true,
+        visibility: true
+      },
+      validations: {
+        mandatory: function (customHandler, paramsJson) {
+          if (customHandler) {
+            return customHandler.call(null, paramsJson);
+          }
+          return formData.mandatory(formData.DATA_NASTERII.fieldName);
+        },
+        minLength: function (customHandler, paramsJson) {
+          if (customHandler) {
+            return customHandler.call(null, paramsJson);
+          }
+          return formData.minLength(formData.DATA_NASTERII.fieldName);
+        },
+        maxLength: function (customHandler, paramsJson) {
+          if (customHandler) {
+            return customHandler.call(null, paramsJson);
+          }
+          return formData.maxLength(formData.DATA_NASTERII.fieldName);
+        },
+        checkBirthDateWithCNP: function (customHandler, paramsJson) {
+          if (customHandler) {
+            return customHandler.call(null, paramsJson);
+          }
+          var cnpUtils = new CNPUtils();
+          cnpUtils.cnp = formData.CNP.value();
+          var infoFromCNP = cnpUtils.extractInfoFromCNP();
+          var expectedBirthDate = infoFromCNP.birthDate;
+          var actualBirthDate = formData.DATA_NASTERII.element.getAttribute("isodate");
+          if (actualBirthDate?.indexOf(expectedBirthDate) === -1) {
+            formData.DATA_NASTERII.errors.push("Data nasterii nu corespunde cu data nasterii din CNP.");
+          }
+        }
+      },
+      errors: new Array()
+    };
+
+    CETATENIE = {
+      fieldName: "CETATENIE",
+      label: "Cetatenie",
+      element: $var(`${FormDataUtils.GRP_PREFIX}CETATENIE`),
+      value: function () {
+        return this.element?.value || "";
+      },
+      properties: {
+        mandatory: true,
+        minLength: 0,
+        maxLength: 255,
+        visibility: true
+      },
+      validations: {
+        mandatory: function (customHandler, paramsJson) {
+          if (customHandler) {
+            return customHandler.call(null, paramsJson);
+          }
+          return formData.mandatory(formData.CETATENIE.fieldName);
+        },
+        minLength: function (customHandler, paramsJson) {
+          if (customHandler) {
+            return customHandler.call(null, paramsJson);
+          }
+          return formData.minLength(formData.CETATENIE.fieldName);
+        },
+        maxLength: function (customHandler, paramsJson) {
+          if (customHandler) {
+            return customHandler.call(null, paramsJson);
+          }
+          return formData.maxLength(formData.CETATENIE.fieldName);
+        },
+      },
+      errors: new Array()
+    };
+
+    FEL_ID = {
+      fieldName: "FEL_ID",
+      label: "Fel Id",
+      element: null,
+      value: function () {
+        this.element?.value || "1";
+      },
+      properties: {
+        mandatory: false,
+        minLength: 0,
+        maxLength: 255,
+        visibility: false
+      },
+      errors: new Array()
+    };
+
+    TARA_ID = {
+      fieldName: "TARA_ID",
+      label: "Tara",
+      element: $var(`${FormDataUtils.GRP_PREFIX}TARA_ID`),
+      value: function () {
+        var value = this.element?.value;
+        this.element.value = value || "RO";
+        return this.element?.value;
+      },
+      properties: {
+        mandatory: true,
+        minLength: 2,
+        maxLength: 2,
+        visibility: true
+      },
+      validations: {
+        mandatory: function (customHandler, paramsJson) {
+          if (customHandler) {
+            return customHandler.call(null, paramsJson);
+          }
+          return formData.mandatory(formData.TARA_ID.fieldName);
+        },
+        minLength: function (customHandler, paramsJson) {
+          if (customHandler) {
+            return customHandler.call(null, paramsJson);
+          }
+          return formData.minLength(formData.TARA_ID.fieldName);
+        },
+        maxLength: function (customHandler, paramsJson) {
+          if (customHandler) {
+            return customHandler.call(null, paramsJson);
+          }
+          return formData.maxLength(formData.TARA_ID.fieldName);
+        },
+      },
+      errors: new Array()
+    };
+
+    JUDET_SECTOR = {
+      fieldName: "JUDET_SECTOR",
+      label: "Judet/Sector",
+      element: $var(`${FormDataUtils.GRP_PREFIX}JUDET_SECTOR`),
+      value: function () {
+        return this.element?.value || "";
+      },
+      properties: {
+        mandatory: true,
+        minLength: 0,
+        maxLength: 255,
+        visibility: true
+      },
+      validations: {
+        mandatory: function (customHandler, paramsJson) {
+          if (customHandler) {
+            return customHandler.call(null, paramsJson);
+          }
+          return formData.mandatory(formData.JUDET_SECTOR.fieldName);
+        },
+        minLength: function (customHandler, paramsJson) {
+          if (customHandler) {
+            return customHandler.call(null, paramsJson);
+          }
+          return formData.minLength(formData.JUDET_SECTOR.fieldName);
+        },
+        maxLength: function (customHandler, paramsJson) {
+          if (customHandler) {
+            return customHandler.call(null, paramsJson);
+          }
+          return formData.maxLength(formData.JUDET_SECTOR.fieldName);
+        },
+      },
+      errors: new Array()
+    };
+
+    ORAS = {
+      fieldName: "ORAS",
+      label: "Oras",
+      element: $var(`${FormDataUtils.GRP_PREFIX}ORAS`),
+      value: function () {
+        return this.element?.value || "";
+      },
+      properties: {
+        mandatory: true,
+        minLength: 0,
+        maxLength: 255,
+        visibility: true
+      },
+      validations: {
+        mandatory: function (customHandler, paramsJson) {
+          if (customHandler) {
+            return customHandler.call(null, paramsJson);
+          }
+          return formData.mandatory(formData.ORAS.fieldName);
+        },
+        minLength: function (customHandler, paramsJson) {
+          if (customHandler) {
+            return customHandler.call(null, paramsJson);
+          }
+          return formData.minLength(formData.ORAS.fieldName);
+        },
+        maxLength: function (customHandler, paramsJson) {
+          if (customHandler) {
+            return customHandler.call(null, paramsJson);
+          }
+          return formData.maxLength(formData.ORAS.fieldName);
+        },
+      },
+      errors: new Array()
+    };
+
+    STRADA = {
+      fieldName: "STRADA",
+      label: "Strada",
+      element: $var(`${FormDataUtils.GRP_PREFIX}STRADA`),
+      value: function () {
+        return this.element?.value || "";
+      },
+      properties: {
+        mandatory: true,
+        minLength: 0,
+        maxLength: 255,
+        visibility: true
+      },
+      validations: {
+        mandatory: function (customHandler, paramsJson) {
+          if (customHandler) {
+            return customHandler.call(null, paramsJson);
+          }
+          return formData.mandatory(formData.STRADA.fieldName);
+        },
+        minLength: function (customHandler, paramsJson) {
+          if (customHandler) {
+            return customHandler.call(null, paramsJson);
+          }
+          return formData.minLength(formData.STRADA.fieldName);
+        },
+        maxLength: function (customHandler, paramsJson) {
+          if (customHandler) {
+            return customHandler.call(null, paramsJson);
+          }
+          return formData.maxLength(formData.STRADA.fieldName);
+        },
+      },
+      errors: new Array()
+    };
+
+    NUMAR = {
+      fieldName: "NUMAR",
+      label: "Numar strada",
+      element: $var(`${FormDataUtils.GRP_PREFIX}NUMAR`),
+      value: function () {
+        return this.element?.value || "";
+      },
+      properties: {
+        mandatory: true,
+        minLength: 0,
+        maxLength: 255,
+        visibility: true
+      },
+      validations: {
+        mandatory: function (customHandler, paramsJson) {
+          if (customHandler) {
+            return customHandler.call(null, paramsJson);
+          }
+          return formData.mandatory(formData.NUMAR.fieldName);
+        },
+        minLength: function (customHandler, paramsJson) {
+          if (customHandler) {
+            return customHandler.call(null, paramsJson);
+          }
+          return formData.minLength(formData.NUMAR.fieldName);
+        },
+        maxLength: function (customHandler, paramsJson) {
+          if (customHandler) {
+            return customHandler.call(null, paramsJson);
+          }
+          return formData.maxLength(formData.NUMAR.fieldName);
+        },
+      },
+      errors: new Array()
+    };
+
+    BLOC = {
+      fieldName: "BLOC",
+      label: "Bloc",
+      element: $var(`${FormDataUtils.GRP_PREFIX}BLOC`),
+      value: function () {
+        return this.element?.value || "";
+      },
+      properties: {
+        mandatory: false,
+        minLength: 0,
+        maxLength: 255,
+        visibility: true
+      },
+      validations: {
+        mandatory: function (customHandler, paramsJson) {
+          if (customHandler) {
+            return customHandler.call(null, paramsJson);
+          }
+          return formData.mandatory(formData.BLOC.fieldName);
+        },
+        minLength: function (customHandler, paramsJson) {
+          if (customHandler) {
+            return customHandler.call(null, paramsJson);
+          }
+          return formData.minLength(formData.BLOC.fieldName);
+        },
+        maxLength: function (customHandler, paramsJson) {
+          if (customHandler) {
+            return customHandler.call(null, paramsJson);
+          }
+          return formData.maxLength(formData.BLOC.fieldName);
+        },
+      },
+      errors: new Array()
+    };
+
+    SCARA = {
+      fieldName: "SCARA",
+      label: "Scara",
+      element: $var(`${FormDataUtils.GRP_PREFIX}SCARA`),
+      value: function () {
+        return this.element?.value || "";
+      },
+      properties: {
+        mandatory: false,
+        minLength: 0,
+        maxLength: 255,
+        visibility: true
+      },
+      validations: {
+        mandatory: function (customHandler, paramsJson) {
+          if (customHandler) {
+            return customHandler.call(null, paramsJson);
+          }
+          return formData.mandatory(formData.SCARA.fieldName);
+        },
+        minLength: function (customHandler, paramsJson) {
+          if (customHandler) {
+            return customHandler.call(null, paramsJson);
+          }
+          return formData.minLength(formData.SCARA.fieldName);
+        },
+        maxLength: function (customHandler, paramsJson) {
+          if (customHandler) {
+            return customHandler.call(null, paramsJson);
+          }
+          return formData.maxLength(formData.SCARA.fieldName);
+        },
+      },
+      errors: new Array()
+    };
+
+    ETAJ = {
+      fieldName: "ETAJ",
+      label: "Etaj",
+      element: $var(`${FormDataUtils.GRP_PREFIX}ETAJ`),
+      value: function () {
+        return this.element?.value || "";
+      },
+      properties: {
+        mandatory: false,
+        minLength: 0,
+        maxLength: 255,
+        visibility: true
+      },
+      validations: {
+        mandatory: function (customHandler, paramsJson) {
+          if (customHandler) {
+            return customHandler.call(null, paramsJson);
+          }
+          return formData.mandatory(formData.ETAJ.fieldName);
+        },
+        minLength: function (customHandler, paramsJson) {
+          if (customHandler) {
+            return customHandler.call(null, paramsJson);
+          }
+          return formData.minLength(formData.ETAJ.fieldName);
+        },
+        maxLength: function (customHandler, paramsJson) {
+          if (customHandler) {
+            return customHandler.call(null, paramsJson);
+          }
+          return formData.maxLength(formData.ETAJ.fieldName);
+        },
+      },
+      errors: new Array()
+    };
+
+    APARTAMENT = {
+      fieldName: "APARTAMENT",
+      label: "Apartament",
+      element: $var(`${FormDataUtils.GRP_PREFIX}APARTAMENT`),
+      value: function () {
+        return this.element?.value || "";
+      },
+      properties: {
+        mandatory: false,
+        minLength: 0,
+        maxLength: 255,
+        visibility: true
+      },
+      validations: {
+        mandatory: function (customHandler, paramsJson) {
+          if (customHandler) {
+            return customHandler.call(null, paramsJson);
+          }
+          return formData.mandatory(formData.APARTAMENT.fieldName);
+        },
+        minLength: function (customHandler, paramsJson) {
+          if (customHandler) {
+            return customHandler.call(null, paramsJson);
+          }
+          return formData.minLength(formData.APARTAMENT.fieldName);
+        },
+        maxLength: function (customHandler, paramsJson) {
+          if (customHandler) {
+            return customHandler.call(null, paramsJson);
+          }
+          return formData.maxLength(formData.APARTAMENT.fieldName);
+        },
+      },
+      errors: new Array()
+    };
+
+    SIMBOL = {
+      fieldName: "SIMBOL",
+      label: "Simbol",
+      element: null,
+      value: function () {
+        var value = this.element?.value || "CI";
+        return value;
+      },
+      properties: {
+        mandatory: false,
+        minLength: 0,
+        maxLength: 255,
+        visibility: false
+      },
+      validations: {
+        mandatory: function (customHandler, paramsJson) {
+          if (customHandler) {
+            return customHandler.call(null, paramsJson);
+          }
+          return formData.mandatory(formData.SIMBOL.fieldName);
+        },
+        minLength: function (customHandler, paramsJson) {
+          if (customHandler) {
+            return customHandler.call(null, paramsJson);
+          }
+          return formData.minLength(formData.SIMBOL.fieldName);
+        },
+        maxLength: function (customHandler, paramsJson) {
+          if (customHandler) {
+            return customHandler.call(null, paramsJson);
+          }
+          return formData.maxLength(formData.SIMBOL.fieldName);
+        },
+      },
+      errors: new Array()
+    };
+
+    EMITENT = {
+      fieldName: "EMITENT",
+      label: "Emitent",
+      element: $var(`${FormDataUtils.GRP_PREFIX}EMITENT`),
+      value: function () {
+        return this.element?.value || "";
+      },
+      properties: {
+        mandatory: true,
+        minLength: 0,
+        maxLength: 255,
+        visibility: true
+      },
+      validations: {
+        mandatory: function (customHandler, paramsJson) {
+          if (customHandler) {
+            return customHandler.call(null, paramsJson);
+          }
+          return formData.mandatory(formData.EMITENT.fieldName);
+        },
+        minLength: function (customHandler, paramsJson) {
+          if (customHandler) {
+            return customHandler.call(null, paramsJson);
+          }
+          return formData.minLength(formData.EMITENT.fieldName);
+        },
+        maxLength: function (customHandler, paramsJson) {
+          if (customHandler) {
+            return customHandler.call(null, paramsJson);
+          }
+          return formData.maxLength(formData.EMITENT.fieldName);
+        },
+      },
+      errors: new Array()
+    };
+
+    DATA_EMITERII_CI = {
+      fieldName: "DATA_EMITERII_CI",
+      label: "Data emiterii document identitate",
+      element: $var(`${FormDataUtils.GRP_PREFIX}DATA_EMITERII_CI`),
+      value: function () {
+        return this.element?.value || "";
+      },
+      properties: {
+        mandatory: true,
+        minLength: 0,
+        maxLength: 255,
+        visibility: true
+      },
+      validations: {
+        mandatory: function (customHandler, paramsJson) {
+          if (customHandler) {
+            return customHandler.call(null, paramsJson);
+          }
+          return formData.mandatory(formData.DATA_EMITERII_CI.fieldName);
+        },
+        minLength: function (customHandler, paramsJson) {
+          if (customHandler) {
+            return customHandler.call(null, paramsJson);
+          }
+          return formData.minLength(formData.DATA_EMITERII_CI.fieldName);
+        },
+        maxLength: function (customHandler, paramsJson) {
+          if (customHandler) {
+            return customHandler.call(null, paramsJson);
+          }
+          return formData.maxLength(formData.DATA_EMITERII_CI.fieldName);
+        },
+      },
+      errors: new Array()
+    };
+
+    DATA_EXPIRARE_CI = {
+      fieldName: "DATA_EXPIRARE_CI",
+      label: "Data expirare document identitate",
+      element: $var(`${FormDataUtils.GRP_PREFIX}DATA_EXPIRARE_CI`),
+      value: function () {
+        return this.element?.value || "";
+      },
+      properties: {
+        mandatory: true,
+        minLength: 0,
+        maxLength: 255,
+        visibility: true
+      },
+      validations: {
+        mandatory: function (customHandler, paramsJson) {
+          if (customHandler) {
+            return customHandler.call(null, paramsJson);
+          }
+          return formData.mandatory(formData.DATA_EXPIRARE_CI.fieldName);
+        },
+        minLength: function (customHandler, paramsJson) {
+          if (customHandler) {
+            return customHandler.call(null, paramsJson);
+          }
+          return formData.minLength(formData.DATA_EXPIRARE_CI.fieldName);
+        },
+        maxLength: function (customHandler, paramsJson) {
+          if (customHandler) {
+            return customHandler.call(null, paramsJson);
+          }
+          return formData.maxLength(formData.DATA_EXPIRARE_CI.fieldName);
+        },
+      },
+      errors: new Array()
+    };
+
+    SERIE_CI = {
+      fieldName: "SERIE_CI",
+      label: "Serie document identitate",
+      element: $var(`${FormDataUtils.GRP_PREFIX}SERIE_CI`),
+      value: function () {
+        return this.element?.value || "";
+      },
+      properties: {
+        mandatory: true,
+        minLength: 0,
+        maxLength: 255,
+        visibility: true
+      },
+      validations: {
+        mandatory: function (customHandler, paramsJson) {
+          if (customHandler) {
+            return customHandler.call(null, paramsJson);
+          }
+          return formData.mandatory(formData.SERIE_CI.fieldName);
+        },
+        minLength: function (customHandler, paramsJson) {
+          if (customHandler) {
+            return customHandler.call(null, paramsJson);
+          }
+          return formData.minLength(formData.SERIE_CI.fieldName);
+        },
+        maxLength: function (customHandler, paramsJson) {
+          if (customHandler) {
+            return customHandler.call(null, paramsJson);
+          }
+          return formData.maxLength(formData.SERIE_CI.fieldName);
+        },
+      },
+      errors: new Array()
+    };
+
+    NUMAR_DOCUMENT_CI = {
+      fieldName: "NUMAR_DOCUMENT_CI",
+      label: "Numar document CI",
+      element: $var(`${FormDataUtils.GRP_PREFIX}NUMAR_DOCUMENT_CI`),
+      value: function () {
+        return this.element?.value || "";
+      },
+      properties: {
+        mandatory: true,
+        minLength: 6,
+        maxLength: 6,
+        visibility: true
+      },
+      validations: {
+        mandatory: function (customHandler, paramsJson) {
+          if (customHandler) {
+            return customHandler.call(null, paramsJson);
+          }
+          return formData.mandatory(formData.NUMAR_DOCUMENT_CI.fieldName);
+        },
+        minLength: function (customHandler, paramsJson) {
+          if (customHandler) {
+            return customHandler.call(null, paramsJson);
+          }
+          return formData.minLength(formData.NUMAR_DOCUMENT_CI.fieldName);
+        },
+        maxLength: function (customHandler, paramsJson) {
+          if (customHandler) {
+            return customHandler.call(null, paramsJson);
+          }
+          return formData.maxLength(formData.NUMAR_DOCUMENT_CI.fieldName);
+        },
+      },
+      errors: new Array()
+    };
+
+    ADRESA_EMAIL = {
+      fieldName: "ADRESA_EMAIL",
+      label: "Adresa email",
+      element: null,
+      value: function () {
+        return this.element?.value || "";
+      },
+      properties: {
+        mandatory: false,
+        minLength: 0,
+        maxLength: 255,
+        visibility: true
+      },
+      validations: {
+      },
+      errors: new Array()
+    };
+
+    DATA_INCARCARE_MB = {
+      fieldName: "DATA_INCARCARE_MB",
+      label: "Data incarcarii in MB",
+      element: null,
+      value: function () {
+        return this.element?.value || "";
+      },
+      properties: {
+        mandatory: false,
+        minLength: 0,
+        maxLength: 255,
+        visibility: false
+      },
+      validations: {
+      },
+      errors: new Array()
+    };
+
+    ID_CLIENT = {
+      fieldName: "ID_CLIENT",
+      label: "Id Client",
+      element: null,
+      value: function () {
+        return this.element?.value || "";
+      },
+      properties: {
+        mandatory: false,
+        minLength: 0,
+        maxLength: 255,
+        visibility: false
+      },
+      validations: {},
+      errors: new Array()
+    };
+
+    MOTIV_RESPINGERE = {
+      fieldName: "MOTIV_RESPINGERE",
+      label: "Motivul respingerii",
+      element: $var(`${FormDataUtils.GRP_PREFIX}MOTIV_RESPINGERE`),
+      value: function () {
+        return this.element?.value || "";
+      },
+      properties: {
+        mandatory: false,
+        minLength: 0,
+        maxLength: 255,
+        visibility: false
+      },
+      validations: {
+        mandatory: function (customHandler, paramsJson) {
+          if (customHandler) {
+            return customHandler.call(null, paramsJson);
+          }
+          var field = formData.MOTIV_RESPINGERE;
+          if (field.properties?.mandatory) {
+            if (!field.value()) {
+              field.errors.push(`Campul '${field.label}' este obligatoriu.`);
+            }
+
+            if (field.value() === "-") {
+              field.errors.push(`Pentru a respinge CI, alegeti motivul respingerii.`);
+            }
+          }
+        },
+        minLength: function (customHandler, paramsJson) {
+          if (customHandler) {
+            return customHandler.call(null, paramsJson);
+          }
+          return formData.minLength(formData.MOTIV_RESPINGERE.fieldName);
+        },
+        maxLength: function (customHandler, paramsJson) {
+          if (customHandler) {
+            return customHandler.call(null, paramsJson);
+          }
+          return formData.maxLength(formData.MOTIV_RESPINGERE.fieldName);
+        },
+      },
+      errors: new Array()
+    };
+
+    showField = function (fieldName, show) {
+      if (fieldName && !this[fieldName] && !this[fieldName].element && !this[fieldName].properties && !this[fieldName].properties.visibility) return;
+      this[fieldName].element.hidden = !show;
+    };
+
+    changeVisibility = function (fieldName, visibility) {
+      if (fieldName && !this[fieldName] && !this[fieldName].element && !this[fieldName].properties) return;
+      if (this[fieldName].changeVisibility) {
+        this[fieldName].changeVisibility();
+        return;
+      }
+      this[fieldName].properties.visibility = visibility;
+      this.showField(fieldName, visibility);
+    };
+
+    mandatory = function (fieldName) {
+      var allFieldsToCheck = Object.keys(this).filter(property => {
+        var condition = typeof this[property] === "object" && this[property].properties && this[property].properties.mandatory;
+        return condition;
+      }).map(fieldName => { return this[fieldName] });
+
+      if (fieldName && this[fieldName] && typeof this[fieldName] !== "function") {
+        allFieldsToCheck = new Array();
+        allFieldsToCheck.push(this[fieldName]);
+      }
+
+      allFieldsToCheck.forEach(field => {
+        if (field.properties?.mandatory && !field.value()) {
+          field.errors.push(`Campul '${field.label}' este obligatoriu.`);
+        }
+      });
+    };
+
+    minLength = function (fieldName) {
+      var allFieldsToCheck = Object.keys(this).filter(property => {
+        var condition = typeof this[property] === "object" && this[property] && this[property].properties && this[property].properties.minLength;
+        return condition;
+      }).map(fieldName => { return this[fieldName] });
+
+      if (fieldName && this[fieldName] && typeof this[fieldName] === "object" && this[fieldName] && this[fieldName].properties && this[fieldName].properties.minLength) {
+        allFieldsToCheck = new Array();
+        allFieldsToCheck.push(this[fieldName]);
+      }
+
+      allFieldsToCheck.forEach(field => {
+        if (field.value().length != 0 && field.value().length < field.properties.minLength) {
+          field.errors.push(`MinLength error -  ${field.label}.`);
+        }
+      });
+    };
+
+    maxLength = function (fieldName) {
+      var allFieldsToCheck = Object.keys(this).filter(property => {
+        var condition = typeof this[property] === "object" && this[property] && this[property].properties && this[property].properties.maxLength;
+        return condition;
+      }).map(fieldName => { return this[fieldName] });
+
+      if (fieldName && this[fieldName] && typeof this[fieldName] === "object" && this[fieldName] && this[fieldName].properties && this[fieldName].properties.maxLength) {
+        allFieldsToCheck = new Array();
+        allFieldsToCheck.push(this[fieldName]);
+      }
+
+      allFieldsToCheck.forEach(field => {
+        if (field.value().length > field.properties.maxLength) {
+          field.errors.push(`MinLength error -  ${field.label}.`);
+        }
+      });
+    };
+
+    // customHandlersJson = {
+    //   nume_camp: {
+    //     nume_functie: {
+    //       params: {/*Your jsonParams*/ },
+    //       handler: function () {/**custom handler */ }
+    //     },
+    //   }
+    // }
+    validate = function (fieldName, showAlert = true, customHandlersJson) {
+      var errors = false;
+      var allFieldsToCheck = Object.keys(this).filter(property => {
+        var condition = typeof this[property] === "object" && this[property] && this[property].properties && this[property].properties.maxLength;
+        return condition;
+      }).map(fieldName => {
+        this[fieldName].errors = new Array();
+        return this[fieldName];
+      });
+
+      if (fieldName && this[fieldName] && typeof this[fieldName] === "object" && this[fieldName] && this[fieldName].validations) {
+        this[fieldName].errors = new Array();
+        allFieldsToCheck = new Array();
+        allFieldsToCheck.push(this[fieldName]);
+      }
+
+      allFieldsToCheck.forEach(field => {
+        var fieldName = field.fieldName;
+
+        var validationsObject = this[fieldName].validations || {};
+        var handlerNames = Object.keys(validationsObject);
+
+        handlerNames.forEach(handlerName => {
+          var toValidate = this[fieldName].properties[handlerName];
+          var validationHandler = this[fieldName].validations[handlerName];
+          var customHandlerParamsJson = null;
+          var customHandler = null;
+          if (customHandlersJson && customHandlersJson[fieldName]) {
+            customHandlerParamsJson = customHandlersJson[fieldName][handlerName]?.params || null;
+            customHandler = customHandlersJson[fieldName][handlerName]?.handler || null;
+          }
+          if (toValidate) {
+            validationHandler.call(null, customHandler, customHandlerParamsJson);
+          }
+        });
+
+        if (this[fieldName].errors.length > 0) {
+          this.failHandler(fieldName, showAlert);
+          showAlert = false;
+          errors = true;
+        } else {
+          this.succHandler(fieldName);
+        }
+      });
+      return !errors;
+    };
+
+    succHandler = function (fieldName) {
+      this[fieldName].element?.classList.remove('invalidField');
+      return true;
+    };
+
+    failHandler = function (fieldName, showAlert) {
+      var errors = this[fieldName].errors;
+      this[fieldName].element?.classList.add('invalidField');
+      this[fieldName].element?.classList.add('focusedOcrInput');
+      if (showAlert) {
+        alert(errors[0]);
+      }
+    };
+
+    hookFunction = function (targetName) {
+      var fieldName = (targetName).replace(FormDataUtils.GRP_PREFIX, "");
+      this[fieldName].errors = new Array();
+      this.validate(fieldName);
+    };
+
+    handleEvent = function () {
+      console.log(self);
+      formData.hookFunction($(this).context.name);
+    };
+
+    handleHook = function (fieldName, hook, customHandleEvent) {
+      var hook = hook || FormDataUtils.hook;
+      var handleEvent = customHandleEvent || this.handleEvent;
+      this[fieldName].element.addEventListener(hook, handleEvent);
+    };
+
+    hideFields = function () {
+      var allFieldsToHide = Object.keys(this).filter(property => {
+        var condition = typeof this[property] === "object" && this[property]?.element && this[property].properties?.visibility == false;
+        return condition;
+      }).map(fieldName => { return this[fieldName] });
+
+      allFieldsToHide.forEach(field => {
+        field.element.classList.add('hidden');
+      });
+    };
+
+    setRequiredFieldNames = function () {
+      this.requiredFieldNames = Object.keys(this).filter(property => {
+        var condition = typeof this[property] === "object" && this[property]?.element && this[property]?.properties.mandatory;
+        return condition;
+      }).map(fieldName => { return fieldName });
+    };
+
+    init = function () {
+      this.setRequiredFieldNames();
+      var allFields = Object.keys(this).filter(property => {
+        var condition = typeof this[property] === "object" && this[property]?.element;
+        return condition;
+      }).map(fieldName => { return this[fieldName] });
+
+      allFields.forEach(field => {
+        if (field.fieldName == this.MOTIV_RESPINGERE.fieldName) {
+          if (!$var("IX_MAP_CAUZA_RESPINGERE").value) {
+            $var("IX_MAP_CAUZA_RESPINGERE").value = "-";
+            onDynListItemSelected({ IX_MAP_CAUZA_RESPINGERE: "-" }, "IX_MAP_CAUZA_RESPINGERE");
+          }
+
+          if ($var("IX_MAP_CAUZA_RESPINGERE").value == "Alte motive") {
+            // field.properties.visibility = true;
+            onDynListItemSelected({ IX_MAP_CAUZA_RESPINGERE: $var("IX_MAP_CAUZA_RESPINGERE").value }, "IX_MAP_CAUZA_RESPINGERE");
+          }
+        }
+
+        this.showField(field.fieldName, field.properties?.visibility);
+      });
+
+      // custom onBlurEvent
+      // allFields.forEach(field => {
+      //   this.handleHook(field.fieldName);
+      // });
+    };
+  };
+
+  function onInit() {
+    console.log("onInit - start");
+
+    forms.conectareIX().then(function () {
+
+      // initializare librarie sord
+      sordExt.setIxAndConst();
+
+      // initializare librarie CEC
+      cec.seteazaIxSiConstante();
+
+      $var("IX_GRP_SELF_CARE_STATUS_FLUX").value = "PRELUAT";
+
+      formData = new FormDataUtils();
+      formData.init();
+      formData.validate();
+
+      console.log("onInit - end");
+    }, function () {
+      console.error("Nu s-au putut initializa librariile.");
+    });
+  }
+
+  function inputChanged(source) {
+    if (source == null) return;
+    var prefix = FormDataUtils.GRP_PREFIX;
+    var fieldName = source.name.replace(prefix, "");
+    formData?.validate(fieldName);
+  }
+
+  function nextClicked(id) {
+    var confirmMessage;
+    // Acceptare
+    if (id == 3) {
+      if ($var("IX_MAP_CAUZA_RESPINGERE").value !== "-" || formData.MOTIV_RESPINGERE.value() !== "-") {
+        alert("S-a completat un motiv de respingere, CI nu se poate valida.");
+        return false;
+      }
+
+      // Apply validations
+      Object.keys(formData).forEach(propertyName => {
+        if (typeof formData[propertyName] === "object" && formData[propertyName].properties) {
+          if (formData[propertyName].element?.name) {
+            var fieldName = formData[propertyName].element.name;
+            var metadataName = fieldName.replace(FormDataUtils.GRP_PREFIX, "");
+            if (ELO_PARAMS.DOCMASK[`SELF_CARE_${metadataName}`]?.type == "text") {
+              ELO_PARAMS.DOCMASK[`SELF_CARE_${metadataName}`].min = formData[propertyName].properties.minLength;
+              ELO_PARAMS.DOCMASK[`SELF_CARE_${metadataName}`].max = formData[propertyName].properties.maxLength;
+            }
+          }
+
+          formData[propertyName].properties.mandatory = formData.requiredFieldNames.includes(propertyName) ? true : false;
+
+          if (propertyName == formData.CNP.fieldName) {
+            formData[propertyName].properties.checkControlDigit = true;
+          }
+
+          if (propertyName == formData.DATA_NASTERII.fieldName) {
+            formData[propertyName].properties.checkBirthDateWithCNP = true;
+          }
+        }
+      });
+
+      confirmMessage = `Sigur doriti sa aprobati CI?`;
+    }
+
+    // Respingere
+    if (id == 4) {
+      // Remove validations
+      Object.keys(formData).forEach(propertyName => {
+        if (typeof formData[propertyName] === "object" && formData[propertyName].properties) {
+          if (formData[propertyName].element?.name) {
+            var fieldName = formData[propertyName].element.name;
+            var metadataName = fieldName.replace(FormDataUtils.GRP_PREFIX, "");
+            if (ELO_PARAMS.DOCMASK[`SELF_CARE_${metadataName}`]?.type == "text") {
+              ELO_PARAMS.DOCMASK[`SELF_CARE_${metadataName}`].min = 0;
+              ELO_PARAMS.DOCMASK[`SELF_CARE_${metadataName}`].max = 255;
+            }
+          }
+
+          formData[propertyName].properties.mandatory = false;
+          formData[propertyName].errors = new Array();
+
+          if (propertyName == formData.NUME_CLIENT.fieldName) {
+            formData[propertyName].properties.mandatory = true;
+          }
+
+          if (propertyName == formData.PRENUME_CLIENT.fieldName) {
+            formData[propertyName].properties.mandatory = true;
+          }
+
+          if (propertyName == formData.CNP.fieldName) {
+            formData[propertyName].properties.checkControlDigit = false;
+            formData[propertyName].properties.mandatory = true;
+          }
+
+          if (propertyName == formData.MOTIV_RESPINGERE.fieldName) {
+            formData[propertyName].properties.mandatory = true;
+          }
+
+          if (propertyName == formData.DATA_NASTERII.fieldName) {
+            formData[propertyName].properties.checkBirthDateWithCNP = false;
+          }
+        }
+      });
+      sol.common.forms.Utils.removeValidationAttributes();
+
+      confirmMessage = `Sigur doriti sa respingeti CI? Motiv: ${formData.MOTIV_RESPINGERE.value()}`;
+    }
+
+    if (!formData?.validate()) {
+      return false;
+    }
+
+    var result = confirm(confirmMessage);
+
+    if (!result) {
+      return false;
+    }
+
+    return true;
+  }
+
+  function saveClicked() {
+    return true;
+  }
+
+  function addLineClicked(addLineId, groupIndex) {
+  }
+
+  function removeLineClicked(addLineId, groupIndex) {
+    return true;
+  }
+
+  function tabChanged(id) {
+  }
+
+  function onKeywordSelected(source) {
+  }
+
+  function onDynListItemSelected(item, inputName) {
+    if (formData.JUDET_SECTOR.element.name == inputName) {
+      formData.ORAS.element.value = "";
+      formData.validate(formData.JUDET_SECTOR.fieldName, false);
+      formData.validate(formData.ORAS.fieldName, false);
+    }
+
+    if (formData.ORAS.element.name == inputName) {
+      formData.validate(formData.ORAS.fieldName, false);
+    }
+
+    if (inputName == "IX_MAP_CAUZA_RESPINGERE") {
+      if ((item[inputName].toLowerCase()).indexOf("alte motive") !== -1) {
+        formData.changeVisibility(formData.MOTIV_RESPINGERE.fieldName, true);
+        formData.MOTIV_RESPINGERE.properties.mandatory = true;
+        formData.MOTIV_RESPINGERE.element.value = "";
+        formData.validate(formData.MOTIV_RESPINGERE.fieldName, false);
+      } else {
+        formData.changeVisibility(formData.MOTIV_RESPINGERE.fieldName, false);
+        formData.MOTIV_RESPINGERE.properties.mandatory = false;
+        formData.MOTIV_RESPINGERE.element.value = item[inputName];
+        formData.validate(formData.MOTIV_RESPINGERE.fieldName, false);
+      }
+    }
+  }
+
+</script>
+
+<style type='text/css'>
+  .invalidField {
+    background-color: #ffd2d2 !important;
+  }
+</style>

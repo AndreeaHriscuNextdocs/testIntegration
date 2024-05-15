@@ -1,0 +1,11 @@
+{
+  "setupName": "cec.selfCare",
+  "fileNamePrefix": "",
+  "workflowTemplates": [
+  ],
+  "sordTypes": [
+  ],
+  "preserveAclUserNames": [
+    "Solutions"
+  ]
+}

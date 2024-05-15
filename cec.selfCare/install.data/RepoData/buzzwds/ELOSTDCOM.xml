@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<buzzwords group="ELOSTDCOM">
+  <entry text="Edited by %%E%" />
+  <entry text="Invoice number edited" />
+  <entry text="Booked" />
+  <entry text="Money transferred" />
+  <entry text="Deletion date set" />
+  <entry text="!Status">
+    <entry text="Status empty" />
+    <entry text="Status finished and published" />
+    <entry text="Status finished but not published" />
+    <entry text="Status not ready" />
+    <entry text="Status rather on the beginning" />
+    <entry text="Status released" />
+  </entry>
+  <entry text="Milestone version" />
+  <entry text="Version to be deleted" />
+</buzzwords>
