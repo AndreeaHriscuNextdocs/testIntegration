@@ -1,0 +1,10 @@
+
+14:47:00.642 [main] INFO  ELO CLI - scriptArg0=sol.dev.sh.WriteConfig.js
+14:47:00.646 [main] INFO  ELO CLI - scriptArg1=C:/Git/Dev/testIntegration/.config/session.json
+14:47:00.647 [main] INFO  ELO CLI - scriptArg2=write
+14:47:00.647 [main] INFO  ELO CLI - scriptArg3=C:/Git/Dev/testIntegration/.config/session.json
+14:47:00.648 [main] INFO  ELO CLI - scriptArg4=http://ndelodev01:9090/ix-Solutions/ix
+14:47:00.650 [main] INFO  ELO CLI - Execute ELO shell script: sol.dev.sh.WriteConfig.js
+14:47:00.747 [main] INFO  ELO CLI - instance is  http://ndelodev01:9090/ix-Solutions/ix
+14:47:00.769 [main] INFO  ELO CLI - {"ixUrl":"http://ndelodev01:9090/ix-Solutions/ix"}
+14:47:00.769 [main] INFO  ELO CLI - Script finished
